@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<index xmlns="http://example.com/song-index" version="1.0">
+  <entry letter="അ">
+    <song title="അ അ അ ആ എൻ പ്രിയൻ (TKS)-1" file="അ അ അ ആ എൻ പ്രിയൻ (TKS)-1.xml"/>
+    <song title="അ അ അ ആ എൻ പ്രിയൻ" file="അ അ അ ആ എൻ പ്രിയൻ.xml"/>
+    <song title="അക്കരയ്ക്കു യാത്ര ചെയ്യും" file="അക്കരയ്ക്കു യാത്ര ചെയ്യും.xml"/>
+    <song title="അടവി തരുക്കളിന്നിടയിൽ" file="അടവി തരുക്കളിന്നിടയിൽ.xml"/>
+    <song title="അതാ കേൾക്കുന്നു ഞാൻ" file="അതാ കേൾക്കുന്നു ഞാൻ.xml"/>
+    <song title="അതിമോദം നിന്തിരു" file="അതിമോദം നിന്തിരു.xml"/>
+    <song title="അതിമോദം പാടും" file="അതിമോദം പാടും.xml"/>
+    <song title="അതിരാവിലെ തിരുസന്നിധി" file="അതിരാവിലെ തിരുസന്നിധി.xml"/>
+    <song title="അതിശയമായ് അനുഗ്രഹമായ്" file="അതിശയമായ് അനുഗ്രഹമായ്.xml"/>
+  </entry>
+</index>
