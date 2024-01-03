@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Songbook</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        .song-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .song-list li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Online Songbook</h1>
+    </header>
+
+    <main class="container">
+        <div class="form-group">
+            <label for="searchBox">Search:</label>
+            <input type="text" class="form-control" id="searchBox" oninput="filterSongs()" placeholder="Enter song title">
+        </div>
+
+        <div id="suggestionList" class="list-group">
+            <!-- Suggestions will be dynamically added here -->
+        </div>
+
+        <ul class="song-list" id="songList">
+            <!-- Song items will be dynamically added here -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Songbook. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+<script>
+    // Object to store the index
+    const titleIndex = {};
+
+    // Function to parse XML and build the index
+    async function buildIndex(file) {
+        const response = await fetch(file);
+        const xmlData = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
+
+        const entries = xmlDoc.querySelectorAll('entry');
+        entries.forEach(entry => {
+            const letter = entry.getAttribute('letter');
+            const songs = entry.querySelectorAll('song');
+
+            songs.forEach(song => {
+                const songTitle = song.getAttribute('title').toLowerCase();
+                const songFile = song.getAttribute('file');
+
+                if (!titleIndex[letter]) {
+                    titleIndex[letter] = [];
+                }
+
+                titleIndex[letter].push({
+                    title: songTitle,
+                    file: songFile
+                });
+            });
+        });
+    }
+
+    // Function to fetch and parse the index file
+    async function loadIndex() {
+        const indexFile = 'res/index.xml'; 
+        await buildIndex(indexFile);
+    }
+
+    // Function to filter songs based on search input and show suggestions
+    function filterSongs() {
+        const searchInput = document.getElementById('searchBox').value.toLowerCase();
+        const suggestionList = document.getElementById('suggestionList');
+
+        // Clear previous suggestions
+        suggestionList.innerHTML = '';
+
+        // Display suggestions from the index
+        const firstChar = searchInput[0].toLowerCase();
+        const suggestions = titleIndex[firstChar] || [];
+
+        suggestions.forEach(suggestion => {
+            const listItem = document.createElement('li');
+            listItem.textContent = suggestion.title;
+            listItem.addEventListener('click', () => loadSong(suggestion.file));
+            suggestionList.appendChild(listItem);
+        });
+    }
+
+    // Function to load the XML file for the selected song
+    async function loadSong(file) {
+        const response = await fetch(`res/songs/${file}`);
+        const xmlData = await response.text();
+        // Process the XML data for the selected song as needed
+        console.log(xmlData);
+    }
+
+    // Load the index when the page loads
+    window.addEventListener('DOMContentLoaded', loadIndex);
+</script>
+
+</body>
+</html>
