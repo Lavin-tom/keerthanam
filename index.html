@@ -158,37 +158,44 @@
         );
     }
 
-    // Function to load the XML file for the selected song
-    async function loadSong(file) {
-        const response = await fetch(`res/songs/${file}`);
-        const xmlData = await response.text();
-        const songContentDiv = document.getElementById('songContent');
-		
-        // Parse XML content
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
+async function loadSong(file) {
+    const response = await fetch(`res/songs/${file}`);
+    const xmlData = await response.text();
+    const songContentDiv = document.getElementById('songContent');
 
-        // Extract title and lyrics
-        const title = xmlDoc.querySelector('title').textContent;
-        const verses = xmlDoc.querySelectorAll('verse');
+    console.log('XML Data:', xmlData);
 
-        // Create HTML content
-        let htmlContent = `<h2>${title}</h2>`;
-        
-        // Arrange lines based on verseOrder
-        const verseOrder = xmlDoc.querySelector('verseOrder').textContent.split(' ');
-        
-        verseOrder.forEach(verseName => {
-            const verse = Array.from(verses).find(v => v.getAttribute('name') === verseName);
-            if (verse) {
-                const lines = verse.querySelector('lines').innerHTML;
-                htmlContent += `<p>${lines.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
-            }
-        });
+    // Parse XML content
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
 
-        // Display the HTML content on the page
-        songContentDiv.innerHTML = htmlContent;
-    }
+    console.log('Parsed XML:', xmlDoc);
+
+    // Extract title and lyrics
+    const title = xmlDoc.querySelector('title').textContent;
+    const verses = xmlDoc.querySelectorAll('verse');
+
+    console.log('Title:', title);
+    console.log('Verses:', verses);
+
+    // Create HTML content
+    let htmlContent = `<h2>${title}</h2>`;
+
+    // Arrange lines based on verseOrder
+    const verseOrder = xmlDoc.querySelector('verseOrder').textContent.split(' ');
+
+    verseOrder.forEach(verseName => {
+        const verse = Array.from(verses).find(v => v.getAttribute('name') === verseName);
+        if (verse) {
+            const lines = verse.querySelector('lines').innerHTML;
+            htmlContent += `<p>${lines.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
+        }
+    });
+
+    // Display the HTML content on the page
+    songContentDiv.innerHTML = htmlContent;
+}
+
     window.addEventListener('DOMContentLoaded', loadIndex);
 </script>
 
