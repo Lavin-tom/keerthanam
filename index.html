@@ -62,10 +62,14 @@
         </div>
 
         <div id="suggestionList" class="list-group">
+            <!-- Suggestions will be dynamically added here -->
         </div>
+
         <ul class="song-list" id="songList">
+            <!-- Song items will be dynamically added here -->
         </ul>
 		<div id="songContent">
+			<!-- Display song content here -->
 		</div>		
     </main>
 
@@ -116,11 +120,13 @@
         await buildIndex(indexFile);
     }
 
-    // Function to filter songs based on search input and show suggestions
     function filterSongs() {
         const searchInput = document.getElementById('searchBox').value.toLowerCase();
         const suggestionList = document.getElementById('suggestionList');
         const songList = document.getElementById('songList');
+
+        // Hide suggestion list if the search input is not empty
+        suggestionList.style.display = searchInput ? 'none' : 'block';
 
         // Clear previous suggestions and song list
         suggestionList.innerHTML = '';
@@ -132,10 +138,15 @@
         suggestions.forEach(suggestion => {
             const listItem = document.createElement('li');
             listItem.textContent = suggestion.title;
-            listItem.addEventListener('click', () => loadSong(suggestion.file));
+            listItem.addEventListener('click', () => {
+                loadSong(suggestion.file);
+                // Hide the suggestion list when a song is clicked
+                suggestionList.style.display = 'none';
+            });
             suggestionList.appendChild(listItem);
         });
     }
+
 
     // Function to get filtered suggestions based on search input
     function getFilteredSuggestions(searchInput) {
@@ -152,9 +163,31 @@
         const response = await fetch(`res/songs/${file}`);
         const xmlData = await response.text();
         const songContentDiv = document.getElementById('songContent');
+		
+        // Parse XML content
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
 
-        // Display the XML content on the page
-        songContentDiv.innerHTML = xmlData;
+        // Extract title and lyrics
+        const title = xmlDoc.querySelector('title').textContent;
+        const verses = xmlDoc.querySelectorAll('verse');
+
+        // Create HTML content
+        let htmlContent = `<h2>${title}</h2>`;
+        
+        // Arrange lines based on verseOrder
+        const verseOrder = xmlDoc.querySelector('verseOrder').textContent.split(' ');
+        
+        verseOrder.forEach(verseName => {
+            const verse = Array.from(verses).find(v => v.getAttribute('name') === verseName);
+            if (verse) {
+                const lines = verse.querySelector('lines').innerHTML;
+                htmlContent += `<p>${lines.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
+            }
+        });
+
+        // Display the HTML content on the page
+        songContentDiv.innerHTML = htmlContent;
     }
     window.addEventListener('DOMContentLoaded', loadIndex);
 </script>
