@@ -78,7 +78,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+
 <script>
     // Object to store the index
     const titleIndex = {};
@@ -121,13 +121,14 @@
     function filterSongs() {
         const searchInput = document.getElementById('searchBox').value.toLowerCase();
         const suggestionList = document.getElementById('suggestionList');
+        const songList = document.getElementById('songList');
 
-        // Clear previous suggestions
+        // Clear previous suggestions and song list
         suggestionList.innerHTML = '';
+        songList.innerHTML = '';
 
         // Display suggestions from the index
-        const firstChar = searchInput[0].toLowerCase();
-        const suggestions = titleIndex[firstChar] || [];
+        const suggestions = getFilteredSuggestions(searchInput);
 
         suggestions.forEach(suggestion => {
             const listItem = document.createElement('li');
@@ -137,15 +138,25 @@
         });
     }
 
+    // Function to get filtered suggestions based on search input
+    function getFilteredSuggestions(searchInput) {
+        const firstChar = searchInput[0].toLowerCase();
+        const suggestions = titleIndex[firstChar] || [];
+
+        return suggestions.filter(suggestion =>
+            suggestion.title.toLowerCase().includes(searchInput)
+        );
+    }
+
     // Function to load the XML file for the selected song
     async function loadSong(file) {
         const response = await fetch(`res/songs/${file}`);
         const xmlData = await response.text();
-        // Process the XML data for the selected song as needed
+
         console.log(xmlData);
     }
 
-    // Load the index when the page loads
+
     window.addEventListener('DOMContentLoaded', loadIndex);
 </script>
 
