@@ -124,9 +124,14 @@
         const searchInput = document.getElementById('searchBox').value.toLowerCase();
         const suggestionList = document.getElementById('suggestionList');
         const songList = document.getElementById('songList');
-
-        // Hide suggestion list if the search input is not empty
-        suggestionList.style.display = searchInput ? 'none' : 'block';
+		// Add a check for empty or undefined searchInput
+		if (!searchInput) {
+			// If search input is empty, display suggestion list
+			suggestionList.style.display = 'block';
+			return;
+		}
+		// Hide suggestion list if the search input is not empty
+		suggestionList.style.display = 'none';
 
         // Clear previous suggestions and song list
         suggestionList.innerHTML = '';
