@@ -153,15 +153,18 @@
     }
 
 
-    // Function to get filtered suggestions based on search input
-    function getFilteredSuggestions(searchInput) {
-        const firstChar = searchInput[0].toLowerCase();
-        const suggestions = titleIndex[firstChar] || [];
-
-        return suggestions.filter(suggestion =>
-            suggestion.title.toLowerCase().includes(searchInput)
-        );
-    }
+	// Function to get filtered suggestions based on search input
+	function getFilteredSuggestions(searchInput) {
+		const firstChar = searchInput[0]?.toLowerCase(); // Added optional chaining to handle undefined
+		const suggestions = titleIndex[firstChar] || [];
+	
+		console.log('First Character:', firstChar);
+		console.log('Suggestions:', suggestions);
+	
+		return suggestions.filter(suggestion =>
+			suggestion.title.toLowerCase().includes(searchInput)
+		);
+	}
 
 async function loadSong(file) {
     const response = await fetch(`res/songs/${file}`);
