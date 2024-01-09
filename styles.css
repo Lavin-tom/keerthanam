@@ -1,35 +1,76 @@
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-        }
+/* styles.css */
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-        main {
-            padding: 20px;
-        }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        h1, h2, h3 {
-            color: #333;
-        }
+.logo {
+    margin: 0; 
+}
 
-        .song-list {
-            list-style: none;
-            padding: 0;
-        }
+.dark-mode-toggle {
+    cursor: pointer;
+}
 
-        .song-list li {
-            margin-bottom: 10px;
-        }
+.dark-mode-toggle i {
+    font-size: 24px; 
+}
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-        }
+.main-container {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Dark Mode Styles */
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+header.dark-mode {
+    background-color: #555;
+}
+
+h1.dark-mode, h2.dark-mode, h3.dark-mode {
+    color: #fff;
+}
+
+.song-list.dark-mode {
+    color: #fff;
+}
+
+footer.dark-mode {
+    background-color: #555;
+    color: #fff;
+}
