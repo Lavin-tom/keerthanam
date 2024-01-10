@@ -28,13 +28,24 @@ async function buildIndex(file) {
         });
     });
 }
+// Function to get the current song file
+function getCurrentSongFile() {
+    const songContentDiv = document.getElementById('songContent');
+    const currentSong = songContentDiv.querySelector('h2');
+
+    if (currentSong) {
+        return currentSong.getAttribute('data-file');
+    }
+
+    return null;
+}
 // Function to toggle transliteration
 function toggleTransliteration() {
     const transliterationCheckbox = document.getElementById('transliterationCheckbox');
     transliterationCheckbox.checked = !transliterationCheckbox.checked;
 
     // Load the song again to apply transliteration if needed
-    const currentSongFile = getCurrentSongFile(); 
+    const currentSongFile = getCurrentSongFile();
     if (currentSongFile) {
         loadSong(currentSongFile);
     }
