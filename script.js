@@ -28,6 +28,17 @@ async function buildIndex(file) {
         });
     });
 }
+// Function to toggle transliteration
+function toggleTransliteration() {
+    const transliterationCheckbox = document.getElementById('transliterationCheckbox');
+    transliterationCheckbox.checked = !transliterationCheckbox.checked;
+
+    // Load the song again to apply transliteration if needed
+    const currentSongFile = getCurrentSongFile(); 
+    if (currentSongFile) {
+        loadSong(currentSongFile);
+    }
+}
 // Function to transliterate Malayalam lyrics to Roman characters
 function transliterateLyrics(lyrics) {
     // Use the ml2en function for transliteration
