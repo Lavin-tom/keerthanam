@@ -28,7 +28,11 @@ async function buildIndex(file) {
         });
     });
 }
-
+// Function to transliterate Malayalam lyrics to Roman characters
+function transliterateLyrics(lyrics) {
+    // Use the ml2en function for transliteration
+    return ml2en(lyrics);
+}
 // Function to fetch and parse the index file
 async function loadIndex() {
     const indexFile = 'res/index.xml'; 
@@ -52,34 +56,25 @@ async function loadSong(file) {
     const xmlData = await response.text();
     const songContentDiv = document.getElementById('songContent');
 
-    //console.log('XML Data:', xmlData);
-
     // Parse XML content
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
-
-    //console.log('Parsed XML:', xmlDoc);
 
     // Extract title and lyrics
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
 
-    //console.log('Title:', title);
-    //console.log('Verses:', verses);
+    // Check if transliteration is enabled
+    const transliterationCheckbox = document.getElementById('transliterationCheckbox');
+    const transliterationEnabled = transliterationCheckbox.checked;
+
+    // If transliteration is enabled, transliterate the lyrics
+    const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
+    const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
 
     // Create HTML content
     let htmlContent = `<h2>${title}</h2>`;
-
-    // Arrange lines based on verseOrder
-    const verseOrder = xmlDoc.querySelector('verseOrder').textContent.split(' ');
-
-    verseOrder.forEach(verseName => {
-        const verse = Array.from(verses).find(v => v.getAttribute('name') === verseName);
-        if (verse) {
-            const lines = verse.querySelector('lines').innerHTML;
-            htmlContent += `<p>${lines.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
-        }
-    });
+    htmlContent += `<p>${lyrics.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
 
     // Display the HTML content on the page
     songContentDiv.innerHTML = htmlContent;
