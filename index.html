@@ -21,8 +21,11 @@
             <div class="icon-container" onclick="toggleDarkMode()">
                 <i class="material-icons">brightness_6</i>
             </div>
-            <div class="icon-container" onclick="toggleTransliteration()">
-                <i class="material-icons">translate</i>
+            <div class="icon-container">
+                <label for="transliterationCheckbox">
+                    <i class="material-icons">translate</i>
+                </label>
+                <input type="checkbox" id="transliterationCheckbox" onchange="toggleTransliteration()">
             </div>
         </div>
     </header>
