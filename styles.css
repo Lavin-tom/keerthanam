@@ -16,15 +16,20 @@ header {
 }
 
 .logo {
-    margin: 0; 
+    margin: 0;
+}
+
+.icon-container {
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 .dark-mode-toggle {
-    cursor: pointer;
+    margin-left: auto; 
 }
 
 .dark-mode-toggle i {
-    font-size: 24px; 
+    font-size: 24px;
 }
 
 .main-container {
@@ -47,7 +52,6 @@ h1, h2, h3 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
     color: #fff;
 }
 
@@ -72,5 +76,4 @@ h1.dark-mode, h2.dark-mode, h3.dark-mode {
 
 footer.dark-mode {
     background-color: #555;
-    color: #fff;
 }
