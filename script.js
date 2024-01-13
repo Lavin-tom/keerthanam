@@ -88,9 +88,9 @@ async function loadSong(file) {
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
 
-    // Check if transliteration is enabled
-    const transliterationCheckbox = document.getElementById('transliterationCheckbox');
-    const transliterationEnabled = transliterationCheckbox.checked;
+    // Check if transliterationIcon exists
+    const transliterationIcon = document.getElementById('transliterationIcon');
+    const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
 
     // If transliteration is enabled, transliterate the lyrics
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
@@ -103,6 +103,7 @@ async function loadSong(file) {
     // Display the HTML content on the page
     songContentDiv.innerHTML = htmlContent;
 }
+
 
 function filterSongs() {
     const searchInput = document.getElementById('searchBox').value.toLowerCase();
