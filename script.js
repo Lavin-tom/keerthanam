@@ -41,8 +41,10 @@ function getCurrentSongFile() {
 }
 // Function to toggle transliteration
 function toggleTransliteration() {
-    const transliterationCheckbox = document.getElementById('transliterationCheckbox');
-    transliterationCheckbox.checked = !transliterationCheckbox.checked;
+    const transliterationIcon = document.getElementById('transliterationIcon');
+    
+    // Toggle the transliteration class on the icon
+    transliterationIcon.classList.toggle('transliteration-active');
 
     // Load the song again to apply transliteration if needed
     const currentSongFile = getCurrentSongFile();
