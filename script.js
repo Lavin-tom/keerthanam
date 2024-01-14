@@ -65,12 +65,12 @@ async function loadSong(file) {
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
 
-    originalLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('<br/><br/>'); // Add extra line break after each verse
+    originalLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('<br/><br/>');
 
     const transliterationIcon = document.getElementById('transliterationIcon');
     const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
 
-    const lyrics = transliterationEnabled ? transliterateLyrics(originalLyrics) : originalLyrics;
+    const lyrics = transliterateLyrics(originalLyrics);
 
     let htmlContent = `<h2>${title}</h2>`;
     htmlContent += `<p>${lyrics.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
