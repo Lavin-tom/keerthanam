@@ -77,10 +77,12 @@ async function loadSong(file) {
     // If transliteration is enabled, transliterate the lyrics
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
     const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
-
-    // Create HTML content
-    let htmlContent = `<h2>${transliteratedTitle}</h2>`;
-    htmlContent += `<p>${lyrics.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
+	
+	const versesWithLineBreaks = lyrics.split('\n').map(verse => `${verse}<br>`).join('');
+    
+	// Create HTML content
+    let htmlContent = `<h2>${title}</h2>`;
+    htmlContent += `<p>${versesWithLineBreaks}</p>`;
 
     // Display the HTML content on the page
     songContentDiv.innerHTML = htmlContent;
