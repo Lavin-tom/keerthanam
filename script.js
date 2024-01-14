@@ -67,10 +67,11 @@ async function loadSong(file) {
 
     originalLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('<br/><br/>');
 
+
     const transliterationIcon = document.getElementById('transliterationIcon');
     const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
 
-    const lyrics = transliterateLyrics(originalLyrics);
+    const lyrics = transliterationEnabled ? transliterateLyrics(originalLyrics) : originalLyrics;
 
     let htmlContent = `<h2>${title}</h2>`;
     htmlContent += `<p>${lyrics.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
