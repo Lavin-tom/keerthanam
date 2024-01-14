@@ -59,26 +59,33 @@ async function loadSong(file) {
     const xmlData = await response.text();
     const songContentDiv = document.getElementById('songContent');
 
+    // Parse XML content
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
 
+    // Extract title and lyrics
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
 
+    // Check if transliterationIcon exists
     const transliterationIcon = document.getElementById('transliterationIcon');
     const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
 
+    // Transliterate the title if transliteration is enabled
     const transliteratedTitle = transliterationEnabled ? transliterateLyrics(title) : title;
 
+    // If transliteration is enabled, transliterate the lyrics
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
     const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
 
-	let htmlContent = `<h2>${title}</h2>`;
+    // Create HTML content
+    let htmlContent = `<h2>${transliteratedTitle}</h2>`;
     htmlContent += `<p>${lyrics.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
 
-	
-	songContentDiv.innerHTML = htmlContent;
+    // Display the HTML content on the page
+    songContentDiv.innerHTML = htmlContent;
 }
+
 
 
 function transliterateLyrics(lyrics) {

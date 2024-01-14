@@ -6,29 +6,28 @@
     <title>keerthānām</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    
     <link rel="stylesheet" href="styles.css">
 	
-	<script src="ml2en.js"></script>
+    <script src="ml2en.js"></script>
 </head>
 <body>
 
     <header>
         <div class="header-content">
             <h1 class="logo">keerthānām</h1>
-            <div class="icon-container" id="darkModeToggle" onclick="toggleDarkMode()">
+            <div class="icon-container" onclick="toggleDarkMode()">
                 <i class="material-icons">brightness_6</i>
             </div>
-			<div class="icon-container" onclick="toggleTransliteration()">
-				<i class="material-icons" id="transliterationIcon">translate</i>
-			</div>
+            <div class="icon-container" onclick="toggleTransliteration()">
+                <i class="material-icons" id="transliterationIcon">translate</i>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <div class="form-group">
+            <label for="searchBox">Search:</label>
             <input type="text" class="form-control" id="searchBox" oninput="filterSongs()" placeholder="Search for a song lyrics..">
         </div>
 
