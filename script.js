@@ -81,8 +81,8 @@ async function loadSong(file) {
 	const versesWithLineBreaks = lyrics.split('\n').map(verse => `${verse}<br>`).join('');
     
 	// Create HTML content
-    let htmlContent = `<h2>${title}</h2>`;
-    htmlContent += `<p>${versesWithLineBreaks}</p>`;
+	let htmlContent = `<h2>${transliteratedTitle}</h2>`;
+	htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
 
     // Display the HTML content on the page
     songContentDiv.innerHTML = htmlContent;
