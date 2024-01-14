@@ -65,19 +65,20 @@ async function loadSong(file) {
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
 
-    originalLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('<br/><br/>');
-
-
     const transliterationIcon = document.getElementById('transliterationIcon');
     const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
 
-    const lyrics = transliterationEnabled ? transliterateLyrics(originalLyrics) : originalLyrics;
+    const transliteratedTitle = transliterationEnabled ? transliterateLyrics(title) : title;
 
-    let htmlContent = `<h2>${title}</h2>`;
+    const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
+    const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
+
+    let htmlContent = `<h2>${transliteratedTitle}</h2>`;
     htmlContent += `<p>${lyrics.replace(/<br\s*[/]?>/gi, '<br/>')}</p>`;
 
     songContentDiv.innerHTML = htmlContent;
 }
+
 
 function transliterateLyrics(lyrics) {
     return ml2en(lyrics);
