@@ -64,6 +64,7 @@
       <song file="ആരാധനാസമയം അത്യന്ത ഭക്തിമയം.xml" title="ആരാധനാസമയം അത്യന്ത ഭക്തിമയം"/>
       <song file="ആരാധിക്കുന്നു ഞങ്ങൾ നിൻസന്നിധിയിൽ.xml" title="ആരാധിക്കുന്നു ഞങ്ങൾ നിൻസന്നിധിയിൽ"/>
       <song file="ആരാധിച്ചിടാം ആത്മനാഥനെ.xml" title="ആരാധിച്ചിടാം ആത്മനാഥനെ"/>
+      <song file="ആരാധിച്ചീടാം കുമ്പിട്ടാരാധിച്ചീടാം.xml" title="ആരാധിച്ചീടാം കുമ്പിട്ടാരാധിച്ചീടാം"/>
       <song file="ആരിതാവരുന്നാരിതാവരുന്നേശു.xml" title="ആരിതാവരുന്നാരിതാവരുന്നേശു"/>
       <song file="ആരുമില്ല നീയൊഴികെ.xml" title="ആരുമില്ല നീയൊഴികെ"/>
       <song file="ആരെ ഞാനിനിയയ്ക്കേണ്ടു_.xml" title="ആരെ ഞാനിനിയയ്ക്കേണ്ടു_"/>
@@ -1170,6 +1171,7 @@
       <song file="ആരാധനാസമയം അത്യന്ത ഭക്തിമയം.xml" title="aaraadhanaasamayam athyantha bhakthimayam"/>
       <song file="ആരാധിക്കുന്നു ഞങ്ങൾ നിൻസന്നിധിയിൽ.xml" title="aaraadhikkunnu njangal ninsannidhiyil"/>
       <song file="ആരാധിച്ചിടാം ആത്മനാഥനെ.xml" title="aaraadhicchitaam aathmanaathane"/>
+      <song file="ആരാധിച്ചീടാം കുമ്പിട്ടാരാധിച്ചീടാം.xml" title="aaraadhicchitaam kumbittaradhicheedam"/>
       <song file="ആരിതാവരുന്നാരിതാവരുന്നേശു.xml" title="aarithaavarunnaarithaavarunneshu"/>
       <song file="ആരുമില്ല നീയൊഴികെ.xml" title="aarumilla neeyozhike"/>
       <song file="ആരെ ഞാനിനിയയ്ക്കേണ്ടു_.xml" title="aare njaaniniyaykkendu_"/>
@@ -1401,815 +1403,816 @@
       <song file="ഏറ്റം സമാധനമായ് എൻ ജീവിതം.xml" title="ettam samaadhanamaayu en jeevitham"/>
    </entry>
    <entry letter="o">
-      <song file="onnilum bhayannitaathe pokaam sakhaakkale.xml" title="onnilum bhayannitaathe pokaam sakhaakkale"/>
-      <song file="onnu nokkoo kaalvariyil.xml" title="onnu nokkoo kaalvariyil"/>
-      <song file="onnumillaaymayil ninnenne.xml" title="onnumillaaymayil ninnenne"/>
-      <song file="onne onnaanennaagraham.xml" title="onne onnaanennaagraham"/>
-      <song file="onneyullenikkaanandamulakil.xml" title="onneyullenikkaanandamulakil"/>
-      <song file="oru cheru thaarakampol.xml" title="oru cheru thaarakampol"/>
-      <song file="orungiyunarnnirippin.xml" title="orungiyunarnnirippin"/>
+      <song file="ഒന്നിലും ഭയന്നിടാതെ പോകാം സഖാക്കളെ.xml" title="onnilum bhayannitaathe pokaam sakhaakkale"/>
+      <song file="ഒന്നു നോക്കൂ കാൽവറിയിൽ.xml" title="onnu nokkoo kaalvariyil"/>
+      <song file="ഒന്നുമില്ലായ്മയിൽ നിന്നെന്നെ.xml" title="onnumillaaymayil ninnenne"/>
+      <song file="ഒന്നേ ഒന്നാണെന്നാഗ്രഹം.xml" title="onne onnaanennaagraham"/>
+      <song file="ഒന്നേയുള്ളെനിക്കാനന്ദമുലകിൽ.xml" title="onneyullenikkaanandamulakil"/>
+      <song file="ഒരു ചെറു താരകംപോൽ.xml" title="oru cheru thaarakampol"/>
+      <song file="ഒരുങ്ങിയുണർന്നിരിപ്പിൻ.xml" title="orungiyunarnnirippin/>
    </entry>
    <entry letter="o">
-      <song file="o o o enikkaanandamaanandam.xml" title="o o o enikkaanandamaanandam"/>
-      <song file="o kaalvari.xml" title="o kaalvari"/>
-      <song file="o dyvame raajaadhiraajadevaa.xml" title="o dyvame raajaadhiraajadevaa"/>
-      <song file="o... Paatum njaaneshuvinu.xml" title="o... Paatum njaaneshuvinu"/>
-      <song file="o... Rakshakaneshuvine paati sthuthicchituka.xml" title="o... Rakshakaneshuvine paati sthuthicchituka"/>
-      <song file="otuka maname otuka dinavum.xml" title="otuka maname otuka dinavum"/>
+      <song file="ഓ ഓ ഓ എനിക്കാനന്ദമാനന്ദം.xml" title="o o o enikkaanandamaanandam"/>
+      <song file="ഓ കാൽവറി.xml" title="o kaalvari"/>
+      <song file="ഓ ദൈവമേ രാജാധിരാജദേവാ.xml" title="o dyvame raajaadhiraajadevaa"/>
+      <song file="ഓ... പാടും ഞാനേശുവിനു.xml" title="o... Paatum njaaneshuvinu"/>
+      <song file="ഓ... രക്ഷകനേശുവിനെ പാടി സ്തുതിച്ചിടുക.xml" title="o... Rakshakaneshuvine paati sthuthicchituka"/>
+      <song file="ഓടുക മനമെ ഓടുക ദിനവും.xml" title="otuka maname otuka dinavum"/>
+
    </entry>
    <entry letter="ka">
-      <song file="katalalamel natannu vannu.xml" title="katalalamel natannu vannu"/>
-      <song file="kandaalum kaalvariyil.xml" title="kandaalum kaalvariyil"/>
-      <song file="kannuneeril kyvitaattha.xml" title="kannuneeril kyvitaattha"/>
-      <song file="kannuneerennu maarumo.xml" title="kannuneerennu maarumo"/>
-      <song file="kanivin karangal dinam vazhi natatthum.xml" title="kanivin karangal dinam vazhi natatthum"/>
-      <song file="karakavinjozhukum.xml" title="karakavinjozhukum"/>
-      <song file="karuna niranja katale.xml" title="karuna niranja katale"/>
-      <song file="karunaniranjavane enne karuthum nallavane.xml" title="karunaniranjavane enne karuthum nallavane"/>
-      <song file="karunayin saagarame.xml" title="karunayin saagarame"/>
-      <song file="karunayulla kartthaavine.xml" title="karunayulla kartthaavine"/>
-      <song file="karunaa rasaraashe, kartthaave.xml" title="karunaa rasaraashe, kartthaave"/>
-      <song file="karunaakaraa dyvame.xml" title="karunaakaraa dyvame"/>
-      <song file="karunaanidhiyaam thaathane.xml" title="karunaanidhiyaam thaathane"/>
-      <song file="karunaanidhiye kaalvari.xml" title="karunaanidhiye kaalvari"/>
-      <song file="karunaasaagaramedevaa tharika nin krupaavarangal.xml" title="karunaasaagaramedevaa tharika nin krupaavarangal"/>
-      <song file="karuthitum karuthitum.xml" title="karuthitum karuthitum"/>
-      <song file="karuthitumente arumanaathan.xml" title="karuthitumente arumanaathan"/>
-      <song file="karuthituvaan dyvamundu.xml" title="karuthituvaan dyvamundu"/>
-      <song file="karuthunnavan njaanallayo.xml" title="karuthunnavan njaanallayo"/>
-      <song file="karuthunnu nammale kartthaavu nithyavum.xml" title="karuthunnu nammale kartthaavu nithyavum"/>
-      <song file="kashtangal saaramilla kannuneer saaramilla.xml" title="kashtangal saaramilla kannuneer saaramilla"/>
-      <song file="kaakkanam dinamthorum karunayil nee.xml" title="kaakkanam dinamthorum karunayil nee"/>
-      <song file="kaakkum sathathavum paramanenne than.xml" title="kaakkum sathathavum paramanenne than"/>
-      <song file="kaanaaminee kaanaaminee.xml" title="kaanaaminee kaanaaminee"/>
-      <song file="kaanum vare ini naam thammil.xml" title="kaanum vare ini naam thammil"/>
-      <song file="kaanuka thozhaa kurishil.xml" title="kaanuka thozhaa kurishil"/>
-      <song file="kaanuka neeyaa kaalvari thannil.xml" title="kaanuka neeyaa kaalvari thannil"/>
-      <song file="kaanuka neeyi kaarunyavaane.xml" title="kaanuka neeyi kaarunyavaane"/>
-      <song file="kaatthitum paranenne.xml" title="kaatthitum paranenne"/>
-      <song file="kaatthitunnenne kanmanipole.xml" title="kaatthitunnenne kanmanipole"/>
-      <song file="kaatthituvaan kartthanundu.xml" title="kaatthituvaan kartthanundu"/>
-      <song file="kaatthirikkunnu njaan praaneshaneshuvin.xml" title="kaatthirikkunnu njaan praaneshaneshuvin"/>
-      <song file="kaanthane kaanuvaanaartthi valarunne.xml" title="kaanthane kaanuvaanaartthi valarunne"/>
-      <song file="kaarunyakkataleeshan.xml" title="kaarunyakkataleeshan"/>
-      <song file="kaarunyakkatale karalaliyaname.xml" title="kaarunyakkatale karalaliyaname"/>
-      <song file="kaarunyapoorakkatale.xml" title="kaarunyapoorakkatale"/>
-      <song file="kaalamellaam kazhinjitaaraayu innu.xml" title="kaalamellaam kazhinjitaaraayu innu"/>
-      <song file="kaahalam muzhangitunna.xml" title="kaahalam muzhangitunna"/>
-      <song file="kaahalanaadam njaan kettitaaraayu.xml" title="kaahalanaadam njaan kettitaaraayu"/>
-      <song file="kaalvari krooshil kaanum.xml" title="kaalvari krooshil kaanum"/>
-      <song file="kaalvari krooshil kaanunna roopame.xml" title="kaalvari krooshil kaanunna roopame"/>
-      <song file="kaalvari malamel kaanunna.xml" title="kaalvari malamel kaanunna"/>
-      <song file="kaalvarikkurishathil yaagamaayu.xml" title="kaalvarikkurishathil yaagamaayu"/>
-      <song file="kaalvariyil kaanum snehamathbhutham.xml" title="kaalvariyil kaanum snehamathbhutham"/>
-      <song file="kaalvariyil ninte perkkaayu.xml" title="kaalvariyil ninte perkkaayu"/>
-      <song file="kaalvariyil van krooshathil.xml" title="kaalvariyil van krooshathil"/>
-      <song file="keertthikkuvin, kristhu naamatthe naalthorum.xml" title="keertthikkuvin, kristhu naamatthe naalthorum"/>
-      <song file="kunjaattin thirurakthatthaal.xml" title="kunjaattin thirurakthatthaal"/>
-      <song file="kunjaattin rakthatthil undenikkaayu.xml" title="kunjaattin rakthatthil undenikkaayu"/>
-      <song file="kunjaattin rakthatthil.xml" title="kunjaattin rakthatthil"/>
-      <song file="kurishin nizhalathilirunnu.xml" title="kurishin nizhalathilirunnu"/>
-      <song file="kurishin nizhalil thalachaaychanudinam.xml" title="kurishin nizhalil thalachaaychanudinam"/>
-      <song file="kurishil rudhiram chorinju.xml" title="kurishil rudhiram chorinju"/>
-      <song file="kurishum nijatholil.xml" title="kurishum nijatholil"/>
-      <song file="kurishetutthu poyitaam.xml" title="kurishetutthu poyitaam"/>
-      <song file="kurishetutthen yeshuvine.xml" title="kurishetutthen yeshuvine"/>
-      <song file="kootuka sodarare naamonnaayu.xml" title="kootuka sodarare naamonnaayu"/>
-      <song file="koote paarkka.xml" title="koote paarkka"/>
-      <song file="koorirulil en divya deepame.xml" title="koorirulil en divya deepame"/>
-      <song file="koorirul niranja lokatthil.xml" title="koorirul niranja lokatthil"/>
-      <song file="krupa krupa krupa thanne.xml" title="krupa krupa krupa thanne"/>
-      <song file="krupa manoharam chevikkimpasvaram.xml" title="krupa manoharam chevikkimpasvaram"/>
-      <song file="krupamathi yeshuvin krupamathiyaam.xml" title="krupamathi yeshuvin krupamathiyaam"/>
-      <song file="krupayaalathre aathmaraksha.xml" title="krupayaalathre aathmaraksha"/>
-      <song file="krupayaal krupayaal.xml" title="krupayaal krupayaal"/>
-      <song file="krupayaal dyvatthin pythalaayu.xml" title="krupayaal dyvatthin pythalaayu"/>
-      <song file="krupayulla yahove.xml" title="krupayulla yahove"/>
-      <song file="krupayerum kartthaavilen vishvaasam.xml" title="krupayerum kartthaavilen vishvaasam"/>
-      <song file="krupayerum kartthaavil ennaashrayam ennum.xml" title="krupayerum kartthaavil ennaashrayam ennum"/>
-      <song file="krupaanidhe enneshuve.xml" title="krupaanidhe enneshuve"/>
-      <song file="kelkka kel or.xml" title="kelkka kel or"/>
-      <song file="kristheeya jeevitham saubhaagyajeevitham.xml" title="kristheeya jeevitham saubhaagyajeevitham"/>
-      <song file="kristheeya jeevithamenthaanandam thannitunna.xml" title="kristheeya jeevithamenthaanandam thannitunna"/>
-      <song file="kristhu nammute nethaavu veenu kumpitaam.xml" title="kristhu nammute nethaavu veenu kumpitaam"/>
-      <song file="kristhu nisthulyan sakalarilum sudruddam.xml" title="kristhu nisthulyan sakalarilum sudruddam"/>
-      <song file="kristhunaathanenikkullavan njaanumavanullavanaam.xml" title="kristhunaathanenikkullavan njaanumavanullavanaam"/>
-      <song file="kristhunaamatthinnananthamamgalam divasthare.xml" title="kristhunaamatthinnananthamamgalam divasthare"/>
-      <song file="kristhuvinte daanam ethra madhuram.xml" title="kristhuvinte daanam ethra madhuram"/>
-      <song file="kristhuvin impagaanamennume.xml" title="kristhuvin impagaanamennume"/>
-      <song file="kristhuvin janangale.xml" title="kristhuvin janangale"/>
-      <song file="kristhuvin dheerasenakale.xml" title="kristhuvin dheerasenakale"/>
-      <song file="kristhuvin naamatthe sthuthikka naam dinavum.xml" title="kristhuvin naamatthe sthuthikka naam dinavum"/>
-      <song file="kristhuvin por veerare.xml" title="kristhuvin por veerare"/>
-      <song file="kristhuvin sathyasaakshikal naam.xml" title="kristhuvin sathyasaakshikal naam"/>
-      <song file="kristhuvin sannidhiyil.xml" title="kristhuvin sannidhiyil"/>
-      <song file="kristhuvin senaaveerare.xml" title="kristhuvin senaaveerare"/>
-      <song file="kristhuvil vasikkum enikku.xml" title="kristhuvil vasikkum enikku"/>
-      <song file="kristheshu naamamaho.xml" title="kristheshu naamamaho"/>
-      <song file="kristheshunaathante paadangal pinthutarum.xml" title="kristheshunaathante paadangal pinthutarum"/>
-      <song file="kristheshuvinte naamame.xml" title="kristheshuvinte naamame"/>
-      <song file="kristheshuvinte senayil njaan.xml" title="kristheshuvinte senayil njaan"/>
-      <song file="kristheshuvinte snehame vilayeriya sneham.xml" title="kristheshuvinte snehame vilayeriya sneham"/>
-      <song file="krooshinmel krooshinmel.xml" title="krooshinmel krooshinmel"/>
-      <song file="krooshinte vachanam dyvashakthiyum.xml" title="krooshinte vachanam dyvashakthiyum"/>
-      <song file="krooshilninnum paanjozhukeetunna.xml" title="krooshilninnum paanjozhukeetunna"/>
-      <song file="krooshum vahicchaa kunnin meethe.xml" title="krooshum vahicchaa kunnin meethe"/>
-      <song file="krooshumetutthini njaanen.xml" title="krooshumetutthini njaanen"/>
-      <song file="krooshumetutthu njaan yeshu rakshakane.xml" title="krooshumetutthu njaan yeshu rakshakane"/>
-      <song file="kankaluyartthunnu njaan ente.xml" title="kankaluyartthunnu njaan ente"/>
-      <song file="kartthanaanen thuna petikkayilla njaan.xml" title="kartthanaanen thuna petikkayilla njaan"/>
-      <song file="kartthanente sankethamaayu.xml" title="kartthanente sankethamaayu"/>
-      <song file="kartthanen sanketham balavumavan.xml" title="kartthanen sanketham balavumavan"/>
-      <song file="kartthaavinaayu paarilente.xml" title="kartthaavinaayu paarilente"/>
-      <song file="kartthaavine naam sthuthikka he.xml" title="kartthaavine naam sthuthikka he"/>
-      <song file="kartthaavilennum ente aashrayam.xml" title="kartthaavilennum ente aashrayam"/>
-      <song file="kartthaavin janame kytthaalatthote.xml" title="kartthaavin janame kytthaalatthote"/>
-      <song file="kartthaavin bhakthanmaar.xml" title="kartthaavin bhakthanmaar"/>
-      <song file="kartthaavil eppozhum santhoshikkum njaan.xml" title="kartthaavil eppozhum santhoshikkum njaan"/>
-      <song file="kartthaavil santhosham avanen balam.xml" title="kartthaavil santhosham avanen balam"/>
-      <song file="kartthaavil santhoshikkum.xml" title="kartthaavil santhoshikkum"/>
-      <song file="kartthaavu njangalkku sankethamaanennum.xml" title="kartthaavu njangalkku sankethamaanennum"/>
-      <song file="kartthaavu thaan gambheeranaadatthotum.xml" title="kartthaavu thaan gambheeranaadatthotum"/>
-      <song file="kartthaavuyirtthuyare innum.xml" title="kartthaavuyirtthuyare innum"/>
-      <song file="kartthaave nin paadatthil.xml" title="kartthaave nin paadatthil"/>
-      <song file="kartthaaveyekaname.xml" title="kartthaaveyekaname"/>
-      <song file="kartthrukaahalam yugaanthuyakaalatthil.xml" title="kartthrukaahalam yugaanthuyakaalatthil"/>
-      <song file="kartthrunaamam moolamellaa.xml" title="kartthrunaamam moolamellaa"/>
+      <song file="കടലലമേൽ നടന്നു വന്നു.xml" title="katalalamel natannu vannu"/>
+      <song file="കണ്ടാലും കാൽവറിയിൽ.xml" title="kandaalum kaalvariyil"/>
+      <song file="കണ്ണുനീരിൽ കൈവിടാത്ത.xml" title="kannuneeril kyvitaattha"/>
+      <song file="കണ്ണുനീരെന്നു മാറുമോ.xml" title="kannuneerennu maarumo"/>
+      <song file="കനിവിൻ കരങ്ങൾ ദിനം വഴി നടത്തും.xml" title="kanivin karangal dinam vazhi natatthum"/>
+      <song file="കരകവിഞ്ഞൊഴുകും.xml" title="karakavinjozhukum"/>
+      <song file="കരുണ നിറഞ്ഞ കടലേ.xml" title="karuna niranja katale"/>
+      <song file="കരുണനിറഞ്ഞവനേ എന്നെ കരുതും നല്ലവനേ.xml" title="karunaniranjavane enne karuthum nallavane"/>
+      <song file="കരുണയിൻ സാഗരമേ.xml" title="karunayin saagarame"/>
+      <song file="കരുണയുള്ള കർത്താവിനെ.xml" title="karunayulla kartthaavine"/>
+      <song file="കരുണാ രസരാശേ, കർത്താവേ.xml" title="karunaa rasaraashe, kartthaave"/>
+      <song file="കരുണാകരാ ദൈവമേ.xml" title="karunaakaraa dyvame"/>
+      <song file="കരുണാനിധിയാം താതനേ.xml" title="karunaanidhiyaam thaathane"/>
+      <song file="കരുണാനിധിയേ കാൽവറി.xml" title="karunaanidhiye kaalvari"/>
+      <song file="കരുണാസാഗരമേദേവാ തരിക നിൻ കൃപാവരങ്ങൾ.xml" title="karunaasaagaramedevaa tharika nin krupaavarangal"/>
+      <song file="കരുതിടും കരുതിടും.xml" title="karuthitum karuthitum"/>
+      <song file="കരുതിടുമെന്റെ അരുമനാഥൻ.xml" title="karuthitumente arumanaathan"/>
+      <song file="കരുതിടുവാൻ ദൈവമുണ്ട്.xml" title="karuthituvaan dyvamundu"/>
+      <song file="കരുതുന്നവൻ ഞാനല്ലയോ.xml" title="karuthunnavan njaanallayo"/>
+      <song file="കരുതുന്നു നമ്മളെ കർത്താവു നിത്യവും.xml" title="karuthunnu nammale kartthaavu nithyavum"/>
+      <song file="കഷ്ടങ്ങൾ സാരമില്ല കണ്ണുനീർ സാരമില്ല.xml" title="kashtangal saaramilla kannuneer saaramilla"/>
+      <song file="കാക്കണം ദിനംതോറും കരുണയിൽ നീ.xml" title="kaakkanam dinamthorum karunayil nee"/>
+      <song file="കാക്കും സതതവും പരമനെന്നെ തൻ.xml" title="kaakkum sathathavum paramanenne than"/>
+      <song file="കാണാമിനീ കാണാമിനീ.xml" title="kaanaaminee kaanaaminee"/>
+      <song file="കാണും വരെ ഇനി നാം തമ്മിൽ.xml" title="kaanum vare ini naam thammil"/>
+      <song file="കാണുക തോഴാ കുരിശിൽ.xml" title="kaanuka thozhaa kurishil"/>
+      <song file="കാണുക നീയാ കാൽവറി തന്നിൽ.xml" title="kaanuka neeyaa kaalvari thannil"/>
+      <song file="കാണുക നീയി കാരുണ്യവാനെ.xml" title="kaanuka neeyi kaarunyavaane"/>
+      <song file="കാത്തിടും പരനെന്നെ.xml" title="kaatthitum paranenne"/>
+      <song file="കാത്തിടുന്നെന്നെ കൺമണിപോലെ.xml" title="kaatthitunnenne kanmanipole"/>
+      <song file="കാത്തിടുവാൻ കർത്തനുണ്ട്.xml" title="kaatthituvaan kartthanundu"/>
+      <song file="കാത്തിരിക്കുന്നു ഞാൻ പ്രാണേശനേശുവിൻ.xml" title="kaatthirikkunnu njaan praaneshaneshuvin"/>
+      <song file="കാന്തനെ കാണുവാനാർത്തി വളരുന്നേ.xml" title="kaanthane kaanuvaanaartthi valarunne"/>
+      <song file="കാരുണ്യക്കടലീശൻ.xml" title="kaarunyakkataleeshan"/>
+      <song file="കാരുണ്യക്കടലേ കരളലിയണമേ.xml" title="kaarunyakkatale karalaliyaname"/>
+      <song file="കാരുണ്യപൂരക്കടലേ.xml" title="kaarunyapoorakkatale"/>
+      <song file="കാലമെല്ലാം കഴിഞ്ഞിടാറായ് ഇന്നു.xml" title="kaalamellaam kazhinjitaaraayu innu"/>
+      <song file="കാഹളം മുഴങ്ങിടുന്ന.xml" title="kaahalam muzhangitunna"/>
+      <song file="കാഹളനാദം ഞാൻ കേട്ടിടാറായ്.xml" title="kaahalanaadam njaan kettitaaraayu"/>
+      <song file="കാൽവറി ക്രൂശിൽ കാണും.xml" title="kaalvari krooshil kaanum"/>
+      <song file="കാൽവറി ക്രൂശിൽ കാണുന്ന രൂപമേ.xml" title="kaalvari krooshil kaanunna roopame"/>
+      <song file="കാൽവറി മലമേൽ കാണുന്ന.xml" title="kaalvari malamel kaanunna"/>
+      <song file="കാൽവറിക്കുരിശതിൽ യാഗമായ്.xml" title="kaalvarikkurishathil yaagamaayu"/>
+      <song file="കാൽവറിയിൽ കാണും സ്നേഹമത്ഭുതം.xml" title="kaalvariyil kaanum snehamathbhutham"/>
+      <song file="കാൽവറിയിൽ നിന്റെ പേർക്കായ്.xml" title="kaalvariyil ninte perkkaayu"/>
+      <song file="കാൽവറിയിൽ വൻ ക്രൂശതിൽ.xml" title="kaalvariyil van krooshathil"/>
+      <song file="കീർത്തിക്കുവിൻ, ക്രിസ്തു നാമത്തെ നാൾതോറും.xml" title="keertthikkuvin, kristhu naamatthe naalthorum"/>
+      <song file="കുഞ്ഞാട്ടിൻ തിരുരക്തത്താൽ.xml" title="kunjaattin thirurakthatthaal"/>
+      <song file="കുഞ്ഞാട്ടിൻ രക്തത്തിൽ ഉണ്ടെനിക്കായ്.xml" title="kunjaattin rakthatthil undenikkaayu"/>
+      <song file="കുഞ്ഞാട്ടിൻ രക്തത്തിൽ.xml" title="kunjaattin rakthatthil"/>
+      <song file="കുരിശിൻ നിഴലതിലിരുന്നു.xml" title="kurishin nizhalathilirunnu"/>
+      <song file="കുരിശിൻ നിഴലിൽ തലചായ്ചനുദിനം.xml" title="kurishin nizhalil thalachaaychanudinam"/>
+      <song file="കുരിശിൽ രുധിരം ചൊരിഞ്ഞു.xml" title="kurishil rudhiram chorinju"/>
+      <song file="കുരിശും നിജതോളിൽ.xml" title="kurishum nijatholil"/>
+      <song file="കുരിശെടുത്തു പോയിടാം.xml" title="kurishetutthu poyitaam"/>
+      <song file="കുരിശെടുത്തെൻ യേശുവിനെ.xml" title="kurishetutthen yeshuvine"/>
+      <song file="കൂടുക സോദരരേ നാമൊന്നായ്.xml" title="kootuka sodarare naamonnaayu"/>
+      <song file="കൂടെ പാർക്ക.xml" title="koote paarkka"/>
+      <song file="കൂരിരുളിൽ എൻ ദിവ്യ ദീപമേ.xml" title="koorirulil en divya deepame"/>
+      <song file="കൂരിരുൾ നിറഞ്ഞ ലോകത്തിൽ.xml" title="koorirul niranja lokatthil"/>
+      <song file="കൃപ കൃപ കൃപ തന്നെ.xml" title="krupa krupa krupa thanne"/>
+      <song file="കൃപ മനോഹരം ചെവിക്കിമ്പസ്വരം.xml" title="krupa manoharam chevikkimpasvaram"/>
+      <song file="കൃപമതി യേശുവിൻ കൃപമതിയാം.xml" title="krupamathi yeshuvin krupamathiyaam"/>
+      <song file="കൃപയാലത്രേ ആത്മരക്ഷ.xml" title="krupayaalathre aathmaraksha"/>
+      <song file="കൃപയാൽ കൃപയാൽ.xml" title="krupayaal krupayaal"/>
+      <song file="കൃപയാൽ ദൈവത്തിൻ പൈതലായ്.xml" title="krupayaal dyvatthin pythalaayu"/>
+      <song file="കൃപയുള്ള യഹോവേ.xml" title="krupayulla yahove"/>
+      <song file="കൃപയേറും കർത്താവിലെൻ വിശ്വാസം.xml" title="krupayerum kartthaavilen vishvaasam"/>
+      <song file="കൃപയേറും കർത്താവിൽ എന്നാശ്രയം എന്നും.xml" title="krupayerum kartthaavil ennaashrayam ennum"/>
+      <song file="കൃപാനിധേ എന്നേശുവേ.xml" title="krupaanidhe enneshuve"/>
+      <song file="കേൾക്ക കേൾ ഒർ.xml" title="kelkka kel or"/>
+      <song file="ക്രിസ്തീയ ജീവിതം സൗഭാഗ്യജീവിതം.xml" title="kristheeya jeevitham saubhaagyajeevitham"/>
+      <song file="ക്രിസ്തീയ ജീവിതമെന്താനന്ദം തന്നിടുന്ന.xml" title="kristheeya jeevithamenthaanandam thannitunna"/>
+      <song file="ക്രിസ്തു നമ്മുടെ നേതാവു വീണു കുമ്പിടാം.xml" title="kristhu nammute nethaavu veenu kumpitaam"/>
+      <song file="ക്രിസ്തു നിസ്തുല്യൻ സകലരിലും സുദൃഢം.xml" title="kristhu nisthulyan sakalarilum sudruddam"/>
+      <song file="ക്രിസ്തുനാഥനെനിക്കുള്ളവൻ ഞാനുമവനുള്ളവനാം.xml" title="kristhunaathanenikkullavan njaanumavanullavanaam"/>
+      <song file="ക്രിസ്തുനാമത്തിന്നനന്തമംഗളം ദിവസ്ഥരേ.xml" title="kristhunaamatthinnananthamamgalam divasthare"/>
+      <song file="ക്രിസ്തുവിന്റെ ദാനം എത്ര മധുരം.xml" title="kristhuvinte daanam ethra madhuram"/>
+      <song file="ക്രിസ്തുവിൻ ഇമ്പഗാനമെന്നുമേ.xml" title="kristhuvin impagaanamennume"/>
+      <song file="ക്രിസ്തുവിൻ ജനങ്ങളേ.xml" title="kristhuvin janangale"/>
+      <song file="ക്രിസ്തുവിൻ ധീരസേനകളെ.xml" title="kristhuvin dheerasenakale"/>
+      <song file="ക്രിസ്തുവിൻ നാമത്തെ സ്തുതിക്ക നാം ദിനവും.xml" title="kristhuvin naamatthe sthuthikka naam dinavum"/>
+      <song file="ക്രിസ്തുവിൻ പോർ വീരരേ.xml" title="kristhuvin por veerare"/>
+      <song file="ക്രിസ്തുവിൻ സത്യസാക്ഷികൾ നാം.xml" title="kristhuvin sathyasaakshikal naam"/>
+      <song file="ക്രിസ്തുവിൻ സന്നിധിയിൽ.xml" title="kristhuvin sannidhiyil"/>
+      <song file="ക്രിസ്തുവിൻ സേനാവീരരേ.xml" title="kristhuvin senaaveerare"/>
+      <song file="ക്രിസ്തുവിൽ വസിക്കും എനിക്കു.xml" title="kristhuvil vasikkum enikku"/>
+      <song file="ക്രിസ്തേശു നാമമഹോ.xml" title="kristheshu naamamaho"/>
+      <song file="ക്രിസ്തേശുനാഥന്റെ പാദങ്ങൾ പിന്തുടരും.xml" title="kristheshunaathante paadangal pinthutarum"/>
+      <song file="ക്രിസ്തേശുവിന്റെ നാമമേ.xml" title="kristheshuvinte naamame"/>
+      <song file="ക്രിസ്തേശുവിന്റെ സേനയിൽ ഞാൻ.xml" title="kristheshuvinte senayil njaan"/>
+      <song file="ക്രിസ്തേശുവിന്റെ സ്നേഹമേ വിലയേറിയ സ്നേഹം.xml" title="kristheshuvinte snehame vilayeriya sneham"/>
+      <song file="ക്രൂശിന്മേൽ ക്രൂശിന്മേൽ.xml" title="krooshinmel krooshinmel"/>
+      <song file="ക്രൂശിന്റെ വചനം ദൈവശക്തിയും.xml" title="krooshinte vachanam dyvashakthiyum"/>
+      <song file="ക്രൂശിൽനിന്നും പാഞ്ഞൊഴുകീടുന്ന.xml" title="krooshilninnum paanjozhukeetunna"/>
+      <song file="ക്രൂശും വഹിച്ചാ കുന്നിൻ മീതെ.xml" title="krooshum vahicchaa kunnin meethe"/>
+      <song file="ക്രൂശുമെടുത്തിനി ഞാനെൻ.xml" title="krooshumetutthini njaanen"/>
+      <song file="ക്രൂശുമെടുത്തു ഞാൻ യേശു രക്ഷകനെ.xml" title="krooshumetutthu njaan yeshu rakshakane"/>
+      <song file="കൺകളുയർത്തുന്നു ഞാൻ എന്റെ.xml" title="kankaluyartthunnu njaan ente"/>
+      <song file="കർത്തനാണെൻ തുണ പേടിക്കയില്ല ഞാൻ.xml" title="kartthanaanen thuna petikkayilla njaan"/>
+      <song file="കർത്തനെന്റെ സങ്കേതമായ്.xml" title="kartthanente sankethamaayu"/>
+      <song file="കർത്തനെൻ സങ്കേതം ബലവുമവൻ.xml" title="kartthanen sanketham balavumavan"/>
+      <song file="കർത്താവിനായ് പാരിലെന്റെ.xml" title="kartthaavinaayu paarilente"/>
+      <song file="കർത്താവിനെ നാം സ്തുതിക്ക ഹേ.xml" title="kartthaavine naam sthuthikka he"/>
+      <song file="കർത്താവിലെന്നും എന്റെ ആശ്രയം.xml" title="kartthaavilennum ente aashrayam"/>
+      <song file="കർത്താവിൻ ജനമേ കൈത്താളത്തോടെ.xml" title="kartthaavin janame kytthaalatthote"/>
+      <song file="കർത്താവിൻ ഭക്തന്മാർ.xml" title="kartthaavin bhakthanmaar"/>
+      <song file="കർത്താവിൽ എപ്പോഴും സന്തോഷിക്കും ഞാൻ.xml" title="kartthaavil eppozhum santhoshikkum njaan"/>
+      <song file="കർത്താവിൽ സന്തോഷം അവനെൻ ബലം.xml" title="kartthaavil santhosham avanen balam"/>
+      <song file="കർത്താവിൽ സന്തോഷിക്കും.xml" title="kartthaavil santhoshikkum"/>
+      <song file="കർത്താവു ഞങ്ങൾക്കു സങ്കേതമാണെന്നും.xml" title="kartthaavu njangalkku sankethamaanennum"/>
+      <song file="കർത്താവു താൻ ഗംഭീരനാദത്തോടും.xml" title="kartthaavu thaan gambheeranaadatthotum"/>
+      <song file="കർത്താവുയിർത്തുയരേ ഇന്നും.xml" title="kartthaavuyirtthuyare innum"/>
+      <song file="കർത്താവേ നിൻ പാദത്തിൽ.xml" title="kartthaave nin paadatthil"/>
+      <song file="കർത്താവേയേകണമേ.xml" title="kartthaaveyekaname"/>
+      <song file="കർത്തൃകാഹളം യുഗാന്ത്യകാലത്തിൽ.xml" title="kartthrukaahalam yugaanthuyakaalatthil"/>
+      <song file="കർത്തൃനാമം മൂലമെല്ലാ.xml" title="kartthrunaamam moolamellaa/>
    </entry>
    <entry letter="ga">
-      <song file="geetham geetham jaya jaya geetham.xml" title="geetham geetham jaya jaya geetham"/>
-      <song file="golgotthaayile kunjaate.xml" title="golgotthaayile kunjaate"/>
+      <song file="ഗീതം ഗീതം ജയ ജയ ഗീതം.xml" title="geetham geetham jaya jaya geetham"/>
+      <song file="ഗോൽഗോത്തായിലെ കുഞ്ഞാടേ.xml" title="golgotthaayile kunjaate"/>
    </entry>
    <entry letter="cha">
-      <song file="chittham kalangitollaa.xml" title="chittham kalangitollaa"/>
-      <song file="chumbiccheetunnu njaan ninmurivukale.xml" title="chumbiccheetunnu njaan ninmurivukale"/>
-      <song file="chootum ponkireetam njaan.xml" title="chootum ponkireetam njaan"/>
-      <song file="chenniname en kanmasham neekkiya.xml" title="chenniname en kanmasham neekkiya"/>
-      <song file="chennu chernnitum svarggaraajyatthil.xml" title="chennu chernnitum svarggaraajyatthil"/>
-      <song file="cherumuyirppin prabhaathe.xml" title="cherumuyirppin prabhaathe"/>
-      <song file="chollaame sthuthi vallabhaneshuvinnu.xml" title="chollaame sthuthi vallabhaneshuvinnu"/>
+      <song file="ചിത്തം കലങ്ങിടൊല്ലാ.xml" title="chittham kalangitollaa"/>
+      <song file="ചുംബിച്ചീടുന്നു ഞാൻ നിൻമുറിവുകളെ.xml" title="chumbiccheetunnu njaan ninmurivukale"/>
+      <song file="ചൂടും പൊൻകിരീടം ഞാൻ.xml" title="chootum ponkireetam njaan"/>
+      <song file="ചെന്നിണമേ എൻ കന്മഷം നീക്കിയ.xml" title="chenniname en kanmasham neekkiya"/>
+      <song file="ചെന്നു ചേർന്നിടും സ്വർഗ്ഗരാജ്യത്തിൽ.xml" title="chennu chernnitum svarggaraajyatthil"/>
+      <song file="ചേരുമുയിർപ്പിൻ പ്രഭാതേ.xml" title="cherumuyirppin prabhaathe"/>
+      <song file="ചൊല്ലാമേ സ്തുതി വല്ലഭനേശുവിന്ന്.xml" title="chollaame sthuthi vallabhaneshuvinnu"/>
    </entry>
    <entry letter="ja">
-      <song file="jagalguru naathaa.xml" title="jagalguru naathaa"/>
-      <song file="jaya geetham geetham paatituvin.xml" title="jaya geetham geetham paatituvin"/>
-      <song file="jaya jaya kristhuvin thirunaamam.xml" title="jaya jaya kristhuvin thirunaamam"/>
-      <song file="jaya jaya jagal guruve.xml" title="jaya jaya jagal guruve"/>
-      <song file="jaya jaya jaya geetham.xml" title="jaya jaya jaya geetham"/>
-      <song file="jayam jayam kollum naam jayam kollum naam.xml" title="jayam jayam kollum naam jayam kollum naam"/>
-      <song file="jayam jayam yeshuvinnu.xml" title="jayam jayam yeshuvinnu"/>
-      <song file="jayikkume suvishesham lokam jayikkume.xml" title="jayikkume suvishesham lokam jayikkume"/>
-      <song file="jeevakireetatthin kallukalil kaanunnu.xml" title="jeevakireetatthin kallukalil kaanunnu"/>
-      <song file="jeevanadi shabdam muzhangitunnu.xml" title="jeevanadi shabdam muzhangitunnu"/>
-      <song file="jeevanaam en yeshuve.xml" title="jeevanaam en yeshuve"/>
-      <song file="jeevanaathaneshudevanethra nallavan.xml" title="jeevanaathaneshudevanethra nallavan"/>
-      <song file="jeevanaayakane manuvele.xml" title="jeevanaayakane manuvele"/>
-      <song file="jeevanum nithya saukhyavum.xml" title="jeevanum nithya saukhyavum"/>
-      <song file="jeevanulla devane varoo.xml" title="jeevanulla devane varoo"/>
-      <song file="jeevanenikkaayu devakumaaraa.xml" title="jeevanenikkaayu devakumaaraa"/>
-      <song file="jeevaneki snehicchenno.xml" title="jeevaneki snehicchenno"/>
-      <song file="jeevante uravitam kristhuvathre.xml" title="jeevante uravitam kristhuvathre"/>
-      <song file="jeevante uravitame.xml" title="jeevante uravitame"/>
-      <song file="jeevavaathilaakumeshu naayaka.xml" title="jeevavaathilaakumeshu naayaka"/>
-      <song file="jeevithakkurishin bhaaram erivanneetil.xml" title="jeevithakkurishin bhaaram erivanneetil"/>
-      <song file="jeevithatthoni svarggatheeram cheraan cheraan.xml" title="jeevithatthoni svarggatheeram cheraan cheraan"/>
-      <song file="jeevithayaathrakkaaraa.xml" title="jeevithayaathrakkaaraa"/>
-      <song file="jeevodanamaaya yeshu deva vandanam.xml" title="jeevodanamaaya yeshu deva vandanam"/>
+      <song file="ജഗൽഗുരു നാഥാ.xml" title="jagalguru naathaa"/>
+      <song file="ജയ ഗീതം ഗീതം പാടിടുവിൻ.xml" title="jaya geetham geetham paatituvin"/>
+      <song file="ജയ ജയ ക്രിസ്തുവിൻ തിരുനാമം.xml" title="jaya jaya kristhuvin thirunaamam"/>
+      <song file="ജയ ജയ ജഗൽ ഗുരുവേ.xml" title="jaya jaya jagal guruve"/>
+      <song file="ജയ ജയ ജയ ഗീതം.xml" title="jaya jaya jaya geetham"/>
+      <song file="ജയം ജയം കൊള്ളും നാം ജയം കൊള്ളും നാം.xml" title="jayam jayam kollum naam jayam kollum naam"/>
+      <song file="ജയം ജയം യേശുവിന്നു.xml" title="jayam jayam yeshuvinnu"/>
+      <song file="ജയിക്കുമേ സുവിശേഷം ലോകം ജയിക്കുമേ.xml" title="jayikkume suvishesham lokam jayikkume"/>
+      <song file="ജീവകിരീടത്തിൻ കല്ലുകളിൽ കാണുന്നു.xml" title="jeevakireetatthin kallukalil kaanunnu"/>
+      <song file="ജീവനദി ശബ്ദം മുഴങ്ങിടുന്നു.xml" title="jeevanadi shabdam muzhangitunnu"/>
+      <song file="ജീവനാം എൻ യേശുവേ.xml" title="jeevanaam en yeshuve"/>
+      <song file="ജീവനാഥനേശുദേവനെത്ര നല്ലവൻ.xml" title="jeevanaathaneshudevanethra nallavan"/>
+      <song file="ജീവനായകനേ മനുവേലേ.xml" title="jeevanaayakane manuvele"/>
+      <song file="ജീവനും നിത്യ സൗഖ്യവും.xml" title="jeevanum nithya saukhyavum"/>
+      <song file="ജീവനുള്ള ദേവനേ വരൂ.xml" title="jeevanulla devane varoo"/>
+      <song file="ജീവനെനിക്കായ് ദേവകുമാരാ.xml" title="jeevanenikkaayu devakumaaraa"/>
+      <song file="ജീവനേകി സ്നേഹിച്ചെന്നോ.xml" title="jeevaneki snehicchenno"/>
+      <song file="ജീവന്റെ ഉറവിടം ക്രിസ്തുവത്രേ.xml" title="jeevante uravitam kristhuvathre"/>
+      <song file="ജീവന്റെ ഉറവിടമേ.xml" title="jeevante uravitame"/>
+      <song file="ജീവവാതിലാകുമേശു നായക.xml" title="jeevavaathilaakumeshu naayaka"/>
+      <song file="ജീവിതക്കുരിശിൻ ഭാരം ഏറിവന്നീടിൽ.xml" title="jeevithakkurishin bhaaram erivanneetil"/>
+      <song file="ജീവിതത്തോണി സ്വർഗ്ഗതീരം ചേരാൻ ചേരാൻ.xml" title="jeevithatthoni svarggatheeram cheraan cheraan"/>
+      <song file="ജീവിതയാത്രക്കാരാ.xml" title="jeevithayaathrakkaaraa"/>
+      <song file="ജീവോദനമായ യേശു ദേവ വന്ദനം.xml" title="jeevodanamaaya yeshu deva vandanam"/>
    </entry>
    <entry letter="nja">
-      <song file="njangalute vaasasthalamennum paran nee.xml" title="njangalute vaasasthalamennum paran nee"/>
-      <song file="njaanumente bhavanavumo.xml" title="njaanumente bhavanavumo"/>
-      <song file="njaanennum sthuthikkum.xml" title="njaanennum sthuthikkum"/>
-      <song file="njaanennum sthuthicchitume karuna.xml" title="njaanennum sthuthicchitume karuna"/>
-      <song file="njaanente kannukal uyartthitunnu.xml" title="njaanente kannukal uyartthitunnu"/>
-      <song file="njaanente kartthaavin svantham.xml" title="njaanente kartthaavin svantham"/>
-      <song file="njaanente naathanaameshuvotukoote.xml" title="njaanente naathanaameshuvotukoote"/>
-      <song file="njaanorikkal njaanorikkal.xml" title="njaanorikkal njaanorikkal"/>
-      <song file="njaan kartthaavinaayu paatum.xml" title="njaan kartthaavinaayu paatum"/>
-      <song file="njaan cheytha paathakam engane pom_ paapa-.xml" title="njaan cheytha paathakam engane pom_ paapa-"/>
-      <song file="njaan paapiyaayirunnenneshu.xml" title="njaan paapiyaayirunnenneshu"/>
-      <song file="njaan yahovaye ellaanaalum.xml" title="njaan yahovaye ellaanaalum"/>
-      <song file="njaan varunnu krooshinkal.xml" title="njaan varunnu krooshinkal"/>
-      <song file="njaan... Snehavaaneshuvin.xml" title="njaan... Snehavaaneshuvin"/>
+      <song file="ഞങ്ങളുടെ വാസസ്ഥലമെന്നും പരൻ നീ.xml" title="njangalute vaasasthalamennum paran nee"/>
+      <song file="ഞാനുമെന്റെ ഭവനവുമോ.xml" title="njaanumente bhavanavumo"/>
+      <song file="ഞാനെന്നും സ്തുതിക്കും.xml" title="njaanennum sthuthikkum"/>
+      <song file="ഞാനെന്നും സ്തുതിച്ചിടുമേ കരുണ.xml" title="njaanennum sthuthicchitume karuna"/>
+      <song file="ഞാനെന്റെ കണ്ണുകൾ ഉയർത്തിടുന്നു.xml" title="njaanente kannukal uyartthitunnu"/>
+      <song file="ഞാനെന്റെ കർത്താവിൻ സ്വന്തം.xml" title="njaanente kartthaavin svantham"/>
+      <song file="ഞാനെന്റെ നാഥനാമേശുവോടുകൂടെ.xml" title="njaanente naathanaameshuvotukoote"/>
+      <song file="ഞാനൊരിക്കൽ ഞാനൊരിക്കൽ.xml" title="njaanorikkal njaanorikkal"/>
+      <song file="ഞാൻ കർത്താവിനായ് പാടും.xml" title="njaan kartthaavinaayu paatum"/>
+      <song file="ഞാൻ ചെയ്ത പാതകം എങ്ങനെ പോം_ പാപ-.xml" title="njaan cheytha paathakam engane pom_ paapa-"/>
+      <song file="ഞാൻ പാപിയായിരുന്നെന്നേശു.xml" title="njaan paapiyaayirunnenneshu"/>
+      <song file="ഞാൻ യഹോവയെ എല്ലാനാളും.xml" title="njaan yahovaye ellaanaalum"/>
+      <song file="ഞാൻ വരുന്നു ക്രൂശിങ്കൽ.xml" title="njaan varunnu krooshinkal"/>
+      <song file="ഞാൻ... സ്നേഹവാനേശുവിൻ.xml" title="njaan... Snehavaaneshuvin"/>
    </entry>
    <entry letter="tha">
-      <song file="thankattheruveethiyil naam.xml" title="thankattheruveethiyil naam"/>
-      <song file="thankaniramezhum thalayutayone.xml" title="thankaniramezhum thalayutayone"/>
-      <song file="thatti thatti nilkkunneshu jeevanaathan.xml" title="thatti thatti nilkkunneshu jeevanaathan"/>
-      <song file="thazhukum karangal arikilundu.xml" title="thazhukum karangal arikilundu"/>
-      <song file="thaangum ninkarangal enne naathaa.xml" title="thaangum ninkarangal enne naathaa"/>
-      <song file="thirukrupathannu natatthanamenne.xml" title="thirukrupathannu natatthanamenne"/>
-      <song file="thirucharana seva cheyyum nararilathi.xml" title="thirucharana seva cheyyum nararilathi"/>
-      <song file="thiruppaadam thetiyithaa.xml" title="thiruppaadam thetiyithaa"/>
-      <song file="thiruvadanam shobhippicchen.xml" title="thiruvadanam shobhippicchen"/>
-      <song file="thiruvedatthin porule mama.xml" title="thiruvedatthin porule mama"/>
-      <song file="thumgaprathaapamaarnna shreeyeshunaayakane .xml" title="thumgaprathaapamaarnna shreeyeshunaayakane "/>
-      <song file="thunayenikkeshuve.xml" title="thunayenikkeshuve"/>
-      <song file="thejasileshuvin ponmukham njaan kaanum.xml" title="thejasileshuvin ponmukham njaan kaanum"/>
-      <song file="thetitum njaan divya thirumozhi.xml" title="thetitum njaan divya thirumozhi"/>
-      <song file="thetivanno doshiyaam.xml" title="thetivanno doshiyaam"/>
-      <song file="thenilum madhuram vedam.xml" title="thenilum madhuram vedam"/>
-      <song file="thenilum madhurameshuvin naamam.xml" title="thenilum madhurameshuvin naamam"/>
+      <song file="തങ്കത്തെരുവീഥിയിൽ നാം.xml" title="thankattheruveethiyil naam"/>
+      <song file="തങ്കനിറമെഴും തലയുടയോനേ.xml" title="thankaniramezhum thalayutayone"/>
+      <song file="തട്ടി തട്ടി നില്ക്കുന്നേശു ജീവനാഥൻ.xml" title="thatti thatti nilkkunneshu jeevanaathan"/>
+      <song file="തഴുകും കരങ്ങൾ അരികിലുണ്ട്.xml" title="thazhukum karangal arikilundu"/>
+      <song file="താങ്ങും നിൻകരങ്ങൾ എന്നെ നാഥാ.xml" title="thaangum ninkarangal enne naathaa"/>
+      <song file="തിരുകൃപതന്നു നടത്തണമെന്നെ.xml" title="thirukrupathannu natatthanamenne"/>
+      <song file="തിരുചരണ സേവ ചെയ്യും നരരിലതി.xml" title="thirucharana seva cheyyum nararilathi"/>
+      <song file="തിരുപ്പാദം തേടിയിതാ.xml" title="thiruppaadam thetiyithaa"/>
+      <song file="തിരുവദനം ശോഭിപ്പിച്ചെൻ.xml" title="thiruvadanam shobhippicchen"/>
+      <song file="തിരുവേദത്തിൻ പൊരുളേ മമ.xml" title="thiruvedatthin porule mama"/>
+      <song file="തുംഗപ്രതാപമാർന്ന ശ്രീയേശുനായകനേ .xml" title="thumgaprathaapamaarnna shreeyeshunaayakane "/>
+      <song file="തുണയെനിക്കേശുവേ.xml" title="thunayenikkeshuve"/>
+      <song file="തേജസ്സിലേശുവിൻ പൊന്മുഖം ഞാൻ കാണും.xml" title="thejasileshuvin ponmukham njaan kaanum"/>
+      <song file="തേടിടും ഞാൻ ദിവ്യ തിരുമൊഴി.xml" title="thetitum njaan divya thirumozhi"/>
+      <song file="തേടിവന്നോ ദോഷിയാം.xml" title="thetivanno doshiyaam"/>
+      <song file="തേനിലും മധുരം വേദം.xml" title="thenilum madhuram vedam"/>
+      <song file="തേനിലും മധുരമേശുവിൻ നാമം.xml" title="thenilum madhurameshuvin naamam"/>
    </entry>
    <entry letter="da">
-      <song file="dayalabhicchor naam sthuthicchituvom.xml" title="dayalabhicchor naam sthuthicchituvom"/>
-      <song file="dinam dinam dinam nee vaazhtthuka.xml" title="dinam dinam dinam nee vaazhtthuka"/>
-      <song file="dinamanu mamgalam devaadhidevaa.xml" title="dinamanu mamgalam devaadhidevaa"/>
-      <song file="divasaavasaana samayamaayu naathaa.xml" title="divasaavasaana samayamaayu naathaa"/>
-      <song file="divyajaneshvara bhavyagunaathmaka.xml" title="divyajaneshvara bhavyagunaathmaka"/>
-      <song file="divyanilaye diganthavalaye devaa.xml" title="divyanilaye diganthavalaye devaa"/>
-      <song file="divyaraajaa ninne vaazhtthum ninte.xml" title="divyaraajaa ninne vaazhtthum ninte"/>
-      <song file="duakhatthinte paanapaathram.xml" title="duakhatthinte paanapaathram"/>
-      <song file="deva deva nandanan kurishetutthu.xml" title="deva deva nandanan kurishetutthu"/>
-      <song file="devakumaaraa sarvva paapa vidooraa.xml" title="devakumaaraa sarvva paapa vidooraa"/>
-      <song file="devajana samaajame.xml" title="devajana samaajame"/>
-      <song file="devadevaneshuvine sthuthikkanam naam.xml" title="devadevaneshuvine sthuthikkanam naam"/>
-      <song file="devanandanaa vandanam.xml" title="devanandanaa vandanam"/>
-      <song file="devane nee kaniyaname.xml" title="devane nee kaniyaname"/>
-      <song file="devane pukazhtthi sthuthicchituvin.xml" title="devane pukazhtthi sthuthicchituvin"/>
-      <song file="devaa threeyekaa.xml" title="devaa threeyekaa"/>
-      <song file="devaa vandanam vandaname kristhunaathaa vandaname.xml" title="devaa vandanam vandaname kristhunaathaa vandaname"/>
-      <song file="devaadhi deva suthan.xml" title="devaadhi deva suthan"/>
-      <song file="devaadhidevan neeraajaadhiraajan.xml" title="devaadhidevan neeraajaadhiraajan"/>
-      <song file="deveshaa yeshuparaa.xml" title="deveshaa yeshuparaa"/>
-      <song file="deveshaa, adhikamaayu aasheervadikka.xml" title="deveshaa, adhikamaayu aasheervadikka"/>
-      <song file="dyvam ee nalla dyvam.xml" title="dyvam ee nalla dyvam"/>
-      <song file="dyvam nallavan ennennum nallavan.xml" title="dyvam nallavan ennennum nallavan"/>
-      <song file="dyvam vilicchavare.xml" title="dyvam vilicchavare"/>
-      <song file="dyvakarunayin dhanamaahaathmyam.xml" title="dyvakarunayin dhanamaahaathmyam"/>
-      <song file="dyvakrupa manoharame ente praananaayakan.xml" title="dyvakrupa manoharame ente praananaayakan"/>
-      <song file="dyvakrupayil njaanaashrayicchu.xml" title="dyvakrupayil njaanaashrayicchu"/>
-      <song file="dyvatthinu sthothram dyvatthinu sthothram.xml" title="dyvatthinu sthothram dyvatthinu sthothram"/>
-      <song file="dyvatthinte ekaputhran.xml" title="dyvatthinte ekaputhran"/>
-      <song file="dyvatthin kunjaate sarvva.xml" title="dyvatthin kunjaate sarvva"/>
-      <song file="dyvatthin krupakal.xml" title="dyvatthin krupakal"/>
-      <song file="dyvatthin krupaye chinthikkaam.xml" title="dyvatthin krupaye chinthikkaam"/>
-      <song file="dyvatthin janame, yeshuvin bhatare.xml" title="dyvatthin janame, yeshuvin bhatare"/>
-      <song file="dyvatthin naamatthil.xml" title="dyvatthin naamatthil"/>
-      <song file="dyvatthin puthranaam kristheshuve.xml" title="dyvatthin puthranaam kristheshuve"/>
-      <song file="dyvatthin puthranaam yeshu bhoojaathanaayu.xml" title="dyvatthin puthranaam yeshu bhoojaathanaayu"/>
-      <song file="dyvatthin pythal njaan.xml" title="dyvatthin pythal njaan"/>
-      <song file="dyvatthin raajyam bhakshanamo.xml" title="dyvatthin raajyam bhakshanamo"/>
-      <song file="dyvatthil njaan kandoru.xml" title="dyvatthil njaan kandoru"/>
-      <song file="dyvamakkale nammal bhaagyashaalikal.xml" title="dyvamakkale nammal bhaagyashaalikal"/>
-      <song file="dyvamakkale santhoshicchaarkkuvin.xml" title="dyvamakkale santhoshicchaarkkuvin"/>
-      <song file="dyvamangorukkitum bhavanamundathil.xml" title="dyvamangorukkitum bhavanamundathil"/>
-      <song file="dyvamaam yahovaye jeevannuravaayone.xml" title="dyvamaam yahovaye jeevannuravaayone"/>
-      <song file="dyvamaam yahovaye.xml" title="dyvamaam yahovaye"/>
-      <song file="dyvame nin arivaale.xml" title="dyvame nin arivaale"/>
-      <song file="dyvamethra nallavanaam.xml" title="dyvamethra nallavanaam"/>
-      <song file="dyvamente nanmayortthu.xml" title="dyvamente nanmayortthu"/>
-      <song file="dyvamente rakshakanaayu.xml" title="dyvamente rakshakanaayu"/>
-      <song file="dyvame ninakku sthothram paatitum.xml" title="dyvame ninakku sthothram paatitum"/>
-      <song file="dyvame nin mahaa karunayin.xml" title="dyvame nin mahaa karunayin"/>
-      <song file="dyvame nin sannidhiyil vannitunnee saadhu njaan.xml" title="dyvame nin sannidhiyil vannitunnee saadhu njaan"/>
-      <song file="dyvame nee kyvetinjo.xml" title="dyvame nee kyvetinjo"/>
-      <song file="dyvameyathrayagaadhamaho nin.xml" title="dyvameyathrayagaadhamaho nin"/>
-      <song file="dyvasannidhau njaan sthothram paatitum.xml" title="dyvasannidhau njaan sthothram paatitum"/>
-      <song file="dyvasuthadarshanamenthaanandam varnnikkaavatho.xml" title="dyvasuthadarshanamenthaanandam varnnikkaavatho"/>
-      <song file="dyvasneham chollaan aavillenikku.xml" title="dyvasneham chollaan aavillenikku"/>
-      <song file="dyvasnehame dyvasnehame.xml" title="dyvasnehame dyvasnehame"/>
+      <song file="ദയലഭിച്ചോർ നാം സ്തുതിച്ചിടുവോം.xml" title="dayalabhicchor naam sthuthicchituvom"/>
+      <song file="ദിനം ദിനം ദിനം നീ വാഴ്ത്തുക.xml" title="dinam dinam dinam nee vaazhtthuka"/>
+      <song file="ദിനമനു മംഗളം ദേവാധിദേവാ.xml" title="dinamanu mamgalam devaadhidevaa"/>
+      <song file="ദിവസാവസാന സമയമായ് നാഥാ.xml" title="divasaavasaana samayamaayu naathaa"/>
+      <song file="ദിവ്യജനേശ്വര ഭവ്യഗുണാത്മക.xml" title="divyajaneshvara bhavyagunaathmaka"/>
+      <song file="ദിവ്യനിലയെ ദിഗന്തവലയെ ദേവാ.xml" title="divyanilaye diganthavalaye devaa"/>
+      <song file="ദിവ്യരാജാ നിന്നെ വാഴ്ത്തും നിന്റെ.xml" title="divyaraajaa ninne vaazhtthum ninte"/>
+      <song file="ദുഃഖത്തിന്റെ പാനപാത്രം.xml" title="duakhatthinte paanapaathram"/>
+      <song file="ദേവ ദേവ നന്ദനൻ കുരിശെടുത്തു.xml" title="deva deva nandanan kurishetutthu"/>
+      <song file="ദേവകുമാരാ സർവ്വ പാപ വിദൂരാ.xml" title="devakumaaraa sarvva paapa vidooraa"/>
+      <song file="ദേവജന സമാജമേ.xml" title="devajana samaajame"/>
+      <song file="ദേവദേവനേശുവിനെ സ്തുതിക്കണം നാം.xml" title="devadevaneshuvine sthuthikkanam naam"/>
+      <song file="ദേവനന്ദനാ വന്ദനം.xml" title="devanandanaa vandanam"/>
+      <song file="ദേവനെ നീ കനിയണമേ.xml" title="devane nee kaniyaname"/>
+      <song file="ദേവനെ പുകഴ്ത്തി സ്തുതിച്ചിടുവിൻ.xml" title="devane pukazhtthi sthuthicchituvin"/>
+      <song file="ദേവാ ത്രീയേകാ.xml" title="devaa threeyekaa"/>
+      <song file="ദേവാ വന്ദനം വന്ദനമേ ക്രിസ്തുനാഥാ വന്ദനമേ.xml" title="devaa vandanam vandaname kristhunaathaa vandaname"/>
+      <song file="ദേവാധി ദേവ സുതൻ.xml" title="devaadhi deva suthan"/>
+      <song file="ദേവാധിദേവൻ നീരാജാധിരാജൻ.xml" title="devaadhidevan neeraajaadhiraajan"/>
+      <song file="ദേവേശാ യേശുപരാ.xml" title="deveshaa yeshuparaa"/>
+      <song file="ദേവേശാ, അധികമായ് ആശീർവദിക്ക.xml" title="deveshaa, adhikamaayu aasheervadikka"/>
+      <song file="ദൈവം ഈ നല്ല ദൈവം.xml" title="dyvam ee nalla dyvam"/>
+      <song file="ദൈവം നല്ലവൻ എന്നെന്നും നല്ലവൻ.xml" title="dyvam nallavan ennennum nallavan"/>
+      <song file="ദൈവം വിളിച്ചവരേ.xml" title="dyvam vilicchavare"/>
+      <song file="ദൈവകരുണയിൻ ധനമാഹാത്മ്യം.xml" title="dyvakarunayin dhanamaahaathmyam"/>
+      <song file="ദൈവകൃപ മനോഹരമേ എന്റെ പ്രാണനായകൻ.xml" title="dyvakrupa manoharame ente praananaayakan"/>
+      <song file="ദൈവകൃപയിൽ ഞാനാശ്രയിച്ച്.xml" title="dyvakrupayil njaanaashrayicchu"/>
+      <song file="ദൈവത്തിനു സ്തോത്രം ദൈവത്തിനു സ്തോത്രം.xml" title="dyvatthinu sthothram dyvatthinu sthothram"/>
+      <song file="ദൈവത്തിന്റെ ഏകപുത്രൻ.xml" title="dyvatthinte ekaputhran"/>
+      <song file="ദൈവത്തിൻ കുഞ്ഞാടേ സർവ്വ.xml" title="dyvatthin kunjaate sarvva"/>
+      <song file="ദൈവത്തിൻ കൃപകൾ.xml" title="dyvatthin krupakal"/>
+      <song file="ദൈവത്തിൻ കൃപയെ ചിന്തിക്കാം.xml" title="dyvatthin krupaye chinthikkaam"/>
+      <song file="ദൈവത്തിൻ ജനമേ, യേശുവിൻ ഭടരേ.xml" title="dyvatthin janame, yeshuvin bhatare"/>
+      <song file="ദൈവത്തിൻ നാമത്തിൽ.xml" title="dyvatthin naamatthil"/>
+      <song file="ദൈവത്തിൻ പുത്രനാം ക്രിസ്തേശുവേ.xml" title="dyvatthin puthranaam kristheshuve"/>
+      <song file="ദൈവത്തിൻ പുത്രനാം യേശു ഭൂജാതനായ്.xml" title="dyvatthin puthranaam yeshu bhoojaathanaayu"/>
+      <song file="ദൈവത്തിൻ പൈതൽ ഞാൻ.xml" title="dyvatthin pythal njaan"/>
+      <song file="ദൈവത്തിൻ രാജ്യം ഭക്ഷണമോ.xml" title="dyvatthin raajyam bhakshanamo"/>
+      <song file="ദൈവത്തിൽ ഞാൻ കണ്ടൊരു.xml" title="dyvatthil njaan kandoru"/>
+      <song file="ദൈവമക്കളേ നമ്മൾ ഭാഗ്യശാലികൾ.xml" title="dyvamakkale nammal bhaagyashaalikal"/>
+      <song file="ദൈവമക്കളേ സന്തോഷിച്ചാർക്കുവിൻ.xml" title="dyvamakkale santhoshicchaarkkuvin"/>
+      <song file="ദൈവമങ്ങൊരുക്കിടും ഭവനമുണ്ടതിൽ.xml" title="dyvamangorukkitum bhavanamundathil"/>
+      <song file="ദൈവമാം യഹോവയെ ജീവന്നുറവായോനേ.xml" title="dyvamaam yahovaye jeevannuravaayone"/>
+      <song file="ദൈവമാം യഹോവയെ.xml" title="dyvamaam yahovaye"/>
+      <song file="ദൈവമെ നിൻ അറിവാലെ.xml" title="dyvame nin arivaale"/>
+      <song file="ദൈവമെത്ര നല്ലവനാം.xml" title="dyvamethra nallavanaam"/>
+      <song file="ദൈവമെന്റെ നന്മയോർത്തു.xml" title="dyvamente nanmayortthu"/>
+      <song file="ദൈവമെന്റെ രക്ഷകനായ്.xml" title="dyvamente rakshakanaayu"/>
+      <song file="ദൈവമേ നിനക്കു സ്തോത്രം പാടിടും.xml" title="dyvame ninakku sthothram paatitum"/>
+      <song file="ദൈവമേ നിൻ മഹാ കരുണയിൻ.xml" title="dyvame nin mahaa karunayin"/>
+      <song file="ദൈവമേ നിൻ സന്നിധിയിൽ വന്നിടുന്നീ സാധു ഞാൻ.xml" title="dyvame nin sannidhiyil vannitunnee saadhu njaan"/>
+      <song file="ദൈവമേ നീ കൈവെടിഞ്ഞോ.xml" title="dyvame nee kyvetinjo"/>
+      <song file="ദൈവമേയത്രയഗാധമഹോ നിൻ.xml" title="dyvameyathrayagaadhamaho nin"/>
+      <song file="ദൈവസന്നിധൗ ഞാൻ സ്തോത്രം പാടിടും.xml" title="dyvasannidhau njaan sthothram paatitum"/>
+      <song file="ദൈവസുതദർശനമെന്താനന്ദം വർണ്ണിക്കാവതോ.xml" title="dyvasuthadarshanamenthaanandam varnnikkaavatho"/>
+      <song file="ദൈവസ്നേഹം ചൊല്ലാൻ ആവില്ലെനിക്ക്.xml" title="dyvasneham chollaan aavillenikku"/>
+      <song file="ദൈവസ്നേഹമേ ദൈവസ്നേഹമേ.xml" title="dyvasnehame dyvasnehame"/>
    </entry>
    <entry letter="dha">
-      <song file="dhanyanaam unnathane.xml" title="dhanyanaam unnathane"/>
+      <song file="ധന്യനാം ഉന്നതനേ.xml" title="dhanyanaam unnathane"/>
    </entry>
    <entry letter="na">
-      <song file="natakkanam priyare naam parishuddhaathmaavine.xml" title="natakkanam priyare naam parishuddhaathmaavine"/>
-      <song file="natatthitunnu dyvamenne natatthitunnu.xml" title="natatthitunnu dyvamenne natatthitunnu"/>
-      <song file="nandi chollitaam ennum modaal.xml" title="nandi chollitaam ennum modaal"/>
-      <song file="nandiyaalennullam pongunne.xml" title="nandiyaalennullam pongunne"/>
-      <song file="nandiyaalen manam paatitum.xml" title="nandiyaalen manam paatitum"/>
-      <song file="nandiyote, nandiyote.xml" title="nandiyote, nandiyote"/>
-      <song file="nandiyotennum paatitum njaan.xml" title="nandiyotennum paatitum njaan"/>
-      <song file="namukkabhayam dyvamathre.xml" title="namukkabhayam dyvamathre"/>
-      <song file="nammil velippetunnoru thejasu ninakkukil.xml" title="nammil velippetunnoru thejasu ninakkukil"/>
-      <song file="nammalkkulakil sankatamenthinneshuvundallo.xml" title="nammalkkulakil sankatamenthinneshuvundallo"/>
-      <song file="narare vannituvin.xml" title="narare vannituvin"/>
-      <song file="nalla devane njangal ellaavareyum.xml" title="nalla devane njangal ellaavareyum"/>
-      <song file="nallitayaneshu thanikkullajangalkkaayi.xml" title="nallitayaneshu thanikkullajangalkkaayi"/>
-      <song file="nallorushasithil vallabha.xml" title="nallorushasithil vallabha"/>
-      <song file="navayerooshalem paarppitam thannile.xml" title="navayerooshalem paarppitam thannile"/>
-      <song file="naam vimukthanmaar dyvakrupa.xml" title="naam vimukthanmaar dyvakrupa"/>
-      <song file="naathaa nin naamamethrayo shreshdtam.xml" title="naathaa nin naamamethrayo shreshdtam"/>
-      <song file="naayakaa en krooshetutthu.xml" title="naayakaa en krooshetutthu"/>
-      <song file="naashatthilaapathicchulla.xml" title="naashatthilaapathicchulla"/>
-      <song file="nithyamaam nin rakthadhaara sathyamaayu kaanmaan.xml" title="nithyamaam nin rakthadhaara sathyamaayu kaanmaan"/>
-      <song file="nithyamaam raksha daanamaayu thannavane.xml" title="nithyamaam raksha daanamaayu thannavane"/>
-      <song file="nithyavandanam ninakku sathyadyvame.xml" title="nithyavandanam ninakku sathyadyvame"/>
-      <song file="nithyaananda dyvame.xml" title="nithyaananda dyvame"/>
-      <song file="nidrakonda bhakthareyortthiniyum.xml" title="nidrakonda bhakthareyortthiniyum"/>
-      <song file="nidrayil njaanaayaneram.xml" title="nidrayil njaanaayaneram"/>
-      <song file="ninakkaayen jeevane.xml" title="ninakkaayen jeevane"/>
-      <song file="ninakkaayu karuthum avan nalla ohari.xml" title="ninakkaayu karuthum avan nalla ohari"/>
-      <song file="ninnishtam devaa aayitatte.xml" title="ninnishtam devaa aayitatte"/>
-      <song file="ninneppolillaarum paaril enneshuve.xml" title="ninneppolillaarum paaril enneshuve"/>
-      <song file="ninnotu praarththippaan.xml" title="ninnotu praarththippaan"/>
-      <song file="ninnoten dyvame.xml" title="ninnoten dyvame"/>
-      <song file="ninte hithampoleyenne.xml" title="ninte hithampoleyenne"/>
-      <song file="nimishangal nimishangal.xml" title="nimishangal nimishangal"/>
-      <song file="nisthulanaam nirmmalanaam.xml" title="nisthulanaam nirmmalanaam"/>
-      <song file="nisthulyanaathan kristhuvil.xml" title="nisthulyanaathan kristhuvil"/>
-      <song file="niseemamaam ninsnehatthe.xml" title="niseemamaam ninsnehatthe"/>
-      <song file="nin paadatthil njaan vandikkunne.xml" title="nin paadatthil njaan vandikkunne"/>
-      <song file="nin rakthatthaal.xml" title="nin rakthatthaal"/>
-      <song file="nin sannidhiyil dyvame.xml" title="nin sannidhiyil dyvame"/>
-      <song file="nin snehamenthaashcharyameshuparaa.xml" title="nin snehamenthaashcharyameshuparaa"/>
-      <song file="ninthiru vachanatthil ninnathbhuthakaaryangal.xml" title="ninthiru vachanatthil ninnathbhuthakaaryangal"/>
-      <song file="nindaanam njaan anubhavicchu.xml" title="nindaanam njaan anubhavicchu"/>
-      <song file="ninmahaasnehameshuve.xml" title="ninmahaasnehameshuve"/>
-      <song file="ninsannidhi mathi haa yeshuve.xml" title="ninsannidhi mathi haa yeshuve"/>
-      <song file="ninsneham en panku enrakshakane.xml" title="ninsneham en panku enrakshakane"/>
-      <song file="ninsneham gahanamennarivil.xml" title="ninsneham gahanamennarivil"/>
-      <song file="nirmmala hrudayanmaarkken dyvam ethra.xml" title="nirmmala hrudayanmaarkken dyvam ethra"/>
-      <song file="nee ente kartthaavum.xml" title="nee ente kartthaavum"/>
-      <song file="nee ente sankethavum nee ente kottayum.xml" title="nee ente sankethavum nee ente kottayum"/>
-      <song file="nee karunaarasamekinaa.xml" title="nee karunaarasamekinaa"/>
-      <song file="nee karuthukayaaloruvidhavum.xml" title="nee karuthukayaaloruvidhavum"/>
-      <song file="nee koote paarkkuka.xml" title="nee koote paarkkuka"/>
-      <song file="nee mathi enneshuve.xml" title="nee mathi enneshuve"/>
-      <song file="nee veendetutthathaam en praananum.xml" title="nee veendetutthathaam en praananum"/>
-      <song file="neethimaanmaarin kootaarangalil.xml" title="neethimaanmaarin kootaarangalil"/>
-      <song file="neethimaante praarththanakal dyvam kelkkunnu.xml" title="neethimaante praarththanakal dyvam kelkkunnu"/>
-      <song file="neethiyaam yahovaaye.xml" title="neethiyaam yahovaaye"/>
-      <song file="neeyallo njangalkkulla divyasampattheshuve.xml" title="neeyallo njangalkkulla divyasampattheshuve"/>
-      <song file="neeyennum en rakshakan.xml" title="neeyennum en rakshakan"/>
-      <song file="neeyen svanthame enthaanandame.xml" title="neeyen svanthame enthaanandame"/>
-      <song file="neramirulunnu koorirulerunnu.xml" title="neramirulunnu koorirulerunnu"/>
-      <song file="nyaayaasanatthin mumpil.xml" title="nyaayaasanatthin mumpil"/>
+      <song file="നടക്കണം പ്രിയരെ നാം പരിശുദ്ധാത്മാവിനെ.xml" title="natakkanam priyare naam parishuddhaathmaavine"/>
+      <song file="നടത്തിടുന്നു ദൈവമെന്നെ നടത്തിടുന്നു.xml" title="natatthitunnu dyvamenne natatthitunnu"/>
+      <song file="നന്ദി ചൊല്ലിടാം എന്നും മോദാൽ.xml" title="nandi chollitaam ennum modaal"/>
+      <song file="നന്ദിയാലെന്നുള്ളം പൊങ്ങുന്നേ.xml" title="nandiyaalennullam pongunne"/>
+      <song file="നന്ദിയാലെൻ മനം പാടിടും.xml" title="nandiyaalen manam paatitum"/>
+      <song file="നന്ദിയോടെ, നന്ദിയോടെ.xml" title="nandiyote, nandiyote"/>
+      <song file="നന്ദിയോടെന്നും പാടിടും ഞാൻ.xml" title="nandiyotennum paatitum njaan"/>
+      <song file="നമുക്കഭയം ദൈവമത്രേ.xml" title="namukkabhayam dyvamathre"/>
+      <song file="നമ്മിൽ വെളിപ്പെടുന്നോരു തേജസ്സു നിനക്കുകിൽ.xml" title="nammil velippetunnoru thejasu ninakkukil"/>
+      <song file="നമ്മൾക്കുലകിൽ സങ്കടമെന്തിന്നേശുവുണ്ടല്ലോ.xml" title="nammalkkulakil sankatamenthinneshuvundallo"/>
+      <song file="നരരേ വന്നിടുവിൻ.xml" title="narare vannituvin"/>
+      <song file="നല്ല ദേവനേ ഞങ്ങൾ എല്ലാവരെയും.xml" title="nalla devane njangal ellaavareyum"/>
+      <song file="നല്ലിടയനേശു തനിക്കുള്ളജങ്ങൾക്കായി.xml" title="nallitayaneshu thanikkullajangalkkaayi"/>
+      <song file="നല്ലൊരുഷസ്സിതിൽ വല്ലഭ.xml" title="nallorushasithil vallabha"/>
+      <song file="നവയെരൂശലേം പാർപ്പിടം തന്നിലെ.xml" title="navayerooshalem paarppitam thannile"/>
+      <song file="നാം വിമുക്തന്മാർ ദൈവകൃപ.xml" title="naam vimukthanmaar dyvakrupa"/>
+      <song file="നാഥാ നിൻ നാമമെത്രയോ ശ്രേഷ്ഠം.xml" title="naathaa nin naamamethrayo shreshdtam"/>
+      <song file="നായകാ എൻ ക്രൂശെടുത്തു.xml" title="naayakaa en krooshetutthu"/>
+      <song file="നാശത്തിലാപതിച്ചുള്ള.xml" title="naashatthilaapathicchulla"/>
+      <song file="നിത്യമാം നിൻ രക്തധാര സത്യമായ് കാണ്മാൻ.xml" title="nithyamaam nin rakthadhaara sathyamaayu kaanmaan"/>
+      <song file="നിത്യമാം രക്ഷ ദാനമായ് തന്നവനേ.xml" title="nithyamaam raksha daanamaayu thannavane"/>
+      <song file="നിത്യവന്ദനം നിനക്കു സത്യദൈവമേ.xml" title="nithyavandanam ninakku sathyadyvame"/>
+      <song file="നിത്യാനന്ദ ദൈവമേ.xml" title="nithyaananda dyvame"/>
+      <song file="നിദ്രകൊണ്ട ഭക്തരെയോർത്തിനിയും.xml" title="nidrakonda bhakthareyortthiniyum"/>
+      <song file="നിദ്രയിൽ ഞാനായനേരം.xml" title="nidrayil njaanaayaneram"/>
+      <song file="നിനക്കായെൻ ജീവനെ.xml" title="ninakkaayen jeevane"/>
+      <song file="നിനക്കായ് കരുതും അവൻ നല്ല ഓഹരി.xml" title="ninakkaayu karuthum avan nalla ohari"/>
+      <song file="നിന്നിഷ്ടം ദേവാ ആയിടട്ടെ.xml" title="ninnishtam devaa aayitatte"/>
+      <song file="നിന്നെപ്പോലില്ലാരും പാരിൽ എന്നേശുവേ.xml" title="ninneppolillaarum paaril enneshuve"/>
+      <song file="നിന്നോടു പ്രാർത്ഥിപ്പാൻ.xml" title="ninnotu praarththippaan"/>
+      <song file="നിന്നോടെൻ ദൈവമേ.xml" title="ninnoten dyvame"/>
+      <song file="നിന്റെ ഹിതംപോലെയെന്നെ.xml" title="ninte hithampoleyenne"/>
+      <song file="നിമിഷങ്ങൾ നിമിഷങ്ങൾ.xml" title="nimishangal nimishangal"/>
+      <song file="നിസ്തുലനാം നിർമ്മലനാം.xml" title="nisthulanaam nirmmalanaam"/>
+      <song file="നിസ്തുല്യനാഥൻ ക്രിസ്തുവിൽ.xml" title="nisthulyanaathan kristhuvil"/>
+      <song file="നിസ്സീമമാം നിൻസ്നേഹത്തെ.xml" title="niseemamaam ninsnehatthe"/>
+      <song file="നിൻ പാദത്തിൽ ഞാൻ വന്ദിക്കുന്നേ.xml" title="nin paadatthil njaan vandikkunne"/>
+      <song file="നിൻ രക്തത്താൽ.xml" title="nin rakthatthaal"/>
+      <song file="നിൻ സന്നിധിയിൽ ദൈവമേ.xml" title="nin sannidhiyil dyvame"/>
+      <song file="നിൻ സ്നേഹമെന്താശ്ചര്യമേശുപരാ.xml" title="nin snehamenthaashcharyameshuparaa"/>
+      <song file="നിൻതിരു വചനത്തിൽ നിന്നത്ഭുതകാര്യങ്ങൾ.xml" title="ninthiru vachanatthil ninnathbhuthakaaryangal"/>
+      <song file="നിൻദാനം ഞാൻ അനുഭവിച്ചു.xml" title="nindaanam njaan anubhavicchu"/>
+      <song file="നിൻമഹാസ്നേഹമേശുവേ.xml" title="ninmahaasnehameshuve"/>
+      <song file="നിൻസന്നിധി മതി ഹാ യേശുവേ.xml" title="ninsannidhi mathi haa yeshuve"/>
+      <song file="നിൻസ്നേഹം എൻ പങ്കു എൻരക്ഷകനേ.xml" title="ninsneham en panku enrakshakane"/>
+      <song file="നിൻസ്നേഹം ഗഹനമെന്നറിവിൽ.xml" title="ninsneham gahanamennarivil"/>
+      <song file="നിർമ്മല ഹൃദയന്മാർക്കെൻ ദൈവം എത്ര.xml" title="nirmmala hrudayanmaarkken dyvam ethra"/>
+      <song file="നീ എന്റെ കർത്താവും.xml" title="nee ente kartthaavum"/>
+      <song file="നീ എന്റെ സങ്കേതവും നീ എന്റെ കോട്ടയും.xml" title="nee ente sankethavum nee ente kottayum"/>
+      <song file="നീ കരുണാരസമേകിനാ.xml" title="nee karunaarasamekinaa"/>
+      <song file="നീ കരുതുകയാലൊരുവിധവും.xml" title="nee karuthukayaaloruvidhavum"/>
+      <song file="നീ കൂടെ പാർക്കുക.xml" title="nee koote paarkkuka"/>
+      <song file="നീ മതി എന്നേശുവേ.xml" title="nee mathi enneshuve"/>
+      <song file="നീ വീണ്ടെടുത്തതാം എൻ പ്രാണനും.xml" title="nee veendetutthathaam en praananum"/>
+      <song file="നീതിമാന്മാരിൻ കൂടാരങ്ങളിൽ.xml" title="neethimaanmaarin kootaarangalil"/>
+      <song file="നീതിമാന്റെ പ്രാർത്ഥനകൾ ദൈവം കേൾക്കുന്നു.xml" title="neethimaante praarththanakal dyvam kelkkunnu"/>
+      <song file="നീതിയാം യഹോവായേ.xml" title="neethiyaam yahovaaye"/>
+      <song file="നീയല്ലോ ഞങ്ങൾക്കുള്ള ദിവ്യസമ്പത്തേശുവേ.xml" title="neeyallo njangalkkulla divyasampattheshuve"/>
+      <song file="നീയെന്നും എൻ രക്ഷകൻ.xml" title="neeyennum en rakshakan"/>
+      <song file="നീയെൻ സ്വന്തമേ എന്താനന്ദമേ.xml" title="neeyen svanthame enthaanandame"/>
+      <song file="നേരമിരുളുന്നു കൂരിരുളേറുന്നു.xml" title="neramirulunnu koorirulerunnu"/>
+      <song file="ന്യായാസനത്തിൻ മുമ്പിൽ.xml" title="nyaayaasanatthin mumpil"/>
    </entry>
    <entry letter="pa">
-      <song file="pakalil meghatthanalaayu nee.xml" title="pakalil meghatthanalaayu nee"/>
-      <song file="pakalonanthimayangiyirul.xml" title="pakalonanthimayangiyirul"/>
-      <song file="pathinaayiratthil athisundaranaam.xml" title="pathinaayiratthil athisundaranaam"/>
-      <song file="padam padam uracchu naam.xml" title="padam padam uracchu naam"/>
-      <song file="parane thirumukhashobhayin.xml" title="parane thirumukhashobhayin"/>
-      <song file="parane nin thirumumpil.xml" title="parane nin thirumumpil"/>
-      <song file="paraneshuve karunaanidhe.xml" title="paraneshuve karunaanidhe"/>
-      <song file="paraparameshaa varamaruleesha.xml" title="paraparameshaa varamaruleesha"/>
-      <song file="parama karunaarasaraashe.xml" title="parama karunaarasaraashe"/>
-      <song file="parama pithaave namaskaaram.xml" title="parama pithaave namaskaaram"/>
-      <song file="paramadevaa ninnaathmakrupa.xml" title="paramadevaa ninnaathmakrupa"/>
-      <song file="paramapithaavinu sthuthi paataam.xml" title="paramapithaavinu sthuthi paataam"/>
-      <song file="paramapithaavine paati sthuthikkaam.xml" title="paramapithaavine paati sthuthikkaam"/>
-      <song file="paramapithaave paramapithaave.xml" title="paramapithaave paramapithaave"/>
-      <song file="paramaraajaa guruvarane sthuthikkunnu.xml" title="paramaraajaa guruvarane sthuthikkunnu"/>
-      <song file="paramasuthanaam mashiha.xml" title="paramasuthanaam mashiha"/>
-      <song file="paramaanandamanubhavippaan varuvin.xml" title="paramaanandamanubhavippaan varuvin"/>
-      <song file="parameshajaathaa vandanam.xml" title="parameshajaathaa vandanam"/>
-      <song file="paraloka bhaagyam paapiyennullil.xml" title="paraloka bhaagyam paapiyennullil"/>
-      <song file="parishuddhan devadevanu sthothram.xml" title="parishuddhan devadevanu sthothram"/>
-      <song file="parishuddhan mahonnathadevan.xml" title="parishuddhan mahonnathadevan"/>
-      <song file="palatharam hrudayangal palathilaasha vaykkunnu.xml" title="palatharam hrudayangal palathilaasha vaykkunnu"/>
-      <song file="paataam paataam jayageetham.xml" title="paataam paataam jayageetham"/>
-      <song file="paataam paataam paataam naam.xml" title="paataam paataam paataam naam"/>
-      <song file="paatipukazhtthitaam devadevane.xml" title="paatipukazhtthitaam devadevane"/>
-      <song file="paatum njaaneshuvinu sthuthi.xml" title="paatum njaaneshuvinu sthuthi"/>
-      <song file="paatum njaan enneshuvinte.xml" title="paatum njaan enneshuvinte"/>
-      <song file="paatum njaan yeshuvinnu.xml" title="paatum njaan yeshuvinnu"/>
-      <song file="paatum njaan rakshakane.xml" title="paatum njaan rakshakane"/>
-      <song file="paatum dinavum njaan sthuthigaanam.xml" title="paatum dinavum njaan sthuthigaanam"/>
-      <song file="paatum ninakku nithyavum parameshaa.xml" title="paatum ninakku nithyavum parameshaa"/>
-      <song file="paatum paramanu parichotu njaan.xml" title="paatum paramanu parichotu njaan"/>
-      <song file="paatuvin sahajare kootuvin kuthukaraayu.xml" title="paatuvin sahajare kootuvin kuthukaraayu"/>
-      <song file="paatuvin sodarare jayageethangal.xml" title="paatuvin sodarare jayageethangal"/>
-      <song file="paatuvin sthuthigaanam naam paran.xml" title="paatuvin sthuthigaanam naam paran"/>
-      <song file="paathaalame maraname.xml" title="paathaalame maraname"/>
-      <song file="paapam neekkaan shaapametta.xml" title="paapam neekkaan shaapametta"/>
-      <song file="paapakkatam theerkkuvaan.xml" title="paapakkatam theerkkuvaan"/>
-      <song file="paapatthin phalam narakam.xml" title="paapatthin phalam narakam"/>
-      <song file="paapatthin maa vishattheyozhippaan.xml" title="paapatthin maa vishattheyozhippaan"/>
-      <song file="paapalokam thetiyippaaril vannu devan thaan.xml" title="paapalokam thetiyippaaril vannu devan thaan"/>
-      <song file="paapi varika paraneyarika thava.xml" title="paapi varika paraneyarika thava"/>
-      <song file="paapikalin rakshakan.xml" title="paapikalin rakshakan"/>
-      <song file="paapikale rakshacheytha.xml" title="paapikale rakshacheytha"/>
-      <song file="paapikku maravitameshu rakshakan.xml" title="paapikku maravitameshu rakshakan"/>
-      <song file="paapiyil kaniyum paavana devaa.xml" title="paapiyil kaniyum paavana devaa"/>
-      <song file="paapiyenne theti vannoru.xml" title="paapiyenne theti vannoru"/>
-      <song file="paapee unarnnukolka nee nidrayilninnu.xml" title="paapee unarnnukolka nee nidrayilninnu"/>
-      <song file="paarithil paraloka devan vannu.xml" title="paarithil paraloka devan vannu"/>
-      <song file="paalikka yeshuparaa.xml" title="paalikka yeshuparaa"/>
-      <song file="pithaavinnu sthothram than vankrupaykkaayu.xml" title="pithaavinnu sthothram than vankrupaykkaayu"/>
-      <song file="pinthutarum njaaneshuvine.xml" title="pinthutarum njaaneshuvine"/>
-      <song file="putthanaamerooshalemiletthum.xml" title="putthanaamerooshalemiletthum"/>
-      <song file="putthan yerooshaleme divya.xml" title="putthan yerooshaleme divya"/>
-      <song file="puthranil vishvasikkunnellaavanum.xml" title="puthranil vishvasikkunnellaavanum"/>
-      <song file="pushpam niranjor thaazhvarayilkooti.xml" title="pushpam niranjor thaazhvarayilkooti"/>
-      <song file="ponneshu thampuraan nalloru rakshakan.xml" title="ponneshu thampuraan nalloru rakshakan"/>
-      <song file="ponnoli veeshumee.xml" title="ponnoli veeshumee"/>
-      <song file="ponpulariyilen dyvatthin sneham.xml" title="ponpulariyilen dyvatthin sneham"/>
-      <song file="pokalle katannenne.xml" title="pokalle katannenne"/>
-      <song file="pokuka pokuka sodarare.xml" title="pokuka pokuka sodarare"/>
-      <song file="pokuka vegam naam pokuka sodaraa.xml" title="pokuka vegam naam pokuka sodaraa"/>
-      <song file="pokunnu njaaninnu yeshuvinnaayu.xml" title="pokunnu njaaninnu yeshuvinnaayu"/>
-      <song file="poya raavil muzhuvan.xml" title="poya raavil muzhuvan"/>
-      <song file="poyitaam namukku dyvajaname.xml" title="poyitaam namukku dyvajaname"/>
-      <song file="prathiphalam thannituvaan.xml" title="prathiphalam thannituvaan"/>
-      <song file="prathyaashayin kiranangalithaa.xml" title="prathyaashayin kiranangalithaa"/>
-      <song file="prathyaashayotithaa bhaktharangunarunne.xml" title="prathyaashayotithaa bhaktharangunarunne"/>
-      <song file="prabhaakaranudicchu than prabha.xml" title="prabhaakaranudicchu than prabha"/>
-      <song file="prabhaathakaalam vannatiyan nin.xml" title="prabhaathakaalam vannatiyan nin"/>
-      <song file="praananaathaa thirumeyu kaanumaaraakanam.xml" title="praananaathaa thirumeyu kaanumaaraakanam"/>
-      <song file="praananaathaa ninne njangal.xml" title="praananaathaa ninne njangal"/>
-      <song file="praanapriyaa ennu varum_.xml" title="praanapriyaa ennu varum_"/>
-      <song file="praarththana kelkkaname.xml" title="praarththana kelkkaname"/>
-      <song file="praarththana kelkkunna dyvame.xml" title="praarththana kelkkunna dyvame"/>
-      <song file="praarththanaykkuttharam thannathinaal.xml" title="praarththanaykkuttharam thannathinaal"/>
-      <song file="priyanavan mama priyanavan.xml" title="priyanavan mama priyanavan"/>
-      <song file="priyane ennekkaruthum vazhiyil.xml" title="priyane ennekkaruthum vazhiyil"/>
-      <song file="priyan varum naaliniyadhikamilla.xml" title="priyan varum naaliniyadhikamilla"/>
-      <song file="parvvathabhoomi bhoomandalangal nirmmikkum.xml" title="parvvathabhoomi bhoomandalangal nirmmikkum"/>
+      <song file="പകലിൽ മേഘത്തണലായ് നീ.xml" title="pakalil meghatthanalaayu nee"/>
+      <song file="പകലോനന്തിമയങ്ങിയിരുൾ.xml" title="pakalonanthimayangiyirul"/>
+      <song file="പതിനായിരത്തിൽ അതിസുന്ദരനാം.xml" title="pathinaayiratthil athisundaranaam"/>
+      <song file="പദം പദം ഉറച്ചു നാം.xml" title="padam padam uracchu naam"/>
+      <song file="പരനേ തിരുമുഖശോഭയിൻ.xml" title="parane thirumukhashobhayin"/>
+      <song file="പരനേ നിൻ തിരുമുമ്പിൽ.xml" title="parane nin thirumumpil"/>
+      <song file="പരനേശുവേ കരുണാനിധേ.xml" title="paraneshuve karunaanidhe"/>
+      <song file="പരപരമേശാ വരമരുളീശ.xml" title="paraparameshaa varamaruleesha"/>
+      <song file="പരമ കരുണാരസരാശേ.xml" title="parama karunaarasaraashe"/>
+      <song file="പരമ പിതാവേ നമസ്കാരം.xml" title="parama pithaave namaskaaram"/>
+      <song file="പരമദേവാ നിന്നാത്മകൃപ.xml" title="paramadevaa ninnaathmakrupa"/>
+      <song file="പരമപിതാവിനു സ്തുതി പാടാം.xml" title="paramapithaavinu sthuthi paataam"/>
+      <song file="പരമപിതാവിനെ പാടി സ്തുതിക്കാം.xml" title="paramapithaavine paati sthuthikkaam"/>
+      <song file="പരമപിതാവേ പരമപിതാവേ.xml" title="paramapithaave paramapithaave"/>
+      <song file="പരമരാജാ ഗുരുവരനെ സ്തുതിക്കുന്നു.xml" title="paramaraajaa guruvarane sthuthikkunnu"/>
+      <song file="പരമസുതനാം മശിഹ.xml" title="paramasuthanaam mashiha"/>
+      <song file="പരമാനന്ദമനുഭവിപ്പാൻ വരുവിൻ.xml" title="paramaanandamanubhavippaan varuvin"/>
+      <song file="പരമേശജാതാ വന്ദനം.xml" title="parameshajaathaa vandanam"/>
+      <song file="പരലോക ഭാഗ്യം പാപിയെന്നുള്ളിൽ.xml" title="paraloka bhaagyam paapiyennullil"/>
+      <song file="പരിശുദ്ധൻ ദേവദേവനു സ്തോത്രം.xml" title="parishuddhan devadevanu sthothram"/>
+      <song file="പരിശുദ്ധൻ മഹോന്നതദേവൻ.xml" title="parishuddhan mahonnathadevan"/>
+      <song file="പലതരം ഹൃദയങ്ങൾ പലതിലാശ വയ്ക്കുന്നു.xml" title="palatharam hrudayangal palathilaasha vaykkunnu"/>
+      <song file="പാടാം പാടാം ജയഗീതം.xml" title="paataam paataam jayageetham"/>
+      <song file="പാടാം പാടാം പാടാം നാം.xml" title="paataam paataam paataam naam"/>
+      <song file="പാടിപുകഴ്ത്തിടാം ദേവദേവനെ.xml" title="paatipukazhtthitaam devadevane"/>
+      <song file="പാടും ഞാനേശുവിനു സ്തുതി.xml" title="paatum njaaneshuvinu sthuthi"/>
+      <song file="പാടും ഞാൻ എന്നേശുവിന്റെ.xml" title="paatum njaan enneshuvinte"/>
+      <song file="പാടും ഞാൻ യേശുവിന്നു.xml" title="paatum njaan yeshuvinnu"/>
+      <song file="പാടും ഞാൻ രക്ഷകനെ.xml" title="paatum njaan rakshakane"/>
+      <song file="പാടും ദിനവും ഞാൻ സ്തുതിഗാനം.xml" title="paatum dinavum njaan sthuthigaanam"/>
+      <song file="പാടും നിനക്കു നിത്യവും പരമേശാ.xml" title="paatum ninakku nithyavum parameshaa"/>
+      <song file="പാടും പരമനു പരിചൊടു ഞാൻ.xml" title="paatum paramanu parichotu njaan"/>
+      <song file="പാടുവിൻ സഹജരേ കൂടുവിൻ കുതുകരായ്.xml" title="paatuvin sahajare kootuvin kuthukaraayu"/>
+      <song file="പാടുവിൻ സോദരരേ ജയഗീതങ്ങൾ.xml" title="paatuvin sodarare jayageethangal"/>
+      <song file="പാടുവിൻ സ്തുതിഗാനം നാം പരൻ.xml" title="paatuvin sthuthigaanam naam paran"/>
+      <song file="പാതാളമേ മരണമേ.xml" title="paathaalame maraname"/>
+      <song file="പാപം നീക്കാൻ ശാപമേറ്റ.xml" title="paapam neekkaan shaapametta"/>
+      <song file="പാപക്കടം തീർക്കുവാൻ.xml" title="paapakkatam theerkkuvaan"/>
+      <song file="പാപത്തിൻ ഫലം നരകം.xml" title="paapatthin phalam narakam"/>
+      <song file="പാപത്തിൻ മാ വിഷത്തെയൊഴിപ്പാൻ.xml" title="paapatthin maa vishattheyozhippaan"/>
+      <song file="പാപലോകം തേടിയിപ്പാരിൽ വന്നു ദേവൻ താൻ.xml" title="paapalokam thetiyippaaril vannu devan thaan"/>
+      <song file="പാപി വരിക പരനെയറിക തവ.xml" title="paapi varika paraneyarika thava"/>
+      <song file="പാപികളിൻ രക്ഷകൻ.xml" title="paapikalin rakshakan"/>
+      <song file="പാപികളെ രക്ഷചെയ്ത.xml" title="paapikale rakshacheytha"/>
+      <song file="പാപിക്കു മറവിടമേശു രക്ഷകൻ.xml" title="paapikku maravitameshu rakshakan"/>
+      <song file="പാപിയിൽ കനിയും പാവന ദേവാ.xml" title="paapiyil kaniyum paavana devaa"/>
+      <song file="പാപിയെന്നെ തേടി വന്നൊരു.xml" title="paapiyenne theti vannoru"/>
+      <song file="പാപീ ഉണർന്നുകൊൾക നീ നിദ്രയിൽനിന്നു.xml" title="paapee unarnnukolka nee nidrayilninnu"/>
+      <song file="പാരിതിൽ പരലോക ദേവൻ വന്നു.xml" title="paarithil paraloka devan vannu"/>
+      <song file="പാലിക്ക യേശുപരാ.xml" title="paalikka yeshuparaa"/>
+      <song file="പിതാവിന്നു സ്തോത്രം തൻ വൻകൃപയ്ക്കായ്.xml" title="pithaavinnu sthothram than vankrupaykkaayu"/>
+      <song file="പിന്തുടരും ഞാനേശുവിനെ.xml" title="pinthutarum njaaneshuvine"/>
+      <song file="പുത്തനാമെരൂശലേമിലെത്തും.xml" title="putthanaamerooshalemiletthum"/>
+      <song file="പുത്തൻ യെരൂശലേമേ ദിവ്യ.xml" title="putthan yerooshaleme divya"/>
+      <song file="പുത്രനിൽ വിശ്വസിക്കുന്നെല്ലാവനും.xml" title="puthranil vishvasikkunnellaavanum"/>
+      <song file="പുഷ്പം നിറഞ്ഞോർ താഴ്വരയിൽകൂടി.xml" title="pushpam niranjor thaazhvarayilkooti"/>
+      <song file="പൊന്നേശു തമ്പുരാൻ നല്ലോരു രക്ഷകൻ.xml" title="ponneshu thampuraan nalloru rakshakan"/>
+      <song file="പൊന്നൊളി വീശുമീ.xml" title="ponnoli veeshumee"/>
+      <song file="പൊൻപുലരിയിലെൻ ദൈവത്തിൻ സ്നേഹം.xml" title="ponpulariyilen dyvatthin sneham"/>
+      <song file="പോകല്ലേ കടന്നെന്നെ.xml" title="pokalle katannenne"/>
+      <song file="പോകുക പോകുക സോദരരേ.xml" title="pokuka pokuka sodarare"/>
+      <song file="പോകുക വേഗം നാം പോകുക സോദരാ.xml" title="pokuka vegam naam pokuka sodaraa"/>
+      <song file="പോകുന്നു ഞാനിന്ന് യേശുവിന്നായ്.xml" title="pokunnu njaaninnu yeshuvinnaayu"/>
+      <song file="പോയ രാവിൽ മുഴുവൻ.xml" title="poya raavil muzhuvan"/>
+      <song file="പോയിടാം നമുക്കു ദൈവജനമേ.xml" title="poyitaam namukku dyvajaname"/>
+      <song file="പ്രതിഫലം തന്നിടുവാൻ.xml" title="prathiphalam thannituvaan"/>
+      <song file="പ്രത്യാശയിൻ കിരണങ്ങളിതാ.xml" title="prathyaashayin kiranangalithaa"/>
+      <song file="പ്രത്യാശയോടിതാ ഭക്തരങ്ങുണരുന്നേ.xml" title="prathyaashayotithaa bhaktharangunarunne"/>
+      <song file="പ്രഭാകരനുദിച്ചു തൻ പ്രഭ.xml" title="prabhaakaranudicchu than prabha"/>
+      <song file="പ്രഭാതകാലം വന്നടിയൻ നിൻ.xml" title="prabhaathakaalam vannatiyan nin"/>
+      <song file="പ്രാണനാഥാ തിരുമെയ് കാണുമാറാകണം.xml" title="praananaathaa thirumeyu kaanumaaraakanam"/>
+      <song file="പ്രാണനാഥാ നിന്നെ ഞങ്ങൾ.xml" title="praananaathaa ninne njangal"/>
+      <song file="പ്രാണപ്രിയാ എന്നു വരും_.xml" title="praanapriyaa ennu varum_"/>
+      <song file="പ്രാർത്ഥന കേൾക്കണമേ.xml" title="praarththana kelkkaname"/>
+      <song file="പ്രാർത്ഥന കേൾക്കുന്ന ദൈവമേ.xml" title="praarththana kelkkunna dyvame"/>
+      <song file="പ്രാർത്ഥനയ്ക്കുത്തരം തന്നതിനാൽ.xml" title="praarththanaykkuttharam thannathinaal"/>
+      <song file="പ്രിയനവൻ മമ പ്രിയനവൻ.xml" title="priyanavan mama priyanavan"/>
+      <song file="പ്രിയനേ എന്നെക്കരുതും വഴിയിൽ.xml" title="priyane ennekkaruthum vazhiyil"/>
+      <song file="പ്രിയൻ വരും നാളിനിയധികമില്ല.xml" title="priyan varum naaliniyadhikamilla"/>
+      <song file="പർവ്വതഭൂമി ഭൂമണ്ഡലങ്ങൾ നിർമ്മിക്കും.xml" title="parvvathabhoomi bhoomandalangal nirmmikkum"/>
    </entry>
    <entry letter="ba">
-      <song file="balaheenanaakumenne thaangum nalla naathane.xml" title="balaheenanaakumenne thaangum nalla naathane"/>
-      <song file="bahumathi thaatha suthaathmaavaam.xml" title="bahumathi thaatha suthaathmaavaam"/>
-      <song file="baabelatimayin kashtathakal.xml" title="baabelatimayin kashtathakal"/>
+      <song file="ബലഹീനനാകുമെന്നെ താങ്ങും നല്ല നാഥനേ.xml" title="balaheenanaakumenne thaangum nalla naathane"/>
+      <song file="ബഹുമതി താത സുതാത്മാവാം.xml" title="bahumathi thaatha suthaathmaavaam"/>
+      <song file="ബാബേലടിമയിൻ കഷ്ടതകൾ.xml" title="baabelatimayin kashtathakal"/>
    </entry>
    <entry letter="bha">
-      <song file="bhaktharin vishvaasajeevitham.xml" title="bhaktharin vishvaasajeevitham"/>
-      <song file="bhaktharil vaathsalyamulla dyvame nin priyanaamee.xml" title="bhaktharil vaathsalyamulla dyvame nin priyanaamee"/>
-      <song file="bhajikkuka nee nithyam yeshumaheshane.xml" title="bhajikkuka nee nithyam yeshumaheshane"/>
-      <song file="bhayappetaathe naam poyitaam.xml" title="bhayappetaathe naam poyitaam"/>
-      <song file="bhaagyamithu praanasakhe bhaagyamithu.xml" title="bhaagyamithu praanasakhe bhaagyamithu"/>
-      <song file="bhaagyavaanaakuvaaneka maarggam.xml" title="bhaagyavaanaakuvaaneka maarggam"/>
-      <song file="bheeruvaayitaa njaan saadhuvenkilum.xml" title="bheeruvaayitaa njaan saadhuvenkilum"/>
-      <song file="bhoopathimaar mutimane vaazhka nee.xml" title="bhoopathimaar mutimane vaazhka nee"/>
-      <song file="bhoovaasikale yahovaykkaarppituvin.xml" title="bhoovaasikale yahovaykkaarppituvin"/>
-      <song file="bhoovil vannavan jeevan thannavan.xml" title="bhoovil vannavan jeevan thannavan"/>
+      <song file="ഭക്തരിൻ വിശ്വാസജീവിതം.xml" title="bhaktharin vishvaasajeevitham"/>
+      <song file="ഭക്തരിൽ വാത്സല്യമുള്ള ദൈവമേ നിൻ പ്രിയനാമീ.xml" title="bhaktharil vaathsalyamulla dyvame nin priyanaamee"/>
+      <song file="ഭജിക്കുക നീ നിത്യം യേശുമഹേശനെ.xml" title="bhajikkuka nee nithyam yeshumaheshane"/>
+      <song file="ഭയപ്പെടാതെ നാം പോയിടാം.xml" title="bhayappetaathe naam poyitaam"/>
+      <song file="ഭാഗ്യമിതു പ്രാണസഖേ ഭാഗ്യമിതു.xml" title="bhaagyamithu praanasakhe bhaagyamithu"/>
+      <song file="ഭാഗ്യവാനാകുവാനേക മാർഗ്ഗം.xml" title="bhaagyavaanaakuvaaneka maarggam"/>
+      <song file="ഭീരുവായിടാ ഞാൻ സാധുവെങ്കിലും.xml" title="bheeruvaayitaa njaan saadhuvenkilum"/>
+      <song file="ഭൂപതിമാർ മുടിമണേ വാഴ്ക നീ.xml" title="bhoopathimaar mutimane vaazhka nee"/>
+      <song file="ഭൂവാസികളെ യഹോവയ്ക്കാർപ്പിടുവിൻ.xml" title="bhoovaasikale yahovaykkaarppituvin"/>
+      <song file="ഭൂവിൽ വന്നവൻ ജീവൻ തന്നവൻ.xml" title="bhoovil vannavan jeevan thannavan"/>
    </entry>
    <entry letter="ma">
-      <song file="mamgalam devadevannu prathidinavum.xml" title="mamgalam devadevannu prathidinavum"/>
-      <song file="mamgalam mamgalam mamgalame.xml" title="mamgalam mamgalam mamgalame"/>
-      <song file="mamgalam mamgalame nava vadhoovaranmaarkku.xml" title="mamgalam mamgalame nava vadhoovaranmaarkku"/>
-      <song file="mamgalam mamgalame navya.xml" title="mamgalam mamgalame navya"/>
-      <song file="mamgalamaayini vaazhum nammalellaarum.xml" title="mamgalamaayini vaazhum nammalellaarum"/>
-      <song file="mamgalamekaname maheshvaraa mamgalamekaname.xml" title="mamgalamekaname maheshvaraa mamgalamekaname"/>
-      <song file="mamgalamekane sadaa.xml" title="mamgalamekane sadaa"/>
-      <song file="manmayamaameeyulakil.xml" title="manmayamaameeyulakil"/>
-      <song file="mathi mathi yeshuvin krupa mathiye.xml" title="mathi mathi yeshuvin krupa mathiye"/>
-      <song file="mathiyenikkeshuvin krupamathiyaam.xml" title="mathiyenikkeshuvin krupamathiyaam"/>
-      <song file="madhuratharam thiruvedam.xml" title="madhuratharam thiruvedam"/>
-      <song file="maname... Thalaraathe.xml" title="maname... Thalaraathe"/>
-      <song file="maname unarnnu sthuthikka.xml" title="maname unarnnu sthuthikka"/>
-      <song file="maname chanchalamenthinaay_.xml" title="maname chanchalamenthinaay_"/>
-      <song file="maname pakshiganangal.xml" title="maname pakshiganangal"/>
-      <song file="maname pukazhtthitu nee.xml" title="maname pukazhtthitu nee"/>
-      <song file="maname leshavum kalangenda.xml" title="maname leshavum kalangenda"/>
-      <song file="maname vaazhtthuka naathane.xml" title="maname vaazhtthuka naathane"/>
-      <song file="maname sthuthikka nee unna devane.xml" title="maname sthuthikka nee unna devane"/>
-      <song file="manujanivan bhaagyavaan.xml" title="manujanivan bhaagyavaan"/>
-      <song file="manuvelaa vandanam mannilekanaayu.xml" title="manuvelaa vandanam mannilekanaayu"/>
-      <song file="manuvele, mannithile.xml" title="manuvele, mannithile"/>
-      <song file="manuvelan vannallaathavaniyil.xml" title="manuvelan vannallaathavaniyil"/>
-      <song file="manuvel manoharane.xml" title="manuvel manoharane"/>
-      <song file="manushyaa... Nee evite_.xml" title="manushyaa... Nee evite_"/>
-      <song file="mannayin varnanamaamoru katha.xml" title="mannayin varnanamaamoru katha"/>
-      <song file="mannavanaam mashihaaye.xml" title="mannavanaam mashihaaye"/>
-      <song file="mannavaneshuthaanunnatha baliyaayu.xml" title="mannavaneshuthaanunnatha baliyaayu"/>
-      <song file="mannithil vannavan manusuthanaayu.xml" title="mannithil vannavan manusuthanaayu"/>
-      <song file="mama kaanthane onnu kaanuvaan.xml" title="mama kaanthane onnu kaanuvaan"/>
-      <song file="mama naavil puthugaanam.xml" title="mama naavil puthugaanam"/>
-      <song file="maranam jayiccha veeraa.xml" title="maranam jayiccha veeraa"/>
-      <song file="maraname vishamengu_.xml" title="maraname vishamengu_"/>
-      <song file="maricchonuyire dhariccho.xml" title="maricchonuyire dhariccho"/>
-      <song file="marisuthanaam manuvelaa.xml" title="marisuthanaam manuvelaa"/>
-      <song file="marubhoomiyin natuve.xml" title="marubhoomiyin natuve"/>
-      <song file="maravitamaayenikkeshuvundu.xml" title="maravitamaayenikkeshuvundu"/>
-      <song file="mazhavillum sooryachandranum.xml" title="mazhavillum sooryachandranum"/>
-      <song file="mahathvatthil vasikkum devaa.xml" title="mahathvatthil vasikkum devaa"/>
-      <song file="mahaathbhutham mahonnatham.xml" title="mahaathbhutham mahonnatham"/>
-      <song file="mahaathbhuthame kaalvariyil.xml" title="mahaathbhuthame kaalvariyil"/>
-      <song file="mahimayezhum parameshaa.xml" title="mahimayezhum parameshaa"/>
-      <song file="mahimaasanane madhuraananane.xml" title="mahimaasanane madhuraananane"/>
-      <song file="mahonnathanaameshuve.xml" title="mahonnathanaameshuve"/>
-      <song file="mahonnathaneshuve nisthulanaam.xml" title="mahonnathaneshuve nisthulanaam"/>
-      <song file="mahalsneham mahalsneham.xml" title="mahalsneham mahalsneham"/>
-      <song file="maanavare rakshiccheetuvaanaayu.xml" title="maanavare rakshiccheetuvaanaayu"/>
-      <song file="maanavendra mahithaamala thaaraka vachanaamrutha.xml" title="maanavendra mahithaamala thaaraka vachanaamrutha"/>
-      <song file="maanavarkku raksha nalkaan.xml" title="maanavarkku raksha nalkaan"/>
-      <song file="maanasamodaka maadhurya vachanam.xml" title="maanasamodaka maadhurya vachanam"/>
-      <song file="maanyasnehithaa, ninte jeevayaathrayil.xml" title="maanyasnehithaa, ninte jeevayaathrayil"/>
-      <song file="maaraattha snehithan.xml" title="maaraattha snehithan"/>
-      <song file="maan neertthotinaayu daahikkunna polen.xml" title="maan neertthotinaayu daahikkunna polen"/>
-      <song file="mruthyuvine jayiccha.xml" title="mruthyuvine jayiccha"/>
-      <song file="marthyarinnaavashyamenthannarinjavan.xml" title="marthyarinnaavashyamenthannarinjavan"/>
-      <song file="malpraananaayakane.xml" title="malpraananaayakane"/>
+      <song file="മംഗളം ദേവദേവന്നു പ്രതിദിനവും.xml" title="mamgalam devadevannu prathidinavum"/>
+      <song file="മംഗളം മംഗളം മംഗളമേ.xml" title="mamgalam mamgalam mamgalame"/>
+      <song file="മംഗളം മംഗളമേ നവ വധൂവരന്മാർക്കു.xml" title="mamgalam mamgalame nava vadhoovaranmaarkku"/>
+      <song file="മംഗളം മംഗളമേ നവ്യ.xml" title="mamgalam mamgalame navya"/>
+      <song file="മംഗളമായിനി വാഴും നമ്മളെല്ലാരും.xml" title="mamgalamaayini vaazhum nammalellaarum"/>
+      <song file="മംഗളമേകണമേ മഹേശ്വരാ മംഗളമേകണമേ.xml" title="mamgalamekaname maheshvaraa mamgalamekaname"/>
+      <song file="മംഗളമേകണേ സദാ.xml" title="mamgalamekane sadaa"/>
+      <song file="മണ്മയമാമീയുലകിൽ.xml" title="manmayamaameeyulakil"/>
+      <song file="മതി മതി യേശുവിൻ കൃപ മതിയേ.xml" title="mathi mathi yeshuvin krupa mathiye"/>
+      <song file="മതിയെനിക്കേശുവിൻ കൃപമതിയാം.xml" title="mathiyenikkeshuvin krupamathiyaam"/>
+      <song file="മധുരതരം തിരുവേദം.xml" title="madhuratharam thiruvedam"/>
+      <song file="മനമെ... തളരാതെ.xml" title="maname... Thalaraathe"/>
+      <song file="മനമേ ഉണർന്നു സ്തുതിക്ക.xml" title="maname unarnnu sthuthikka"/>
+      <song file="മനമേ ചഞ്ചലമെന്തിനായ്_.xml" title="maname chanchalamenthinaay_"/>
+      <song file="മനമേ പക്ഷിഗണങ്ങൾ.xml" title="maname pakshiganangal"/>
+      <song file="മനമേ പുകഴ്ത്തിടു നീ.xml" title="maname pukazhtthitu nee"/>
+      <song file="മനമേ ലേശവും കലങ്ങേണ്ട.xml" title="maname leshavum kalangenda"/>
+      <song file="മനമേ വാഴ്ത്തുക നാഥനെ.xml" title="maname vaazhtthuka naathane"/>
+      <song file="മനമേ സ്തുതിക്ക നീ ഉന്ന ദേവനെ.xml" title="maname sthuthikka nee unna devane"/>
+      <song file="മനുജനിവൻ ഭാഗ്യവാൻ.xml" title="manujanivan bhaagyavaan"/>
+      <song file="മനുവേലാ വന്ദനം മന്നിലേകനായ്.xml" title="manuvelaa vandanam mannilekanaayu"/>
+      <song file="മനുവേലേ, മന്നിതിലെ.xml" title="manuvele, mannithile"/>
+      <song file="മനുവേലൻ വന്നല്ലാതവനിയിൽ.xml" title="manuvelan vannallaathavaniyil"/>
+      <song file="മനുവേൽ മനോഹരനേ.xml" title="manuvel manoharane"/>
+      <song file="മനുഷ്യാ... നീ എവിടെ_.xml" title="manushyaa... Nee evite_"/>
+      <song file="മന്നയിൻ വർണനമാമൊരു കഥ.xml" title="mannayin varnanamaamoru katha"/>
+      <song file="മന്നവനാം മശിഹായെ.xml" title="mannavanaam mashihaaye"/>
+      <song file="മന്നവനേശുതാനുന്നത ബലിയായ്.xml" title="mannavaneshuthaanunnatha baliyaayu"/>
+      <song file="മന്നിതിൽ വന്നവൻ മനുസുതനായ്.xml" title="mannithil vannavan manusuthanaayu"/>
+      <song file="മമ കാന്തനെ ഒന്നു കാണുവാൻ.xml" title="mama kaanthane onnu kaanuvaan"/>
+      <song file="മമ നാവിൽ പുതുഗാനം.xml" title="mama naavil puthugaanam"/>
+      <song file="മരണം ജയിച്ച വീരാ.xml" title="maranam jayiccha veeraa"/>
+      <song file="മരണമേ വിഷമെങ്ങു_.xml" title="maraname vishamengu_"/>
+      <song file="മരിച്ചോനുയിരെ ധരിച്ചോ.xml" title="maricchonuyire dhariccho"/>
+      <song file="മരിസുതനാം മനുവേലാ.xml" title="marisuthanaam manuvelaa"/>
+      <song file="മരുഭൂമിയിൻ നടുവേ.xml" title="marubhoomiyin natuve"/>
+      <song file="മറവിടമായെനിക്കേശുവുണ്ട്.xml" title="maravitamaayenikkeshuvundu"/>
+      <song file="മഴവില്ലും സൂര്യചന്ദ്രനും.xml" title="mazhavillum sooryachandranum"/>
+      <song file="മഹത്വത്തിൽ വസിക്കും ദേവാ.xml" title="mahathvatthil vasikkum devaa"/>
+      <song file="മഹാത്ഭുതം മഹോന്നതം.xml" title="mahaathbhutham mahonnatham"/>
+      <song file="മഹാത്ഭുതമേ കാൽവറിയിൽ.xml" title="mahaathbhuthame kaalvariyil"/>
+      <song file="മഹിമയെഴും പരമേശാ.xml" title="mahimayezhum parameshaa"/>
+      <song file="മഹിമാസനനേ മധുരാനനനേ.xml" title="mahimaasanane madhuraananane"/>
+      <song file="മഹോന്നതനാമേശുവേ.xml" title="mahonnathanaameshuve"/>
+      <song file="മഹോന്നതനേശുവെ നിസ്തുലനാം.xml" title="mahonnathaneshuve nisthulanaam"/>
+      <song file="മഹൽസ്നേഹം മഹൽസ്നേഹം.xml" title="mahalsneham mahalsneham"/>
+      <song file="മാനവരെ രക്ഷിച്ചീടുവാനായ്.xml" title="maanavare rakshiccheetuvaanaayu"/>
+      <song file="മാനവേന്ദ്ര മഹിതാമല താരക വചനാമൃത.xml" title="maanavendra mahithaamala thaaraka vachanaamrutha"/>
+      <song file="മാനവർക്കു രക്ഷ നൽകാൻ.xml" title="maanavarkku raksha nalkaan"/>
+      <song file="മാനസമോദക മാധുര്യ വചനം.xml" title="maanasamodaka maadhurya vachanam"/>
+      <song file="മാന്യസ്നേഹിതാ, നിന്റെ ജീവയാത്രയിൽ.xml" title="maanyasnehithaa, ninte jeevayaathrayil"/>
+      <song file="മാറാത്ത സ്നേഹിതൻ.xml" title="maaraattha snehithan"/>
+      <song file="മാൻ നീർത്തോടിനായ് ദാഹിക്കുന്ന പോലെൻ.xml" title="maan neertthotinaayu daahikkunna polen"/>
+      <song file="മൃത്യുവിനെ ജയിച്ച.xml" title="mruthyuvine jayiccha"/>
+      <song file="മർത്യരിന്നാവശ്യമെന്തന്നറിഞ്ഞവൻ.xml" title="marthyarinnaavashyamenthannarinjavan"/>
+      <song file="മൽപ്രാണനായകനേ.xml" title="malpraananaayakane"/>
    </entry>
    <entry letter="ya">
-      <song file="yahova ethra nallavan.xml" title="yahova ethra nallavan"/>
-      <song file="yahova ente itayanaayathinaal.xml" title="yahova ente itayanaayathinaal"/>
-      <song file="yahova dyvamaam vishuddha jaathi naam.xml" title="yahova dyvamaam vishuddha jaathi naam"/>
-      <song file="yahovaykkaayu njaan kaatthu kaatthirunnu.xml" title="yahovaykkaayu njaan kaatthu kaatthirunnu"/>
-      <song file="yaahe sthuthicchituvin.xml" title="yaahe sthuthicchituvin"/>
-      <song file="yaahenna dyvam ennitayanaho.xml" title="yaahenna dyvam ennitayanaho"/>
-      <song file="yaahe nin thiruvaasamatheeva manoharam.xml" title="yaahe nin thiruvaasamatheeva manoharam"/>
-      <song file="yaahve sthuthippinavan.xml" title="yaahve sthuthippinavan"/>
-      <song file="yisraayelin dyvam yuddhaveeranaam.xml" title="yisraayelin dyvam yuddhaveeranaam"/>
-      <song file="yuddhatthinu yuddhatthinu.xml" title="yuddhatthinu yuddhatthinu"/>
-      <song file="yeshu ethra nallavan vallabhan.xml" title="yeshu ethra nallavan vallabhan"/>
-      <song file="yeshu enikkethra nallavanaam.xml" title="yeshu enikkethra nallavanaam"/>
-      <song file="yeshu enikkethra nallavan.xml" title="yeshu enikkethra nallavan"/>
-      <song file="yeshu ennabhayakendram.xml" title="yeshu ennabhayakendram"/>
-      <song file="yeshu ennullatthil vanna naalil.xml" title="yeshu ennullatthil vanna naalil"/>
-      <song file="yeshu ente aashrayam.xml" title="yeshu ente aashrayam"/>
-      <song file="yeshu ente itayanallo.xml" title="yeshu ente itayanallo"/>
-      <song file="yeshu ente raksha aayathinaal.xml" title="yeshu ente raksha aayathinaal"/>
-      <song file="yeshu ente rakshakan.xml" title="yeshu ente rakshakan"/>
-      <song file="yeshu ente svantham aayathinaal.xml" title="yeshu ente svantham aayathinaal"/>
-      <song file="yeshu en pakshamaayu theernnathinaal.xml" title="yeshu en pakshamaayu theernnathinaal"/>
-      <song file="yeshu en svantham halleluyyaa.xml" title="yeshu en svantham halleluyyaa"/>
-      <song file="yeshu ensvantham njaanavan svantham.xml" title="yeshu ensvantham njaanavan svantham"/>
-      <song file="yeshu ensvantham.xml" title="yeshu ensvantham"/>
-      <song file="yeshu dyvatthin snehamathre.xml" title="yeshu dyvatthin snehamathre"/>
-      <song file="yeshu nallavan avan vallabhan.xml" title="yeshu nallavan avan vallabhan"/>
-      <song file="yeshu nallavan enikku yeshu nallavan.xml" title="yeshu nallavan enikku yeshu nallavan"/>
-      <song file="yeshu nallavan.xml" title="yeshu nallavan"/>
-      <song file="yeshu ninne vilikkunnu.xml" title="yeshu ninne vilikkunnu"/>
-      <song file="yeshu manavaalan namme cherkkuvaan.xml" title="yeshu manavaalan namme cherkkuvaan"/>
-      <song file="yeshu mathi maname dinavum yeshu.xml" title="yeshu mathi maname dinavum yeshu"/>
-      <song file="yeshu mathi maruvil.xml" title="yeshu mathi maruvil"/>
-      <song file="yeshu maheshane njaan.xml" title="yeshu maheshane njaan"/>
-      <song file="yeshu maheshaa, nin sannidhiyil.xml" title="yeshu maheshaa, nin sannidhiyil"/>
-      <song file="yeshu maheshan aashritharkkellaam.xml" title="yeshu maheshan aashritharkkellaam"/>
-      <song file="yeshu mahonnathane aashritha vathsalane.xml" title="yeshu mahonnathane aashritha vathsalane"/>
-      <song file="yeshu mahonnathane.xml" title="yeshu mahonnathane"/>
-      <song file="yeshu rakshithaavin aataakunnu njaan.xml" title="yeshu rakshithaavin aataakunnu njaan"/>
-      <song file="yeshu raajaa raajaa vaazhka.xml" title="yeshu raajaa raajaa vaazhka"/>
-      <song file="yeshu sannidhi mama bhaagyam.xml" title="yeshu sannidhi mama bhaagyam"/>
-      <song file="yeshukristhu uyirtthu jeevikkunnu.xml" title="yeshukristhu uyirtthu jeevikkunnu"/>
-      <song file="yeshukristhu jeevikkunnu halleluyyaa.xml" title="yeshukristhu jeevikkunnu halleluyyaa"/>
-      <song file="yeshukristhu jeevikkunnennum jeevikkunnennum.xml" title="yeshukristhu jeevikkunnennum jeevikkunnennum"/>
-      <song file="yeshuthaanunnathan aarilum athivandithan.xml" title="yeshuthaanunnathan aarilum athivandithan"/>
-      <song file="yeshudevaa yeshudevaa.xml" title="yeshudevaa yeshudevaa"/>
-      <song file="yeshunaathaa nin krupaykkaayu.xml" title="yeshunaathaa nin krupaykkaayu"/>
-      <song file="yeshunaathaa yeshunaathaa.xml" title="yeshunaathaa yeshunaathaa"/>
-      <song file="yeshunaathaa sneharoopaa.xml" title="yeshunaathaa sneharoopaa"/>
-      <song file="yeshunaayaka shreeshaa.xml" title="yeshunaayaka shreeshaa"/>
-      <song file="yeshunaayakaa vaazhka.xml" title="yeshunaayakaa vaazhka"/>
-      <song file="yeshunaayakan samaadhaanadaayakan.xml" title="yeshunaayakan samaadhaanadaayakan"/>
-      <song file="yeshumathiyenikkeshu.xml" title="yeshumathiyenikkeshu"/>
-      <song file="yeshumaheshane namo.xml" title="yeshumaheshane namo"/>
-      <song file="yeshumahonnathane ninakku.xml" title="yeshumahonnathane ninakku"/>
-      <song file="yeshuyen thunayallo.xml" title="yeshuyen thunayallo"/>
-      <song file="yeshurakshakan en yeshurakshakan.xml" title="yeshurakshakan en yeshurakshakan"/>
-      <song file="yeshurakshithaavenikku nalla snehithan.xml" title="yeshurakshithaavenikku nalla snehithan"/>
-      <song file="yeshuraajaa nin thirupaadatthil.xml" title="yeshuraajaa nin thirupaadatthil"/>
-      <song file="yeshuraajaave ezhunnerulka.xml" title="yeshuraajaave ezhunnerulka"/>
-      <song file="yeshuraajan varavu sameepamaayu.xml" title="yeshuraajan varavu sameepamaayu"/>
-      <song file="yeshuvaarilumunnathanaamennaathma.xml" title="yeshuvaarilumunnathanaamennaathma"/>
-      <song file="yeshuvinnarikil vaa paapi.xml" title="yeshuvinnarikil vaa paapi"/>
-      <song file="yeshuvinte thirunaamatthinnu.xml" title="yeshuvinte thirunaamatthinnu"/>
-      <song file="yeshuvilen thozhane kanden.xml" title="yeshuvilen thozhane kanden"/>
-      <song file="yeshuvin ajaganam nammal.xml" title="yeshuvin ajaganam nammal"/>
-      <song file="yeshuvin janame bhayamenthinnakame.xml" title="yeshuvin janame bhayamenthinnakame"/>
-      <song file="yeshuvin thiruppaadatthil.xml" title="yeshuvin thiruppaadatthil"/>
-      <song file="yeshuvin thirumukhame enikkettam.xml" title="yeshuvin thirumukhame enikkettam"/>
-      <song file="yeshuvin naamam en yeshuvin naamam.xml" title="yeshuvin naamam en yeshuvin naamam"/>
-      <song file="yeshuvin naamam madhurimanaamam.xml" title="yeshuvin naamam madhurimanaamam"/>
-      <song file="yeshuvin naamam shaashvathanaamam.xml" title="yeshuvin naamam shaashvathanaamam"/>
-      <song file="yeshuvin pimpe pokum njangal.xml" title="yeshuvin pimpe pokum njangal"/>
-      <song file="yeshuvin madhuranaamam.xml" title="yeshuvin madhuranaamam"/>
-      <song file="yeshuvin saakshikal naam.xml" title="yeshuvin saakshikal naam"/>
-      <song file="yeshuvin saakshiyaayu.xml" title="yeshuvin saakshiyaayu"/>
-      <song file="yeshuvin snehatthaalennullam.xml" title="yeshuvin snehatthaalennullam"/>
-      <song file="yeshuvinnaamam vijayikkatte.xml" title="yeshuvinnaamam vijayikkatte"/>
-      <song file="yeshuvil snehamulla.xml" title="yeshuvil snehamulla"/>
-      <song file="yeshuve maathram snehikkum njaan.xml" title="yeshuve maathram snehikkum njaan"/>
-      <song file="yeshuvente naayakan.xml" title="yeshuvente naayakan"/>
-      <song file="yeshuveppole aakuvaan.xml" title="yeshuveppole aakuvaan"/>
-      <song file="yeshuveppoloru dyvamundo_.xml" title="yeshuveppoloru dyvamundo_"/>
-      <song file="yeshuveppoloru sakhiyaayennum.xml" title="yeshuveppoloru sakhiyaayennum"/>
-      <song file="yeshuve en aashrayam.xml" title="yeshuve en aashrayam"/>
-      <song file="yeshuve enpraananaayakaa.xml" title="yeshuve enpraananaayakaa"/>
-      <song file="yeshuve krupa cheyyane.xml" title="yeshuve krupa cheyyane"/>
-      <song file="yeshuve njaan ninne snehikkunnu.xml" title="yeshuve njaan ninne snehikkunnu"/>
-      <song file="yeshuve ninthiru vachanamippol.xml" title="yeshuve ninthiru vachanamippol"/>
-      <song file="yeshuve ninte roopamee.xml" title="yeshuve ninte roopamee"/>
-      <song file="yeshuve ninpaadam kumpitunnen.xml" title="yeshuve ninpaadam kumpitunnen"/>
-      <song file="yeshuve manaalane.xml" title="yeshuve manaalane"/>
-      <song file="yeshuve rakshaadaayaka.xml" title="yeshuve rakshaadaayaka"/>
-      <song file="yeshuve snehavaaridhesthothrame.xml" title="yeshuve snehavaaridhesthothrame"/>
-      <song file="yeshuve, ninnanthike.xml" title="yeshuve, ninnanthike"/>
-      <song file="yeshuveyen praananaathaa.xml" title="yeshuveyen praananaathaa"/>
-      <song file="yeshuveyen rakshakaa.xml" title="yeshuveyen rakshakaa"/>
-      <song file="yeshuvo nisthula snehasvaroopan.xml" title="yeshuvo nisthula snehasvaroopan"/>
-      <song file="yeshuvotu chernnirippathethra modame.xml" title="yeshuvotu chernnirippathethra modame"/>
-      <song file="yeshusannidhaanam.xml" title="yeshusannidhaanam"/>
-      <song file="yorddhaan naditheeram kaviyumpol.xml" title="yorddhaan naditheeram kaviyumpol"/>
-      <song file="yauvanam mohanam sundaram.xml" title="yauvanam mohanam sundaram"/>
+      <song file="യഹോവ എത്ര നല്ലവൻ.xml" title="yahova ethra nallavan"/>
+      <song file="യഹോവ എന്റെ ഇടയനായതിനാൽ.xml" title="yahova ente itayanaayathinaal"/>
+      <song file="യഹോവ ദൈവമാം വിശുദ്ധ ജാതി നാം.xml" title="yahova dyvamaam vishuddha jaathi naam"/>
+      <song file="യഹോവയ്ക്കായ് ഞാൻ കാത്തു കാത്തിരുന്നു.xml" title="yahovaykkaayu njaan kaatthu kaatthirunnu"/>
+      <song file="യാഹെ സ്തുതിച്ചിടുവിൻ.xml" title="yaahe sthuthicchituvin"/>
+      <song file="യാഹെന്ന ദൈവം എന്നിടയനഹോ.xml" title="yaahenna dyvam ennitayanaho"/>
+      <song file="യാഹേ നിൻ തിരുവാസമതീവ മനോഹരം.xml" title="yaahe nin thiruvaasamatheeva manoharam"/>
+      <song file="യാഹ്വെ സ്തുതിപ്പിനവൻ.xml" title="yaahve sthuthippinavan"/>
+      <song file="യിസ്രായേലിൻ ദൈവം യുദ്ധവീരനാം.xml" title="yisraayelin dyvam yuddhaveeranaam"/>
+      <song file="യുദ്ധത്തിനു യുദ്ധത്തിനു.xml" title="yuddhatthinu yuddhatthinu"/>
+      <song file="യേശു എത്ര നല്ലവൻ വല്ലഭൻ.xml" title="yeshu ethra nallavan vallabhan"/>
+      <song file="യേശു എനിക്കെത്ര നല്ലവനാം.xml" title="yeshu enikkethra nallavanaam"/>
+      <song file="യേശു എനിക്കെത്ര നല്ലവൻ.xml" title="yeshu enikkethra nallavan"/>
+      <song file="യേശു എന്നഭയകേന്ദ്രം.xml" title="yeshu ennabhayakendram"/>
+      <song file="യേശു എന്നുള്ളത്തിൽ വന്ന നാളിൽ.xml" title="yeshu ennullatthil vanna naalil"/>
+      <song file="യേശു എന്റെ ആശ്രയം.xml" title="yeshu ente aashrayam"/>
+      <song file="യേശു എന്റെ ഇടയനല്ലോ.xml" title="yeshu ente itayanallo"/>
+      <song file="യേശു എന്റെ രക്ഷ ആയതിനാൽ.xml" title="yeshu ente raksha aayathinaal"/>
+      <song file="യേശു എന്റെ രക്ഷകൻ.xml" title="yeshu ente rakshakan"/>
+      <song file="യേശു എന്റെ സ്വന്തം ആയതിനാൽ.xml" title="yeshu ente svantham aayathinaal"/>
+      <song file="യേശു എൻ പക്ഷമായ് തീർന്നതിനാൽ.xml" title="yeshu en pakshamaayu theernnathinaal"/>
+      <song file="യേശു എൻ സ്വന്തം ഹല്ലേലുയ്യാ.xml" title="yeshu en svantham halleluyyaa"/>
+      <song file="യേശു എൻസ്വന്തം ഞാനവൻ സ്വന്തം.xml" title="yeshu ensvantham njaanavan svantham"/>
+      <song file="യേശു എൻസ്വന്തം.xml" title="yeshu ensvantham"/>
+      <song file="യേശു ദൈവത്തിൻ സ്നേഹമത്രേ.xml" title="yeshu dyvatthin snehamathre"/>
+      <song file="യേശു നല്ലവൻ അവൻ വല്ലഭൻ.xml" title="yeshu nallavan avan vallabhan"/>
+      <song file="യേശു നല്ലവൻ എനിക്കു യേശു നല്ലവൻ.xml" title="yeshu nallavan enikku yeshu nallavan"/>
+      <song file="യേശു നല്ലവൻ.xml" title="yeshu nallavan"/>
+      <song file="യേശു നിന്നെ വിളിക്കുന്നു.xml" title="yeshu ninne vilikkunnu"/>
+      <song file="യേശു മണവാളൻ നമ്മെ ചേർക്കുവാൻ.xml" title="yeshu manavaalan namme cherkkuvaan"/>
+      <song file="യേശു മതി മനമേ ദിനവും യേശു.xml" title="yeshu mathi maname dinavum yeshu"/>
+      <song file="യേശു മതി മരുവിൽ.xml" title="yeshu mathi maruvil"/>
+      <song file="യേശു മഹേശനെ ഞാൻ.xml" title="yeshu maheshane njaan"/>
+      <song file="യേശു മഹേശാ, നിൻ സന്നിധിയിൽ.xml" title="yeshu maheshaa, nin sannidhiyil"/>
+      <song file="യേശു മഹേശൻ ആശ്രിതർക്കെല്ലാം.xml" title="yeshu maheshan aashritharkkellaam"/>
+      <song file="യേശു മഹോന്നതനേ ആശ്രിത വത്സലനേ.xml" title="yeshu mahonnathane aashritha vathsalane"/>
+      <song file="യേശു മഹോന്നതനേ.xml" title="yeshu mahonnathane"/>
+      <song file="യേശു രക്ഷിതാവിൻ ആടാകുന്നു ഞാൻ.xml" title="yeshu rakshithaavin aataakunnu njaan"/>
+      <song file="യേശു രാജാ രാജാ വാഴ്ക.xml" title="yeshu raajaa raajaa vaazhka"/>
+      <song file="യേശു സന്നിധി മമ ഭാഗ്യം.xml" title="yeshu sannidhi mama bhaagyam"/>
+      <song file="യേശുക്രിസ്തു ഉയിർത്തു ജീവിക്കുന്നു.xml" title="yeshukristhu uyirtthu jeevikkunnu"/>
+      <song file="യേശുക്രിസ്തു ജീവിക്കുന്നു ഹല്ലേലുയ്യാ.xml" title="yeshukristhu jeevikkunnu halleluyyaa"/>
+      <song file="യേശുക്രിസ്തു ജീവിക്കുന്നെന്നും ജീവിക്കുന്നെന്നും.xml" title="yeshukristhu jeevikkunnennum jeevikkunnennum"/>
+      <song file="യേശുതാനുന്നതൻ ആരിലും അതിവന്ദിതൻ.xml" title="yeshuthaanunnathan aarilum athivandithan"/>
+      <song file="യേശുദേവാ യേശുദേവാ.xml" title="yeshudevaa yeshudevaa"/>
+      <song file="യേശുനാഥാ നിൻ കൃപയ്ക്കായ്.xml" title="yeshunaathaa nin krupaykkaayu"/>
+      <song file="യേശുനാഥാ യേശുനാഥാ.xml" title="yeshunaathaa yeshunaathaa"/>
+      <song file="യേശുനാഥാ സ്നേഹരൂപാ.xml" title="yeshunaathaa sneharoopaa"/>
+      <song file="യേശുനായക ശ്രീശാ.xml" title="yeshunaayaka shreeshaa"/>
+      <song file="യേശുനായകാ വാഴ്ക.xml" title="yeshunaayakaa vaazhka"/>
+      <song file="യേശുനായകൻ സമാധാനദായകൻ.xml" title="yeshunaayakan samaadhaanadaayakan"/>
+      <song file="യേശുമതിയെനിക്കേശു.xml" title="yeshumathiyenikkeshu"/>
+      <song file="യേശുമഹേശനേ നമോ.xml" title="yeshumaheshane namo"/>
+      <song file="യേശുമഹോന്നതനേ നിനക്കു.xml" title="yeshumahonnathane ninakku"/>
+      <song file="യേശുയെൻ തുണയല്ലോ.xml" title="yeshuyen thunayallo"/>
+      <song file="യേശുരക്ഷകൻ എൻ യേശുരക്ഷകൻ.xml" title="yeshurakshakan en yeshurakshakan"/>
+      <song file="യേശുരക്ഷിതാവെനിക്കു നല്ല സ്നേഹിതൻ.xml" title="yeshurakshithaavenikku nalla snehithan"/>
+      <song file="യേശുരാജാ നിൻ തിരുപാദത്തിൽ.xml" title="yeshuraajaa nin thirupaadatthil"/>
+      <song file="യേശുരാജാവേ എഴുന്നെരുൾക.xml" title="yeshuraajaave ezhunnerulka"/>
+      <song file="യേശുരാജൻ വരവു സമീപമായ്.xml" title="yeshuraajan varavu sameepamaayu"/>
+      <song file="യേശുവാരിലുമുന്നതനാമെന്നാത്മ.xml" title="yeshuvaarilumunnathanaamennaathma"/>
+      <song file="യേശുവിന്നരികിൽ വാ പാപി.xml" title="yeshuvinnarikil vaa paapi"/>
+      <song file="യേശുവിന്റെ തിരുനാമത്തിന്നു.xml" title="yeshuvinte thirunaamatthinnu"/>
+      <song file="യേശുവിലെൻ തോഴനെ കണ്ടേൻ.xml" title="yeshuvilen thozhane kanden"/>
+      <song file="യേശുവിൻ അജഗണം നമ്മൾ.xml" title="yeshuvin ajaganam nammal"/>
+      <song file="യേശുവിൻ ജനമേ ഭയമെന്തിന്നകമേ.xml" title="yeshuvin janame bhayamenthinnakame"/>
+      <song file="യേശുവിൻ തിരുപ്പാദത്തിൽ.xml" title="yeshuvin thiruppaadatthil"/>
+      <song file="യേശുവിൻ തിരുമുഖമേ എനിക്കേറ്റം.xml" title="yeshuvin thirumukhame enikkettam"/>
+      <song file="യേശുവിൻ നാമം എൻ യേശുവിൻ നാമം.xml" title="yeshuvin naamam en yeshuvin naamam"/>
+      <song file="യേശുവിൻ നാമം മധുരിമനാമം.xml" title="yeshuvin naamam madhurimanaamam"/>
+      <song file="യേശുവിൻ നാമം ശാശ്വതനാമം.xml" title="yeshuvin naamam shaashvathanaamam"/>
+      <song file="യേശുവിൻ പിമ്പേ പോകും ഞങ്ങൾ.xml" title="yeshuvin pimpe pokum njangal"/>
+      <song file="യേശുവിൻ മധുരനാമം.xml" title="yeshuvin madhuranaamam"/>
+      <song file="യേശുവിൻ സാക്ഷികൾ നാം.xml" title="yeshuvin saakshikal naam"/>
+      <song file="യേശുവിൻ സാക്ഷിയായ്.xml" title="yeshuvin saakshiyaayu"/>
+      <song file="യേശുവിൻ സ്നേഹത്താലെന്നുള്ളം.xml" title="yeshuvin snehatthaalennullam"/>
+      <song file="യേശുവിൻനാമം വിജയിക്കട്ടെ.xml" title="yeshuvinnaamam vijayikkatte"/>
+      <song file="യേശുവിൽ സ്നേഹമുള്ള.xml" title="yeshuvil snehamulla"/>
+      <song file="യേശുവെ മാത്രം സ്നേഹിക്കും ഞാൻ.xml" title="yeshuve maathram snehikkum njaan"/>
+      <song file="യേശുവെന്റെ നായകൻ.xml" title="yeshuvente naayakan"/>
+      <song file="യേശുവെപ്പോലെ ആകുവാൻ.xml" title="yeshuveppole aakuvaan"/>
+      <song file="യേശുവെപ്പോലൊരു ദൈവമുണ്ടോ_.xml" title="yeshuveppoloru dyvamundo_"/>
+      <song file="യേശുവെപ്പോലൊരു സഖിയായെന്നും.xml" title="yeshuveppoloru sakhiyaayennum"/>
+      <song file="യേശുവേ എൻ ആശ്രയം.xml" title="yeshuve en aashrayam"/>
+      <song file="യേശുവേ എൻപ്രാണനായകാ.xml" title="yeshuve enpraananaayakaa"/>
+      <song file="യേശുവേ കൃപ ചെയ്യണേ.xml" title="yeshuve krupa cheyyane"/>
+      <song file="യേശുവേ ഞാൻ നിന്നെ സ്നേഹിക്കുന്നു.xml" title="yeshuve njaan ninne snehikkunnu"/>
+      <song file="യേശുവേ നിന്തിരു വചനമിപ്പോൾ.xml" title="yeshuve ninthiru vachanamippol"/>
+      <song file="യേശുവേ നിന്റെ രൂപമീ.xml" title="yeshuve ninte roopamee"/>
+      <song file="യേശുവേ നിൻപാദം കുമ്പിടുന്നേൻ.xml" title="yeshuve ninpaadam kumpitunnen"/>
+      <song file="യേശുവേ മണാളനെ.xml" title="yeshuve manaalane"/>
+      <song file="യേശുവേ രക്ഷാദായക.xml" title="yeshuve rakshaadaayaka"/>
+      <song file="യേശുവേ സ്നേഹവാരിധേസ്തോത്രമേ.xml" title="yeshuve snehavaaridhesthothrame"/>
+      <song file="യേശുവേ, നിന്നന്തികേ.xml" title="yeshuve, ninnanthike"/>
+      <song file="യേശുവേയെൻ പ്രാണനാഥാ.xml" title="yeshuveyen praananaathaa"/>
+      <song file="യേശുവേയെൻ രക്ഷകാ.xml" title="yeshuveyen rakshakaa"/>
+      <song file="യേശുവോ നിസ്തുല സ്നേഹസ്വരൂപൻ.xml" title="yeshuvo nisthula snehasvaroopan"/>
+      <song file="യേശുവോടു ചേർന്നിരിപ്പതെത്ര മോദമേ.xml" title="yeshuvotu chernnirippathethra modame"/>
+      <song file="യേശുസന്നിധാനം.xml" title="yeshusannidhaanam"/>
+      <song file="യോർദ്ദാൻ നദിതീരം കവിയുമ്പോൾ.xml" title="yorddhaan naditheeram kaviyumpol"/>
+      <song file="യൗവനം മോഹനം സുന്ദരം.xml" title="yauvanam mohanam sundaram"/>
    </entry>
    <entry letter="ra">
-      <song file="raktham niranjorurava.xml" title="raktham niranjorurava"/>
-      <song file="raksha tharunnoru dyvatthin kykal.xml" title="raksha tharunnoru dyvatthin kykal"/>
-      <song file="rakshakane ninte pakshamaayu.xml" title="rakshakane ninte pakshamaayu"/>
-      <song file="rakshakaa nin aatukalin.xml" title="rakshakaa nin aatukalin"/>
-      <song file="rakshakristheshumoolamallaathe.xml" title="rakshakristheshumoolamallaathe"/>
-      <song file="rakshanya suvishesham.xml" title="rakshanya suvishesham"/>
-      <song file="rakshithaavine kaanka paapi.xml" title="rakshithaavine kaanka paapi"/>
-      <song file="raajaathmaja virunnathin vivaram.xml" title="raajaathmaja virunnathin vivaram"/>
-      <song file="raajaadhi raajaavu nee kartthaadhi kartthaavum nee.xml" title="raajaadhi raajaavu nee kartthaadhi kartthaavum nee"/>
-      <song file="raajaadhiraajanaam yeshuvine.xml" title="raajaadhiraajanaam yeshuvine"/>
-      <song file="raajaadhiraajan varunnithaa.xml" title="raajaadhiraajan varunnithaa"/>
+      <song file="രക്തം നിറഞ്ഞോരുറവ.xml" title="raktham niranjorurava"/>
+      <song file="രക്ഷ തരുന്നൊരു ദൈവത്തിൻ കൈകൾ.xml" title="raksha tharunnoru dyvatthin kykal"/>
+      <song file="രക്ഷകനേ നിന്റെ പക്ഷമായ്.xml" title="rakshakane ninte pakshamaayu"/>
+      <song file="രക്ഷകാ നിൻ ആടുകളിൻ.xml" title="rakshakaa nin aatukalin"/>
+      <song file="രക്ഷക്രിസ്തേശുമൂലമല്ലാതെ.xml" title="rakshakristheshumoolamallaathe"/>
+      <song file="രക്ഷണ്യ സുവിശേഷം.xml" title="rakshanya suvishesham"/>
+      <song file="രക്ഷിതാവിനെ കാൺക പാപി.xml" title="rakshithaavine kaanka paapi"/>
+      <song file="രാജാത്മജ വിരുന്നതിൻ വിവരം.xml" title="raajaathmaja virunnathin vivaram"/>
+      <song file="രാജാധി രാജാവു നീ കർത്താധി കർത്താവും നീ.xml" title="raajaadhi raajaavu nee kartthaadhi kartthaavum nee"/>
+      <song file="രാജാധിരാജനാം യേശുവിനെ.xml" title="raajaadhiraajanaam yeshuvine"/>
+      <song file="രാജാധിരാജൻ വരുന്നിതാ.xml" title="raajaadhiraajan varunnithaa"/>
    </entry>
    <entry letter="la">
-      <song file="lakshuyamathaane en aashayathaane.xml" title="lakshuyamathaane en aashayathaane"/>
-      <song file="lokamaam gambheeravaaridhiyil.xml" title="lokamaam gambheeravaaridhiyil"/>
-      <song file="lokasukhamo velliyo.xml" title="lokasukhamo velliyo"/>
-      <song file="loke njaanen ottam thikacchu.xml" title="loke njaanen ottam thikacchu"/>
+      <song file="ലക്ഷ്യമതാണേ എൻ ആശയതാണേ.xml" title="lakshuyamathaane en aashayathaane"/>
+      <song file="ലോകമാം ഗംഭീരവാരിധിയിൽ.xml" title="lokamaam gambheeravaaridhiyil"/>
+      <song file="ലോകസുഖമോ വെള്ളിയോ.xml" title="lokasukhamo velliyo"/>
+      <song file="ലോകെ ഞാനെൻ ഓട്ടം തികച്ചു.xml" title="loke njaanen ottam thikacchu"/>
    </entry>
    <entry letter="va">
-      <song file="vachanam vachanam thiruvachanam.xml" title="vachanam vachanam thiruvachanam"/>
-      <song file="vandanam kartthaadhikartthaavinu.xml" title="vandanam kartthaadhikartthaavinu"/>
-      <song file="vandanam cheythituvin shreeyeshuve.xml" title="vandanam cheythituvin shreeyeshuve"/>
-      <song file="vandanam ponneshunaathaa!.xml" title="vandanam ponneshunaathaa!"/>
-      <song file="vandanam ponneshunaathaa.xml" title="vandanam ponneshunaathaa"/>
-      <song file="vandanam yeshuparaa ninakkennum.xml" title="vandanam yeshuparaa ninakkennum"/>
-      <song file="vandanam vandanam naathaa.xml" title="vandanam vandanam naathaa"/>
-      <song file="vandanam vandanam vandanam naathaa.xml" title="vandanam vandanam vandanam naathaa"/>
-      <song file="vandanam vandanam shreeyeshunaathanu.xml" title="vandanam vandanam shreeyeshunaathanu"/>
-      <song file="vandanam vandaname vanditha vallabhane.xml" title="vandanam vandaname vanditha vallabhane"/>
-      <song file="vandanam... Devaadhi dyvame.xml" title="vandanam... Devaadhi dyvame"/>
-      <song file="vandaname deva thava vandaname.xml" title="vandaname deva thava vandaname"/>
-      <song file="vandanameshu devaa.xml" title="vandanameshu devaa"/>
-      <song file="vandikkunneshuve njangal ninne.xml" title="vandikkunneshuve njangal ninne"/>
-      <song file="vandikkunnen yeshudevaa.xml" title="vandikkunnen yeshudevaa"/>
-      <song file="vandicchitunnu naathane.xml" title="vandicchitunnu naathane"/>
-      <song file="vandicchituvininnu sodarare.xml" title="vandicchituvininnu sodarare"/>
-      <song file="vanna vazhikal onnortthitukil.xml" title="vanna vazhikal onnortthitukil"/>
-      <song file="vannituka yeshu paade.xml" title="vannituka yeshu paade"/>
-      <song file="vannituka snehamaayu vilicchitunnu yeshu.xml" title="vannituka snehamaayu vilicchitunnu yeshu"/>
-      <song file="vannituvin ippol vannituvin.xml" title="vannituvin ippol vannituvin"/>
-      <song file="vannitenam yeshunaathaa.xml" title="vannitenam yeshunaathaa"/>
-      <song file="vanneetuvin yeshupaadam chernneetuvin.xml" title="vanneetuvin yeshupaadam chernneetuvin"/>
-      <song file="vannu kelppin snehithare.xml" title="vannu kelppin snehithare"/>
-      <song file="varu varu sahajare.xml" title="varu varu sahajare"/>
-      <song file="varum praanapriyan viravil.xml" title="varum praanapriyan viravil"/>
-      <song file="varuvin ee nalla samayam.xml" title="varuvin ee nalla samayam"/>
-      <song file="varuvin mudaa sodarare ningal.xml" title="varuvin mudaa sodarare ningal"/>
-      <song file="varuvin yeshuvinnarikil.xml" title="varuvin yeshuvinnarikil"/>
-      <song file="varuvin yeshuvin chaare varuvin.xml" title="varuvin yeshuvin chaare varuvin"/>
-      <song file="vallabhanaam mashihaa varumallo.xml" title="vallabhanaam mashihaa varumallo"/>
-      <song file="vallabhanaam yeshuparan.xml" title="vallabhanaam yeshuparan"/>
-      <song file="vallabhaneshu en kooteyundallo.xml" title="vallabhaneshu en kooteyundallo"/>
-      <song file="vazhi natatthunnon.xml" title="vazhi natatthunnon"/>
-      <song file="vaa vaa yeshuvinkal vaa.xml" title="vaa vaa yeshuvinkal vaa"/>
-      <song file="vaagdattha naattilen.xml" title="vaagdattha naattilen"/>
-      <song file="vaanjchhithamarulitum.xml" title="vaanjchhithamarulitum"/>
-      <song file="vaathil ninnavan muttunnithaa.xml" title="vaathil ninnavan muttunnithaa"/>
-      <song file="vaanam thannute simhaasanamaam.xml" title="vaanam thannute simhaasanamaam"/>
-      <song file="vaanameghatthil vegam vannitum.xml" title="vaanameghatthil vegam vannitum"/>
-      <song file="vaanalokatthezhunnallinaan shreeyeshunaathan.xml" title="vaanalokatthezhunnallinaan shreeyeshunaathan"/>
-      <song file="vaanavum bhoomiyumaakave neengitum.xml" title="vaanavum bhoomiyumaakave neengitum"/>
-      <song file="vaanil vannu vegam.xml" title="vaanil vannu vegam"/>
-      <song file="vaazhum njaanen rakshithaavin kooteyeppozhum.xml" title="vaazhum njaanen rakshithaavin kooteyeppozhum"/>
-      <song file="vaazhka vaazhka.xml" title="vaazhka vaazhka"/>
-      <song file="vaazhtthi pukazhtthumenneshu naathane.xml" title="vaazhtthi pukazhtthumenneshu naathane"/>
-      <song file="vaazhtthi sthuthikkumennum njaan.xml" title="vaazhtthi sthuthikkumennum njaan"/>
-      <song file="vaazhtthitum njaan yahovaye.xml" title="vaazhtthitum njaan yahovaye"/>
-      <song file="vaazhtthituka dinam vaazhtthituka.xml" title="vaazhtthituka dinam vaazhtthituka"/>
-      <song file="vaazhtthitunnu naathaa.xml" title="vaazhtthitunnu naathaa"/>
-      <song file="vaazhtthitume vaazhtthumente.xml" title="vaazhtthitume vaazhtthumente"/>
-      <song file="vaazhtthituvin sthuthicchaartthituvin.xml" title="vaazhtthituvin sthuthicchaartthituvin"/>
-      <song file="vaazhtthum njaanen jeevakaalamellaam.xml" title="vaazhtthum njaanen jeevakaalamellaam"/>
-      <song file="vaazhtthum njaan yahovaye.xml" title="vaazhtthum njaan yahovaye"/>
-      <song file="vaazhtthum yeshuve njaan.xml" title="vaazhtthum yeshuve njaan"/>
-      <song file="vaazhtthuka nee maname (KVS).xml" title="vaazhtthuka nee maname (KVS)"/>
-      <song file="vaazhtthuka nee maname (vazhthuka) (KVS).xml" title="vaazhtthuka nee maname (vazhthuka) (KVS)"/>
-      <song file="vaazhtthuka nee maname en parane.xml" title="vaazhtthuka nee maname en parane"/>
-      <song file="vaazhtthumennum parameshane avante sthuthi.xml" title="vaazhtthumennum parameshane avante sthuthi"/>
-      <song file="vaazhtthuvin kristhuyeshuvin.xml" title="vaazhtthuvin kristhuyeshuvin"/>
-      <song file="vaazhtthuvin yahevaye.xml" title="vaazhtthuvin yahevaye"/>
-      <song file="vaazhtthuvin shreeyeshukristhuvine.xml" title="vaazhtthuvin shreeyeshukristhuvine"/>
-      <song file="vithacchituka naam svarggatthinte vitthaam.xml" title="vithacchituka naam svarggatthinte vitthaam"/>
-      <song file="vishuddharkoottam rakshakannu chuttum ninnu.xml" title="vishuddharkoottam rakshakannu chuttum ninnu"/>
-      <song file="vishvasatthaal njaan.xml" title="vishvasatthaal njaan"/>
-      <song file="vishvaasa jeevithappatakil njaan.xml" title="vishvaasa jeevithappatakil njaan"/>
-      <song file="vishvaasa naayakaneshuven.xml" title="vishvaasa naayakaneshuven"/>
-      <song file="vishvaasa yaathrayilen.xml" title="vishvaasa yaathrayilen"/>
-      <song file="vishvaasa samghame.xml" title="vishvaasa samghame"/>
-      <song file="vishvaasatthoniyil.xml" title="vishvaasatthoniyil"/>
-      <song file="vinmahima vetinju manmayanaaya manu.xml" title="vinmahima vetinju manmayanaaya manu"/>
-      <song file="veendumjanikkenamsakhe.xml" title="veendumjanikkenamsakhe"/>
-      <song file="veendetuppin naalatutthupoyu da.xml" title="veendetuppin naalatutthupoyu da"/>
-      <song file="veeshuka dyvaathmaave.xml" title="veeshuka dyvaathmaave"/>
-      <song file="velicchatthin kathirukal.xml" title="velicchatthin kathirukal"/>
-      <song file="vellatthil verumoru kumilapole.xml" title="vellatthil verumoru kumilapole"/>
-      <song file="vegam vannitum yeshu.xml" title="vegam vannitum yeshu"/>
-      <song file="vegam varanam prabho bhavaan.xml" title="vegam varanam prabho bhavaan"/>
-      <song file="vedatthil dyvam thaan.xml" title="vedatthil dyvam thaan"/>
-      <song file="velaykku velaykku dyvadaasanmaar naam.xml" title="velaykku velaykku dyvadaasanmaar naam"/>
+      <song file="വചനം വചനം തിരുവചനം.xml" title="vachanam vachanam thiruvachanam"/>
+      <song file="വന്ദനം കർത്താധികർത്താവിനു.xml" title="vandanam kartthaadhikartthaavinu"/>
+      <song file="വന്ദനം ചെയ്തിടുവിൻ ശ്രീയേശുവെ.xml" title="vandanam cheythituvin shreeyeshuve"/>
+      <song file="വന്ദനം പൊന്നേശുനാഥാ!.xml" title="vandanam ponneshunaathaa!"/>
+      <song file="വന്ദനം പൊന്നേശുനാഥാ.xml" title="vandanam ponneshunaathaa"/>
+      <song file="വന്ദനം യേശുപരാ നിനക്കെന്നും.xml" title="vandanam yeshuparaa ninakkennum"/>
+      <song file="വന്ദനം വന്ദനം നാഥാ.xml" title="vandanam vandanam naathaa"/>
+      <song file="വന്ദനം വന്ദനം വന്ദനം നാഥാ.xml" title="vandanam vandanam vandanam naathaa"/>
+      <song file="വന്ദനം വന്ദനം ശ്രീയേശുനാഥനു.xml" title="vandanam vandanam shreeyeshunaathanu"/>
+      <song file="വന്ദനം വന്ദനമേ വന്ദിത വല്ലഭനേ.xml" title="vandanam vandaname vanditha vallabhane"/>
+      <song file="വന്ദനം... ദേവാധി ദൈവമേ.xml" title="vandanam... Devaadhi dyvame"/>
+      <song file="വന്ദനമേ ദേവ തവ വന്ദനമേ.xml" title="vandaname deva thava vandaname"/>
+      <song file="വന്ദനമേശു ദേവാ.xml" title="vandanameshu devaa"/>
+      <song file="വന്ദിക്കുന്നേശുവേ ഞങ്ങൾ നിന്നെ.xml" title="vandikkunneshuve njangal ninne"/>
+      <song file="വന്ദിക്കുന്നേൻ യേശുദേവാ.xml" title="vandikkunnen yeshudevaa"/>
+      <song file="വന്ദിച്ചിടുന്നു നാഥനേ.xml" title="vandicchitunnu naathane"/>
+      <song file="വന്ദിച്ചിടുവിനിന്നു സോദരരേ.xml" title="vandicchituvininnu sodarare"/>
+      <song file="വന്ന വഴികൾ ഒന്നോർത്തിടുകിൽ.xml" title="vanna vazhikal onnortthitukil"/>
+      <song file="വന്നിടുക യേശു പാദേ.xml" title="vannituka yeshu paade"/>
+      <song file="വന്നിടുക സ്നേഹമായ് വിളിച്ചിടുന്നു യേശു.xml" title="vannituka snehamaayu vilicchitunnu yeshu"/>
+      <song file="വന്നിടുവിൻ ഇപ്പോൾ വന്നിടുവിൻ.xml" title="vannituvin ippol vannituvin"/>
+      <song file="വന്നിടേണം യേശുനാഥാ.xml" title="vannitenam yeshunaathaa"/>
+      <song file="വന്നീടുവിൻ യേശുപാദം ചേർന്നീടുവിൻ.xml" title="vanneetuvin yeshupaadam chernneetuvin"/>
+      <song file="വന്നു കേൾപ്പിൻ സ്നേഹിതരേ.xml" title="vannu kelppin snehithare"/>
+      <song file="വരു വരു സഹജരെ.xml" title="varu varu sahajare"/>
+      <song file="വരും പ്രാണപ്രിയൻ വിരവിൽ.xml" title="varum praanapriyan viravil"/>
+      <song file="വരുവിൻ ഈ നല്ല സമയം.xml" title="varuvin ee nalla samayam"/>
+      <song file="വരുവിൻ മുദാ സോദരരേ നിങ്ങൾ.xml" title="varuvin mudaa sodarare ningal"/>
+      <song file="വരുവിൻ യേശുവിന്നരികിൽ.xml" title="varuvin yeshuvinnarikil"/>
+      <song file="വരുവിൻ യേശുവിൻ ചാരേ വരുവിൻ.xml" title="varuvin yeshuvin chaare varuvin"/>
+      <song file="വല്ലഭനാം മശിഹാ വരുമല്ലോ.xml" title="vallabhanaam mashihaa varumallo"/>
+      <song file="വല്ലഭനാം യേശുപരൻ.xml" title="vallabhanaam yeshuparan"/>
+      <song file="വല്ലഭനേശു എൻ കൂടെയുണ്ടല്ലോ.xml" title="vallabhaneshu en kooteyundallo"/>
+      <song file="വഴി നടത്തുന്നോൻ.xml" title="vazhi natatthunnon"/>
+      <song file="വാ വാ യേശുവിങ്കൽ വാ.xml" title="vaa vaa yeshuvinkal vaa"/>
+      <song file="വാഗ്ദത്ത നാട്ടിലെൻ.xml" title="vaagdattha naattilen"/>
+      <song file="വാഞ്ഛിതമരുളിടും.xml" title="vaanjchhithamarulitum"/>
+      <song file="വാതിൽ നിന്നവൻ മുട്ടുന്നിതാ.xml" title="vaathil ninnavan muttunnithaa"/>
+      <song file="വാനം തന്നുടെ സിംഹാസനമാം.xml" title="vaanam thannute simhaasanamaam"/>
+      <song file="വാനമേഘത്തിൽ വേഗം വന്നിടും.xml" title="vaanameghatthil vegam vannitum"/>
+      <song file="വാനലോകത്തെഴുന്നള്ളിനാൻ ശ്രീയേശുനാഥൻ.xml" title="vaanalokatthezhunnallinaan shreeyeshunaathan"/>
+      <song file="വാനവും ഭൂമിയുമാകവേ നീങ്ങിടും.xml" title="vaanavum bhoomiyumaakave neengitum"/>
+      <song file="വാനിൽ വന്നു വേഗം.xml" title="vaanil vannu vegam"/>
+      <song file="വാഴും ഞാനെൻ രക്ഷിതാവിൻ കൂടെയെപ്പോഴും.xml" title="vaazhum njaanen rakshithaavin kooteyeppozhum"/>
+      <song file="വാഴ്ക വാഴ്ക.xml" title="vaazhka vaazhka"/>
+      <song file="വാഴ്ത്തി പുകഴ്ത്തുമെന്നേശു നാഥനെ.xml" title="vaazhtthi pukazhtthumenneshu naathane"/>
+      <song file="വാഴ്ത്തി സ്തുതിക്കുമെന്നും ഞാൻ.xml" title="vaazhtthi sthuthikkumennum njaan"/>
+      <song file="വാഴ്ത്തിടും ഞാൻ യഹോവയെ.xml" title="vaazhtthitum njaan yahovaye"/>
+      <song file="വാഴ്ത്തിടുക ദിനം വാഴ്ത്തിടുക.xml" title="vaazhtthituka dinam vaazhtthituka"/>
+      <song file="വാഴ്ത്തിടുന്നു നാഥാ.xml" title="vaazhtthitunnu naathaa"/>
+      <song file="വാഴ്ത്തിടുമേ വാഴ്ത്തുമെന്റെ.xml" title="vaazhtthitume vaazhtthumente"/>
+      <song file="വാഴ്ത്തിടുവിൻ സ്തുതിച്ചാർത്തിടുവിൻ.xml" title="vaazhtthituvin sthuthicchaartthituvin"/>
+      <song file="വാഴ്ത്തും ഞാനെൻ ജീവകാലമെല്ലാം.xml" title="vaazhtthum njaanen jeevakaalamellaam"/>
+      <song file="വാഴ്ത്തും ഞാൻ യഹോവയെ.xml" title="vaazhtthum njaan yahovaye"/>
+      <song file="വാഴ്ത്തും യേശുവെ ഞാൻ.xml" title="vaazhtthum yeshuve njaan"/>
+      <song file="വാഴ്ത്തുക നീ മനമേ (KVS).xml" title="vaazhtthuka nee maname (KVS)"/>
+      <song file="വാഴ്ത്തുക നീ മനമേ (vazhthuka) (KVS).xml" title="vaazhtthuka nee maname (vazhthuka) (KVS)"/>
+      <song file="വാഴ്ത്തുക നീ മനമേ എൻ പരനെ.xml" title="vaazhtthuka nee maname en parane"/>
+      <song file="വാഴ്ത്തുമെന്നും പരമേശനെ അവന്റെ സ്തുതി.xml" title="vaazhtthumennum parameshane avante sthuthi"/>
+      <song file="വാഴ്ത്തുവിൻ ക്രിസ്തുയേശുവിൻ.xml" title="vaazhtthuvin kristhuyeshuvin"/>
+      <song file="വാഴ്ത്തുവിൻ യഹേവയെ.xml" title="vaazhtthuvin yahevaye"/>
+      <song file="വാഴ്ത്തുവിൻ ശ്രീയേശുക്രിസ്തുവിനെ.xml" title="vaazhtthuvin shreeyeshukristhuvine"/>
+      <song file="വിതച്ചിടുക നാം സ്വർഗ്ഗത്തിന്റെ വിത്താം.xml" title="vithacchituka naam svarggatthinte vitthaam"/>
+      <song file="വിശുദ്ധർകൂട്ടം രക്ഷകന്നു ചുറ്റും നിന്നു.xml" title="vishuddharkoottam rakshakannu chuttum ninnu"/>
+      <song file="വിശ്വസത്താൽ ഞാൻ.xml" title="vishvasatthaal njaan"/>
+      <song file="വിശ്വാസ ജീവിതപ്പടകിൽ ഞാൻ.xml" title="vishvaasa jeevithappatakil njaan"/>
+      <song file="വിശ്വാസ നായകനേശുവെൻ.xml" title="vishvaasa naayakaneshuven"/>
+      <song file="വിശ്വാസ യാത്രയിലെൻ.xml" title="vishvaasa yaathrayilen"/>
+      <song file="വിശ്വാസ സംഘമേ.xml" title="vishvaasa samghame"/>
+      <song file="വിശ്വാസത്തോണിയിൽ.xml" title="vishvaasatthoniyil"/>
+      <song file="വിൺമഹിമ വെടിഞ്ഞു മൺമയനായ മനു.xml" title="vinmahima vetinju manmayanaaya manu"/>
+      <song file="വീണ്ടുംജനിക്കേണംസഖേ.xml" title="veendumjanikkenamsakhe"/>
+      <song file="വീണ്ടെടുപ്പിൻ നാളടുത്തുപോയ് ദ.xml" title="veendetuppin naalatutthupoyu da"/>
+      <song file="വീശുക ദൈവാത്മാവേ.xml" title="veeshuka dyvaathmaave"/>
+      <song file="വെളിച്ചത്തിൻ കതിരുകൾ.xml" title="velicchatthin kathirukal"/>
+      <song file="വെള്ളത്തിൽ വെറുമൊരു കുമിളപോലെ.xml" title="vellatthil verumoru kumilapole"/>
+      <song file="വേഗം വന്നിടും യേശു.xml" title="vegam vannitum yeshu"/>
+      <song file="വേഗം വരണം പ്രഭോ ഭവാൻ.xml" title="vegam varanam prabho bhavaan"/>
+      <song file="വേദത്തിൽ ദൈവം താൻ.xml" title="vedatthil dyvam thaan"/>
+      <song file="വേലയ്ക്കു വേലയ്ക്കു ദൈവദാസന്മാർ നാം.xml" title="velaykku velaykku dyvadaasanmaar naam"/>
    </entry>
    <entry letter="sha">
-      <song file="shaanthathuramukham atutthu.xml" title="shaanthathuramukham atutthu"/>
-      <song file="shaapatthe neekki.xml" title="shaapatthe neekki"/>
-      <song file="shaashvathamaaya veetenikkundu.xml" title="shaashvathamaaya veetenikkundu"/>
-      <song file="shuddhikkaayu nee.xml" title="shuddhikkaayu nee"/>
-      <song file="shoolamiyaal mama maathaave.xml" title="shoolamiyaal mama maathaave"/>
-      <song file="shobhayulloru naatundathu.xml" title="shobhayulloru naatundathu"/>
-      <song file="shreenarapathiye.xml" title="shreenarapathiye"/>
-      <song file="shreemanuvel marijaathanaam.xml" title="shreemanuvel marijaathanaam"/>
-      <song file="shreeyeshu enne snehicchallo.xml" title="shreeyeshu enne snehicchallo"/>
-      <song file="shreeyeshu naathante mahaathmyame.xml" title="shreeyeshu naathante mahaathmyame"/>
-      <song file="shreeyeshu naathaa nin sneham.xml" title="shreeyeshu naathaa nin sneham"/>
-      <song file="shreeyeshunaathaa svarggeeya raajaa.xml" title="shreeyeshunaathaa svarggeeya raajaa"/>
-      <song file="shreeyeshunaamam athishayanaamam.xml" title="shreeyeshunaamam athishayanaamam"/>
-      <song file="shreeyeshunaayakan jeevane thannavan.xml" title="shreeyeshunaayakan jeevane thannavan"/>
-      <song file="shreeyeshuraajadevaa namo namo.xml" title="shreeyeshuraajadevaa namo namo"/>
-      <song file="shreeyeshuvente rakshakan.xml" title="shreeyeshuvente rakshakan"/>
+      <song file="ശാന്തതുറമുഖം അടുത്തു.xml" title="shaanthathuramukham atutthu"/>
+      <song file="ശാപത്തെ നീക്കി.xml" title="shaapatthe neekki"/>
+      <song file="ശാശ്വതമായ വീടെനിക്കുണ്ട്.xml" title="shaashvathamaaya veetenikkundu"/>
+      <song file="ശുദ്ധിക്കായ് നീ.xml" title="shuddhikkaayu nee"/>
+      <song file="ശൂലമിയാൾ മമ മാതാവേ.xml" title="shoolamiyaal mama maathaave"/>
+      <song file="ശോഭയുള്ളൊരു നാടുണ്ടതു.xml" title="shobhayulloru naatundathu"/>
+      <song file="ശ്രീനരപതിയേ.xml" title="shreenarapathiye"/>
+      <song file="ശ്രീമനുവേൽ മരിജാതനാം.xml" title="shreemanuvel marijaathanaam"/>
+      <song file="ശ്രീയേശു എന്നെ സ്നേഹിച്ചല്ലോ.xml" title="shreeyeshu enne snehicchallo"/>
+      <song file="ശ്രീയേശു നാഥന്റെ മഹാത്മ്യമേ.xml" title="shreeyeshu naathante mahaathmyame"/>
+      <song file="ശ്രീയേശു നാഥാ നിൻ സ്നേഹം.xml" title="shreeyeshu naathaa nin sneham"/>
+      <song file="ശ്രീയേശുനാഥാ സ്വർഗ്ഗീയ രാജാ.xml" title="shreeyeshunaathaa svarggeeya raajaa"/>
+      <song file="ശ്രീയേശുനാമം അതിശയനാമം.xml" title="shreeyeshunaamam athishayanaamam"/>
+      <song file="ശ്രീയേശുനായകൻ ജീവനെ തന്നവൻ.xml" title="shreeyeshunaayakan jeevane thannavan"/>
+      <song file="ശ്രീയേശുരാജദേവാ നമോ നമോ.xml" title="shreeyeshuraajadevaa namo namo"/>
+      <song file="ശ്രീയേശുവെന്റെ രക്ഷകൻ.xml" title="shreeyeshuvente rakshakan"/>
    </entry>
    <entry letter="sa">
-      <song file="samjajeevakamaam thiruvachanam.xml" title="samjajeevakamaam thiruvachanam"/>
-      <song file="sakalavumundenikkeshuvinkal.xml" title="sakalavumundenikkeshuvinkal"/>
-      <song file="sankatatthaal njaan thalarnnu.xml" title="sankatatthaal njaan thalarnnu"/>
-      <song file="sankatatthil neeyen sanketham.xml" title="sankatatthil neeyen sanketham"/>
-      <song file="sankatatthil paran.xml" title="sankatatthil paran"/>
-      <song file="sathyatthinte paathayil.xml" title="sathyatthinte paathayil"/>
-      <song file="sathyamaayu shuddhasnehamaayu dyva.xml" title="sathyamaayu shuddhasnehamaayu dyva"/>
-      <song file="sathyavedamonnu maathramethra shreshdtame.xml" title="sathyavedamonnu maathramethra shreshdtame"/>
-      <song file="sathyasabhaa pathiye.xml" title="sathyasabhaa pathiye"/>
-      <song file="sathyasabhaapathi yeshuve.xml" title="sathyasabhaapathi yeshuve"/>
-      <song file="santhatham vandanamen parame.xml" title="santhatham vandanamen parame"/>
-      <song file="santhatham sthuthi thava cheyvene njaan.xml" title="santhatham sthuthi thava cheyvene njaan"/>
-      <song file="santhatham sthuthicheyyuvin parane.xml" title="santhatham sthuthicheyyuvin parane"/>
-      <song file="santhaapam theernnallo santhosham vannallo.xml" title="santhaapam theernnallo santhosham vannallo"/>
-      <song file="santhoshicchu ghoshikkuvin.xml" title="santhoshicchu ghoshikkuvin"/>
-      <song file="santhoshippin ennum santhoshippin.xml" title="santhoshippin ennum santhoshippin"/>
-      <song file="samayamaam rathatthil njaan.xml" title="samayamaam rathatthil njaan"/>
-      <song file="sahodarare, pukazhtthitaam.xml" title="sahodarare, pukazhtthitaam"/>
-      <song file="saagarasvargga bhoomikal.xml" title="saagarasvargga bhoomikal"/>
-      <song file="saadhuvenne kyvitaathe.xml" title="saadhuvenne kyvitaathe"/>
-      <song file="seeyon manaalane shaalemin priyane.xml" title="seeyon manaalane shaalemin priyane"/>
-      <song file="seeyon yaathrayathil maname.xml" title="seeyon yaathrayathil maname"/>
-      <song file="seeyon sanchaariyaayi.xml" title="seeyon sanchaariyaayi"/>
-      <song file="seeyon synyame unarnneetuvin.xml" title="seeyon synyame unarnneetuvin"/>
-      <song file="sundara rakshakane.xml" title="sundara rakshakane"/>
-      <song file="suvishesham athu jayikkume.xml" title="suvishesham athu jayikkume"/>
-      <song file="suvisheshamariyippaanabhimaanam.xml" title="suvisheshamariyippaanabhimaanam"/>
-      <song file="suvisheshayugam ithu.xml" title="suvisheshayugam ithu"/>
-      <song file="senayiladhipan devanilathiyaayu.xml" title="senayiladhipan devanilathiyaayu"/>
-      <song file="sevikkum njangal yahovaye ennennum.xml" title="sevikkum njangal yahovaye ennennum"/>
-      <song file="sthuthi cheyu maname nithyavum.xml" title="sthuthi cheyu maname nithyavum"/>
-      <song file="sthuthi dhanam mahima sakalavum ninakke.xml" title="sthuthi dhanam mahima sakalavum ninakke"/>
-      <song file="sthuthi sthuthi en maname.xml" title="sthuthi sthuthi en maname"/>
-      <song file="sthuthikku nee yogyan sthuthikalinmeethe.xml" title="sthuthikku nee yogyan sthuthikalinmeethe"/>
-      <song file="sthuthikku yogyan neeye jana.xml" title="sthuthikku yogyan neeye jana"/>
-      <song file="sthuthikkum njaanennum sthuthikkum.xml" title="sthuthikkum njaanennum sthuthikkum"/>
-      <song file="sthuthigeetham paatuka naam.xml" title="sthuthigeetham paatuka naam"/>
-      <song file="sthuthicheyyuka naam parane than.xml" title="sthuthicheyyuka naam parane than"/>
-      <song file="sthuthicchitum njaan sthuthicchitum njaan.xml" title="sthuthicchitum njaan sthuthicchitum njaan"/>
-      <song file="sthuthicchituvathenthaanandam.xml" title="sthuthicchituvathenthaanandam"/>
-      <song file="sthuthicchu paataam yeshuvine.xml" title="sthuthicchu paataam yeshuvine"/>
-      <song file="sthuthippinennaalum shreeyeshuve.xml" title="sthuthippinennaalum shreeyeshuve"/>
-      <song file="sthuthippin naam yahovaye.xml" title="sthuthippin naam yahovaye"/>
-      <song file="sthuthippin sthuthippin anudinam sthuthippin.xml" title="sthuthippin sthuthippin anudinam sthuthippin"/>
-      <song file="sthuthippin sthuthippin ennum sthuthicchituvin.xml" title="sthuthippin sthuthippin ennum sthuthicchituvin"/>
-      <song file="sthuthippin sthuthippin dyvajaname.xml" title="sthuthippin sthuthippin dyvajaname"/>
-      <song file="sthuthippin sthuthippin yeshudevane.xml" title="sthuthippin sthuthippin yeshudevane"/>
-      <song file="sthothram cheyka enmaname.xml" title="sthothram cheyka enmaname"/>
-      <song file="sthothram paataam paataam sthothram.xml" title="sthothram paataam paataam sthothram"/>
-      <song file="sthothram paati vaazhtthitunnu njaan.xml" title="sthothram paati vaazhtthitunnu njaan"/>
-      <song file="sthothram paatitum njaan.xml" title="sthothram paatitum njaan"/>
-      <song file="sthothram yeshu devaa sthothram jeevanaathaa.xml" title="sthothram yeshu devaa sthothram jeevanaathaa"/>
-      <song file="sthothram shree manuvelane-1.xml" title="sthothram shree manuvelane-1"/>
-      <song file="sthothram shree manuvelane.xml" title="sthothram shree manuvelane"/>
-      <song file="sthothram sadaa parane thirunaamam.xml" title="sthothram sadaa parane thirunaamam"/>
-      <song file="sthothram sthuthi njaan arppikkunnu.xml" title="sthothram sthuthi njaan arppikkunnu"/>
-      <song file="sthothram sthothram ninnaamatthinu paraa.xml" title="sthothram sthothram ninnaamatthinu paraa"/>
-      <song file="sthothram sthothram pithaave.xml" title="sthothram sthothram pithaave"/>
-      <song file="sthothram sthothram sthothrageethangalaal.xml" title="sthothram sthothram sthothrageethangalaal"/>
-      <song file="sthothram, sthothram, sthothram paraa.xml" title="sthothram, sthothram, sthothram paraa"/>
-      <song file="sthothrangal paati njaan vaazhtthitume.xml" title="sthothrangal paati njaan vaazhtthitume"/>
-      <song file="sthothramanantham sthothramanantham.xml" title="sthothramanantham sthothramanantham"/>
-      <song file="sthothramenneshuparaa nin naamatthe.xml" title="sthothramenneshuparaa nin naamatthe"/>
-      <song file="sthothrameshuve sthothrameshuve.xml" title="sthothrameshuve sthothrameshuve"/>
-      <song file="snehaccharatukalaalenne.xml" title="snehaccharatukalaalenne"/>
-      <song file="snehatthin deepamaam yeshuvennil.xml" title="snehatthin deepamaam yeshuvennil"/>
-      <song file="snehanidhiye jeevadhuniye.xml" title="snehanidhiye jeevadhuniye"/>
-      <song file="snehanidhe krupaasamudrame namaskaaram.xml" title="snehanidhe krupaasamudrame namaskaaram"/>
-      <song file="snehapoornna rakshakaa.xml" title="snehapoornna rakshakaa"/>
-      <song file="snehikkum njaan en yeshuve.xml" title="snehikkum njaan en yeshuve"/>
-      <song file="snehikkunneshuve daasan ninne.xml" title="snehikkunneshuve daasan ninne"/>
-      <song file="snehicchitum njaan ennaathmanaathane.xml" title="snehicchitum njaan ennaathmanaathane"/>
-      <song file="snehicchitum ninne njaan kristheshuve.xml" title="snehicchitum ninne njaan kristheshuve"/>
-      <song file="snehicchu dyvam enne snehicchu.xml" title="snehicchu dyvam enne snehicchu"/>
-      <song file="svaanthagunamiyanna kaanthimayane.xml" title="svaanthagunamiyanna kaanthimayane"/>
-      <song file="svarggatthil nikshepam shekharikkum.xml" title="svarggatthil nikshepam shekharikkum"/>
-      <song file="svarggatthil ninnu varum dyvakootaaram.xml" title="svarggatthil ninnu varum dyvakootaaram"/>
-      <song file="svarggapithaavin matiyil.xml" title="svarggapithaavin matiyil"/>
-      <song file="svarggapithaave angaye njaan.xml" title="svarggapithaave angaye njaan"/>
-      <song file="svarggeeya raajaavin pythangale.xml" title="svarggeeya raajaavin pythangale"/>
-      <song file="svarppooramee karaarinnu saakshi.xml" title="svarppooramee karaarinnu saakshi"/>
-      <song file="sarvvananmakalkkum sarvvadaanangalkkum.xml" title="sarvvananmakalkkum sarvvadaanangalkkum"/>
-      <song file="sarvvapaapakkarakal theertthu.xml" title="sarvvapaapakkarakal theertthu"/>
-      <song file="sarvvavum yeshunaathanaayu samarppanam.xml" title="sarvvavum yeshunaathanaayu samarppanam"/>
-      <song file="sarvvavum samarppikkunnu njaan jeeva.xml" title="sarvvavum samarppikkunnu njaan jeeva"/>
-      <song file="sarvvasrushtikalumonnaayu pukazhtthitunna.xml" title="sarvvasrushtikalumonnaayu pukazhtthitunna"/>
+      <song file="സംജജീവകമാം തിരുവചനം.xml" title="samjajeevakamaam thiruvachanam"/>
+      <song file="സകലവുമുണ്ടെനിക്കേശുവിങ്കൽ.xml" title="sakalavumundenikkeshuvinkal"/>
+      <song file="സങ്കടത്താൽ ഞാൻ തളർന്നു.xml" title="sankatatthaal njaan thalarnnu"/>
+      <song file="സങ്കടത്തിൽ നീയെൻ സങ്കേതം.xml" title="sankatatthil neeyen sanketham"/>
+      <song file="സങ്കടത്തിൽ പരൻ.xml" title="sankatatthil paran"/>
+      <song file="സത്യത്തിന്റെ പാതയിൽ.xml" title="sathyatthinte paathayil"/>
+      <song file="സത്യമായ് ശുദ്ധസ്നേഹമായ് ദൈവ.xml" title="sathyamaayu shuddhasnehamaayu dyva"/>
+      <song file="സത്യവേദമൊന്നു മാത്രമെത്ര ശ്രേഷ്ഠമേ.xml" title="sathyavedamonnu maathramethra shreshdtame"/>
+      <song file="സത്യസഭാ പതിയേ.xml" title="sathyasabhaa pathiye"/>
+      <song file="സത്യസഭാപതി യേശുവേ.xml" title="sathyasabhaapathi yeshuve"/>
+      <song file="സന്തതം വന്ദനമെൻ പരമേ.xml" title="santhatham vandanamen parame"/>
+      <song file="സന്തതം സ്തുതി തവ ചെയ്വേനേ ഞാൻ.xml" title="santhatham sthuthi thava cheyvene njaan"/>
+      <song file="സന്തതം സ്തുതിചെയ്യുവിൻ പരനെ.xml" title="santhatham sthuthicheyyuvin parane"/>
+      <song file="സന്താപം തീർന്നല്ലോ സന്തോഷം വന്നല്ലോ.xml" title="santhaapam theernnallo santhosham vannallo"/>
+      <song file="സന്തോഷിച്ചു ഘോഷിക്കുവിൻ.xml" title="santhoshicchu ghoshikkuvin"/>
+      <song file="സന്തോഷിപ്പിൻ എന്നും സന്തോഷിപ്പിൻ.xml" title="santhoshippin ennum santhoshippin"/>
+      <song file="സമയമാം രഥത്തിൽ ഞാൻ.xml" title="samayamaam rathatthil njaan"/>
+      <song file="സഹോദരരേ, പുകഴ്ത്തിടാം.xml" title="sahodarare, pukazhtthitaam"/>
+      <song file="സാഗരസ്വർഗ്ഗ ഭൂമികൾ.xml" title="saagarasvargga bhoomikal"/>
+      <song file="സാധുവെന്നെ കൈവിടാതെ.xml" title="saadhuvenne kyvitaathe"/>
+      <song file="സീയോൻ മണാളനെ ശാലേമിൻ പ്രിയനെ.xml" title="seeyon manaalane shaalemin priyane"/>
+      <song file="സീയോൻ യാത്രയതിൽ മനമേ.xml" title="seeyon yaathrayathil maname"/>
+      <song file="സീയോൻ സഞ്ചാരിയായി.xml" title="seeyon sanchaariyaayi"/>
+      <song file="സീയോൻ സൈന്യമേ ഉണർന്നീടുവിൻ.xml" title="seeyon synyame unarnneetuvin"/>
+      <song file="സുന്ദര രക്ഷകനേ.xml" title="sundara rakshakane"/>
+      <song file="സുവിശേഷം അതു ജയിക്കുമേ.xml" title="suvishesham athu jayikkume"/>
+      <song file="സുവിശേഷമറിയിപ്പാനഭിമാനം.xml" title="suvisheshamariyippaanabhimaanam"/>
+      <song file="സുവിശേഷയുഗം ഇതു.xml" title="suvisheshayugam ithu"/>
+      <song file="സേനയിലധിപൻ ദേവനിലതിയായ്.xml" title="senayiladhipan devanilathiyaayu"/>
+      <song file="സേവിക്കും ഞങ്ങൾ യഹോവയെ എന്നെന്നും.xml" title="sevikkum njangal yahovaye ennennum"/>
+      <song file="സ്തുതി ചെയ് മനമേ നിത്യവും.xml" title="sthuthi cheyu maname nithyavum"/>
+      <song file="സ്തുതി ധനം മഹിമ സകലവും നിനക്കേ.xml" title="sthuthi dhanam mahima sakalavum ninakke"/>
+      <song file="സ്തുതി സ്തുതി എൻ മനമേ.xml" title="sthuthi sthuthi en maname"/>
+      <song file="സ്തുതിക്കു നീ യോഗ്യൻ സ്തുതികളിന്മീതെ.xml" title="sthuthikku nee yogyan sthuthikalinmeethe"/>
+      <song file="സ്തുതിക്കു യോഗ്യൻ നീയേ ജന.xml" title="sthuthikku yogyan neeye jana"/>
+      <song file="സ്തുതിക്കും ഞാനെന്നും സ്തുതിക്കും.xml" title="sthuthikkum njaanennum sthuthikkum"/>
+      <song file="സ്തുതിഗീതം പാടുക നാം.xml" title="sthuthigeetham paatuka naam"/>
+      <song file="സ്തുതിചെയ്യുക നാം പരനെ തൻ.xml" title="sthuthicheyyuka naam parane than"/>
+      <song file="സ്തുതിച്ചിടും ഞാൻ സ്തുതിച്ചിടും ഞാൻ.xml" title="sthuthicchitum njaan sthuthicchitum njaan"/>
+      <song file="സ്തുതിച്ചിടുവതെന്താനന്ദം.xml" title="sthuthicchituvathenthaanandam"/>
+      <song file="സ്തുതിച്ചു പാടാം യേശുവിനെ.xml" title="sthuthicchu paataam yeshuvine"/>
+      <song file="സ്തുതിപ്പിനെന്നാളും ശ്രീയേശുവെ.xml" title="sthuthippinennaalum shreeyeshuve"/>
+      <song file="സ്തുതിപ്പിൻ നാം യഹോവയെ.xml" title="sthuthippin naam yahovaye"/>
+      <song file="സ്തുതിപ്പിൻ സ്തുതിപ്പിൻ അനുദിനം സ്തുതിപ്പിൻ.xml" title="sthuthippin sthuthippin anudinam sthuthippin"/>
+      <song file="സ്തുതിപ്പിൻ സ്തുതിപ്പിൻ എന്നും സ്തുതിച്ചിടുവിൻ.xml" title="sthuthippin sthuthippin ennum sthuthicchituvin"/>
+      <song file="സ്തുതിപ്പിൻ സ്തുതിപ്പിൻ ദൈവജനമേ.xml" title="sthuthippin sthuthippin dyvajaname"/>
+      <song file="സ്തുതിപ്പിൻ സ്തുതിപ്പിൻ യേശുദേവനെ.xml" title="sthuthippin sthuthippin yeshudevane"/>
+      <song file="സ്തോത്രം ചെയ്ക എൻമനമേ.xml" title="sthothram cheyka enmaname"/>
+      <song file="സ്തോത്രം പാടാം പാടാം സ്തോത്രം.xml" title="sthothram paataam paataam sthothram"/>
+      <song file="സ്തോത്രം പാടി വാഴ്ത്തിടുന്നു ഞാൻ.xml" title="sthothram paati vaazhtthitunnu njaan"/>
+      <song file="സ്തോത്രം പാടിടും ഞാൻ.xml" title="sthothram paatitum njaan"/>
+      <song file="സ്തോത്രം യേശു ദേവാ സ്തോത്രം ജീവനാഥാ.xml" title="sthothram yeshu devaa sthothram jeevanaathaa"/>
+      <song file="സ്തോത്രം ശ്രീ മനുവേലനേ-1.xml" title="sthothram shree manuvelane-1"/>
+      <song file="സ്തോത്രം ശ്രീ മനുവേലനേ.xml" title="sthothram shree manuvelane"/>
+      <song file="സ്തോത്രം സദാ പരനേ തിരുനാമം.xml" title="sthothram sadaa parane thirunaamam"/>
+      <song file="സ്തോത്രം സ്തുതി ഞാൻ അർപ്പിക്കുന്നു.xml" title="sthothram sthuthi njaan arppikkunnu"/>
+      <song file="സ്തോത്രം സ്തോത്രം നിൻനാമത്തിനു പരാ.xml" title="sthothram sthothram ninnaamatthinu paraa"/>
+      <song file="സ്തോത്രം സ്തോത്രം പിതാവേ.xml" title="sthothram sthothram pithaave"/>
+      <song file="സ്തോത്രം സ്തോത്രം സ്തോത്രഗീതങ്ങളാൽ.xml" title="sthothram sthothram sthothrageethangalaal"/>
+      <song file="സ്തോത്രം, സ്തോത്രം, സ്തോത്രം പരാ.xml" title="sthothram, sthothram, sthothram paraa"/>
+      <song file="സ്തോത്രങ്ങൾ പാടി ഞാൻ വാഴ്ത്തിടുമേ.xml" title="sthothrangal paati njaan vaazhtthitume"/>
+      <song file="സ്തോത്രമനന്തം സ്തോത്രമനന്തം.xml" title="sthothramanantham sthothramanantham"/>
+      <song file="സ്തോത്രമെന്നേശുപരാ നിൻ നാമത്തെ.xml" title="sthothramenneshuparaa nin naamatthe"/>
+      <song file="സ്തോത്രമേശുവേ സ്തോത്രമേശുവേ.xml" title="sthothrameshuve sthothrameshuve"/>
+      <song file="സ്നേഹച്ചരടുകളാലെന്നെ.xml" title="snehaccharatukalaalenne"/>
+      <song file="സ്നേഹത്തിൻ ദീപമാം യേശുവെന്നിൽ.xml" title="snehatthin deepamaam yeshuvennil"/>
+      <song file="സ്നേഹനിധിയേ ജീവധുനിയേ.xml" title="snehanidhiye jeevadhuniye"/>
+      <song file="സ്നേഹനിധേ കൃപാസമുദ്രമേ നമസ്കാരം.xml" title="snehanidhe krupaasamudrame namaskaaram"/>
+      <song file="സ്നേഹപൂർണ്ണ രക്ഷകാ.xml" title="snehapoornna rakshakaa"/>
+      <song file="സ്നേഹിക്കും ഞാൻ എൻ യേശുവേ.xml" title="snehikkum njaan en yeshuve"/>
+      <song file="സ്നേഹിക്കുന്നേശുവേ ദാസൻ നിന്നെ.xml" title="snehikkunneshuve daasan ninne"/>
+      <song file="സ്നേഹിച്ചിടും ഞാൻ എന്നാത്മനാഥനെ.xml" title="snehicchitum njaan ennaathmanaathane"/>
+      <song file="സ്നേഹിച്ചിടും നിന്നെ ഞാൻ ക്രിസ്തേശുവേ.xml" title="snehicchitum ninne njaan kristheshuve"/>
+      <song file="സ്നേഹിച്ചു ദൈവം എന്നെ സ്നേഹിച്ചു.xml" title="snehicchu dyvam enne snehicchu"/>
+      <song file="സ്വാന്തഗുണമിയന്ന കാന്തിമയനേ.xml" title="svaanthagunamiyanna kaanthimayane"/>
+      <song file="സ്വർഗ്ഗത്തിൽ നിക്ഷേപം ശേഖരിക്കും.xml" title="svarggatthil nikshepam shekharikkum"/>
+      <song file="സ്വർഗ്ഗത്തിൽ നിന്നു വരും ദൈവകൂടാരം.xml" title="svarggatthil ninnu varum dyvakootaaram"/>
+      <song file="സ്വർഗ്ഗപിതാവിൻ മടിയിൽ.xml" title="svarggapithaavin matiyil"/>
+      <song file="സ്വർഗ്ഗപിതാവെ അങ്ങയെ ഞാൻ.xml" title="svarggapithaave angaye njaan"/>
+      <song file="സ്വർഗ്ഗീയ രാജാവിൻ പൈതങ്ങളേ.xml" title="svarggeeya raajaavin pythangale"/>
+      <song file="സ്വർപ്പൂരമീ കരാറിന്നു സാക്ഷി.xml" title="svarppooramee karaarinnu saakshi"/>
+      <song file="സർവ്വനന്മകൾക്കും സർവ്വദാനങ്ങൾക്കും.xml" title="sarvvananmakalkkum sarvvadaanangalkkum"/>
+      <song file="സർവ്വപാപക്കറകൾ തീർത്തു.xml" title="sarvvapaapakkarakal theertthu"/>
+      <song file="സർവ്വവും യേശുനാഥനായ് സമർപ്പണം.xml" title="sarvvavum yeshunaathanaayu samarppanam"/>
+      <song file="സർവ്വവും സമർപ്പിക്കുന്നു ഞാൻ ജീവ.xml" title="sarvvavum samarppikkunnu njaan jeeva"/>
+      <song file="സർവ്വസൃഷ്ടികളുമൊന്നായ് പുകഴ്ത്തിടുന്ന.xml" title="sarvvasrushtikalumonnaayu pukazhtthitunna"/>
    </entry>
    <entry letter="ha">
-      <song file="halleluyyaa geetham paatum njaan.xml" title="halleluyyaa geetham paatum njaan"/>
-      <song file="haa ethra bhaagyam undenikku.xml" title="haa ethra bhaagyam undenikku"/>
-      <song file="haa ethra modam en svarggathaathan.xml" title="haa ethra modam en svarggathaathan"/>
-      <song file="haa varika yeshunaathaa.xml" title="haa varika yeshunaathaa"/>
-      <song file="haa svargganaathaa, jeevanaathaa.xml" title="haa svargganaathaa, jeevanaathaa"/>
-      <song file="hrudayamurukivarum mizhineermanikal.xml" title="hrudayamurukivarum mizhineermanikal"/>
-      <song file="he he priya snehithaa sodaraa.xml" title="he he priya snehithaa sodaraa"/>
+      <song file="ഹല്ലേലുയ്യാ ഗീതം പാടും ഞാൻ.xml" title="halleluyyaa geetham paatum njaan"/>
+      <song file="ഹാ എത്ര ഭാഗ്യം ഉണ്ടെനിക്കു.xml" title="haa ethra bhaagyam undenikku"/>
+      <song file="ഹാ എത്ര മോദം എൻ സ്വർഗ്ഗതാതൻ.xml" title="haa ethra modam en svarggathaathan"/>
+      <song file="ഹാ വരിക യേശുനാഥാ.xml" title="haa varika yeshunaathaa"/>
+      <song file="ഹാ സ്വർഗ്ഗനാഥാ, ജീവനാഥാ.xml" title="haa svargganaathaa, jeevanaathaa"/>
+      <song file="ഹൃദയമുരുകിവരും മിഴിനീർമണികൾ.xml" title="hrudayamurukivarum mizhineermanikal"/>
+      <song file="ഹേ ഹേ പ്രിയ സ്നേഹിതാ സോദരാ.xml" title="he he priya snehithaa sodaraa"/>
    </entry>   
 </index>
