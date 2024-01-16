@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Include Trianglify -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
 
     <script src="ml2en.js"></script>
 </head>
 <body>
 
+    <!-- Trianglify Background -->
     <div id="trianglify-background"></div>
 
     <header>
@@ -54,8 +56,9 @@
     <script src="script.js"></script>
 
     <script>
+        // Trianglify Background Setup
         const pattern = Trianglify({ height: window.innerHeight, width: window.innerWidth });
-        document.getElementById('trianglify-background').appendChild(pattern.toCanvas());
+        document.getElementById('trianglify-background').appendChild(pattern.toSVG());
     </script>
 </body>
 </html>
