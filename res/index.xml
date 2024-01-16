@@ -40,6 +40,7 @@
       <song file="അൻപോടെ യേശു വിളിക്കുന്നു നിന്നെ.xml" title="അൻപോടെ യേശു വിളിക്കുന്നു നിന്നെ"/>
       <song file="അൻപോടെന്നെ പോറ്റും പ്രിയന്റെ.xml" title="അൻപോടെന്നെ പോറ്റും പ്രിയന്റെ"/>
       <song file="അൽപ്പകാലം മാത്രം ഈ ഭൂവിലെ വാസം.xml" title="അൽപ്പകാലം മാത്രം ഈ ഭൂവിലെ വാസം"/>
+      <song file="അന്ത്യകാല അഭിഷേകം.xml" title="അന്ത്യകാല അഭിഷേകം"/>
    </entry>
    <entry letter="ആ">
       <song file="ആ ആ ആ ആ എന്നു കാണും യേശുരാജനെ.xml" title="ആ ആ ആ ആ എന്നു കാണും യേശുരാജനെ"/>
@@ -79,6 +80,7 @@
       <song file="ആശ്വാസമേ എനിക്കേറെ തിങ്ങിടുന്നു.xml" title="ആശ്വാസമേ എനിക്കേറെ തിങ്ങിടുന്നു"/>
       <song file="ആർ പോയിടും കർത്താവിന്നായിട്ടെങ്ങും_.xml" title="ആർ പോയിടും കർത്താവിന്നായിട്ടെങ്ങും_"/>
       <song file="ആർപ്പിൻ നാദമുയരുന്നിതാ ഹല്ലേലുയ്യാ.xml" title="ആർപ്പിൻ നാദമുയരുന്നിതാ ഹല്ലേലുയ്യാ"/>
+      <song file="ആശ്രയിപ്പാൻ എനിക്കേശുവുണ്ട്.xml" title="ആശ്രയിപ്പാൻ എനിക്കേശുവുണ്ട്"/>
    </entry>
    <entry letter="ഇ">
       <song file="ഇടയൻ നല്ലിടയൻ യഹോവ നല്ലിടയൻ.xml" title="ഇടയൻ നല്ലിടയൻ യഹോവ നല്ലിടയൻ"/>
@@ -286,6 +288,7 @@
       <song file="എൻമനമേ സ്തുതി പാടിടുക.xml" title="എൻമനമേ സ്തുതി പാടിടുക"/>
       <song file="എൻയേശുവേ രക്ഷകാ നല്ല സ്നേഹിതൻ നീ.xml" title="എൻയേശുവേ രക്ഷകാ നല്ല സ്നേഹിതൻ നീ"/>
       <song file="എൻസങ്കടങ്ങൾ സകലവും തീർന്നുപോയി.xml" title="എൻസങ്കടങ്ങൾ സകലവും തീർന്നുപോയി"/>
+      <song file="എന്റെ ജീവനും എന്നും നന്ദിയോടെ.xml" title="എന്റെ ജീവനും എന്നും നന്ദിയോടെ"/>
    </entry>
    <entry letter="ഏ">
       <song file="ഏകസത്യദൈവമേ എന്റെ ദൈവമേ.xml" title="ഏകസത്യദൈവമേ എന്റെ ദൈവമേ"/>
@@ -303,6 +306,7 @@
       <song file="ഒന്നേയുള്ളെനിക്കാനന്ദമുലകിൽ.xml" title="ഒന്നേയുള്ളെനിക്കാനന്ദമുലകിൽ"/>
       <song file="ഒരു ചെറു താരകംപോൽ.xml" title="ഒരു ചെറു താരകംപോൽ"/>
       <song file="ഒരുങ്ങിയുണർന്നിരിപ്പിൻ.xml" title="ഒരുങ്ങിയുണർന്നിരിപ്പിൻ"/>
+      <song file="ഒരു നാൾ വിട്ടു നാം പോകും.xml" title="ഒരു നാൾ വിട്ടു നാം പോകും"/>
    </entry>
    <entry letter="ഓ">
       <song file="ഓ ഓ ഓ എനിക്കാനന്ദമാനന്ദം.xml" title="ഓ ഓ ഓ എനിക്കാനന്ദമാനന്ദം"/>
@@ -485,6 +489,7 @@
       <song file="ഞാൻ യഹോവയെ എല്ലാനാളും.xml" title="ഞാൻ യഹോവയെ എല്ലാനാളും"/>
       <song file="ഞാൻ വരുന്നു ക്രൂശിങ്കൽ.xml" title="ഞാൻ വരുന്നു ക്രൂശിങ്കൽ"/>
       <song file="ഞാൻ... സ്നേഹവാനേശുവിൻ.xml" title="ഞാൻ... സ്നേഹവാനേശുവിൻ"/>
+      <song file="ഞാൻ ചോദിച്ചതിലും ഞാൻ നിനച്ചതിലും.xml" title="ഞാൻ ചോദിച്ചതിലും ഞാൻ നിനച്ചതിലും"/>
    </entry>
    <entry letter="ത">
       <song file="തങ്കത്തെരുവീഥിയിൽ നാം.xml" title="തങ്കത്തെരുവീഥിയിൽ നാം"/>
@@ -630,6 +635,7 @@
       <song file="നീയെൻ സ്വന്തമേ എന്താനന്ദമേ.xml" title="നീയെൻ സ്വന്തമേ എന്താനന്ദമേ"/>
       <song file="നേരമിരുളുന്നു കൂരിരുളേറുന്നു.xml" title="നേരമിരുളുന്നു കൂരിരുളേറുന്നു"/>
       <song file="ന്യായാസനത്തിൻ മുമ്പിൽ.xml" title="ന്യായാസനത്തിൻ മുമ്പിൽ"/>
+      <song file="നീ മാത്രം വളരണം.xml" title="നീ മാത്രം വളരണം"/>
    </entry>
    <entry letter="പ">
       <song file="പകലിൽ മേഘത്തണലായ് നീ.xml" title="പകലിൽ മേഘത്തണലായ് നീ"/>
@@ -712,6 +718,7 @@
       <song file="പ്രിയനേ എന്നെക്കരുതും വഴിയിൽ.xml" title="പ്രിയനേ എന്നെക്കരുതും വഴിയിൽ"/>
       <song file="പ്രിയൻ വരും നാളിനിയധികമില്ല.xml" title="പ്രിയൻ വരും നാളിനിയധികമില്ല"/>
       <song file="പർവ്വതഭൂമി ഭൂമണ്ഡലങ്ങൾ നിർമ്മിക്കും.xml" title="പർവ്വതഭൂമി ഭൂമണ്ഡലങ്ങൾ നിർമ്മിക്കും"/>
+      <song file="പാടും ഞാൻ എന്നും ഏകനായ് ഭൂമിയിൽ.xml" title="പാടും ഞാൻ എന്നും ഏകനായ് ഭൂമിയിൽ"/>
    </entry>
    <entry letter="ബ">
       <song file="ബലഹീനനാകുമെന്നെ താങ്ങും നല്ല നാഥനേ.xml" title="ബലഹീനനാകുമെന്നെ താങ്ങും നല്ല നാഥനേ"/>
@@ -787,6 +794,7 @@
       <song file="മൃത്യുവിനെ ജയിച്ച.xml" title="മൃത്യുവിനെ ജയിച്ച"/>
       <song file="മർത്യരിന്നാവശ്യമെന്തന്നറിഞ്ഞവൻ.xml" title="മർത്യരിന്നാവശ്യമെന്തന്നറിഞ്ഞവൻ"/>
       <song file="മൽപ്രാണനായകനേ.xml" title="മൽപ്രാണനായകനേ"/>
+      <song file="മകനേ നീയെൻ പ്രാണൻ വില.xml" title="മകനേ നീയെൻ പ്രാണൻ വില"/>
    </entry>
    <entry letter="യ">
       <song file="യഹോവ എത്ര നല്ലവൻ.xml" title="യഹോവ എത്ര നല്ലവൻ"/>
@@ -890,6 +898,8 @@
       <song file="യേശുസന്നിധാനം.xml" title="യേശുസന്നിധാനം"/>
       <song file="യോർദ്ദാൻ നദിതീരം കവിയുമ്പോൾ.xml" title="യോർദ്ദാൻ നദിതീരം കവിയുമ്പോൾ"/>
       <song file="യൗവനം മോഹനം സുന്ദരം.xml" title="യൗവനം മോഹനം സുന്ദരം"/>
+      <song file="യേശുവിൽ എന്നും എന്നെ മറയ്ക്കണെ.xml" title="യേശുവിൽ എന്നും എന്നെ മറയ്ക്കണെ"/>
+      <song file="യേശുവോട്‌ ചേർന്നിരിക്കും വാസമോർക്കുമ്പോൾ.xml" title="യേശുവോട്‌ ചേർന്നിരിക്കും വാസമോർക്കുമ്പോൾ"/>
    </entry>
    <entry letter="ര">
       <song file="രക്തം നിറഞ്ഞോരുറവ.xml" title="രക്തം നിറഞ്ഞോരുറവ"/>
@@ -991,6 +1001,7 @@
       <song file="വേഗം വരണം പ്രഭോ ഭവാൻ.xml" title="വേഗം വരണം പ്രഭോ ഭവാൻ"/>
       <song file="വേദത്തിൽ ദൈവം താൻ.xml" title="വേദത്തിൽ ദൈവം താൻ"/>
       <song file="വേലയ്ക്കു വേലയ്ക്കു ദൈവദാസന്മാർ നാം.xml" title="വേലയ്ക്കു വേലയ്ക്കു ദൈവദാസന്മാർ നാം"/>
+      <song file="വരുന്നു പരമേശന്‍.xml" title="വരുന്നു പരമേശന്‍"/>
    </entry>
    <entry letter="ശ">
       <song file="ശാന്തതുറമുഖം അടുത്തു.xml" title="ശാന്തതുറമുഖം അടുത്തു"/>
@@ -1147,6 +1158,7 @@
       <song file="അൻപോടെ യേശു വിളിക്കുന്നു നിന്നെ.xml" title="anpote yeshu vilikkunnu ninne"/>
       <song file="അൻപോടെന്നെ പോറ്റും പ്രിയന്റെ.xml" title="anpotenne pottum priyante"/>
       <song file="അൽപ്പകാലം മാത്രം ഈ ഭൂവിലെ വാസം.xml" title="alppakaalam maathram ee bhoovile vaasam"/>
+      <song file="അന്ത്യകാല അഭിഷേകം.xml" title="andhyakaala abhishekam"/>
    </entry>
    <entry letter="aa">
       <song file="ആ ആ ആ ആ എന്നു കാണും യേശുരാജനെ.xml" title="aa aa aa aa ennu kaanum yeshuraajane"/>
@@ -1186,6 +1198,7 @@
       <song file="ആശ്വാസമേ എനിക്കേറെ തിങ്ങിടുന്നു.xml" title="aashvaasame enikkere thingitunnu"/>
       <song file="ആർ പോയിടും കർത്താവിന്നായിട്ടെങ്ങും_.xml" title="aar poyitum kartthaavinnaayittengum_"/>
       <song file="ആർപ്പിൻ നാദമുയരുന്നിതാ ഹല്ലേലുയ്യാ.xml" title="aarppin naadamuyarunnithaa halleluyyaa"/>
+      <song file="ആശ്രയിപ്പാൻ എനിക്കേശുവുണ്ട്.xml" title="aasryayippan enikkeshuvund"/>
    </entry>
    <entry letter="i">
       <song file="ഇടയൻ നല്ലിടയൻ യഹോവ നല്ലിടയൻ.xml" title="itayan nallitayan yahova nallitayan"/>
@@ -1393,6 +1406,7 @@
       <song file="എൻമനമേ സ്തുതി പാടിടുക.xml" title="enmaname sthuthi paatituka"/>
       <song file="എൻയേശുവേ രക്ഷകാ നല്ല സ്നേഹിതൻ നീ.xml" title="enyeshuve rakshakaa nalla snehithan nee"/>
       <song file="എൻസങ്കടങ്ങൾ സകലവും തീർന്നുപോയി.xml" title="ensankatangal sakalavum theernnupoyi"/>
+      <song file="എന്റെ ജീവനും എന്നും നന്ദിയോടെ.xml" title="ente jeevanum ennum nanniyode"/>
    </entry>
    <entry letter="e">
       <song file="ഏകസത്യദൈവമേ എന്റെ ദൈവമേ.xml" title="ekasathyadyvame ente dyvame"/>
@@ -1410,6 +1424,7 @@
       <song file="ഒന്നേയുള്ളെനിക്കാനന്ദമുലകിൽ.xml" title="onneyullenikkaanandamulakil"/>
       <song file="ഒരു ചെറു താരകംപോൽ.xml" title="oru cheru thaarakampol"/>
       <song file="ഒരുങ്ങിയുണർന്നിരിപ്പിൻ.xml" title="orungiyunarnnirippin/>
+      <song file="ഒരു നാൾ വിട്ടു നാം പോകും.xml" title="oru naal vittu naam pokum/>
    </entry>
    <entry letter="o">
       <song file="ഓ ഓ ഓ എനിക്കാനന്ദമാനന്ദം.xml" title="o o o enikkaanandamaanandam"/>
@@ -1738,6 +1753,8 @@
       <song file="നീയെൻ സ്വന്തമേ എന്താനന്ദമേ.xml" title="neeyen svanthame enthaanandame"/>
       <song file="നേരമിരുളുന്നു കൂരിരുളേറുന്നു.xml" title="neramirulunnu koorirulerunnu"/>
       <song file="ന്യായാസനത്തിൻ മുമ്പിൽ.xml" title="nyaayaasanatthin mumpil"/>
+      <song file="നീ മാത്രം വളരണം.xml" title="nee mathram valaranam"/>
+      <song file="ഞാൻ ചോദിച്ചതിലും ഞാൻ നിനച്ചതിലും.xml" title="njan chothichathilum njan ninachathilum"/>
    </entry>
    <entry letter="pa">
       <song file="പകലിൽ മേഘത്തണലായ് നീ.xml" title="pakalil meghatthanalaayu nee"/>
@@ -1820,6 +1837,7 @@
       <song file="പ്രിയനേ എന്നെക്കരുതും വഴിയിൽ.xml" title="priyane ennekkaruthum vazhiyil"/>
       <song file="പ്രിയൻ വരും നാളിനിയധികമില്ല.xml" title="priyan varum naaliniyadhikamilla"/>
       <song file="പർവ്വതഭൂമി ഭൂമണ്ഡലങ്ങൾ നിർമ്മിക്കും.xml" title="parvvathabhoomi bhoomandalangal nirmmikkum"/>
+      <song file="പർവ്വതഭൂമി ഭൂമണ്ഡലങ്ങൾ നിർമ്മിക്കും.xml" title="paadum njan ennum aekanaayi"/>
    </entry>
    <entry letter="ba">
       <song file="ബലഹീനനാകുമെന്നെ താങ്ങും നല്ല നാഥനേ.xml" title="balaheenanaakumenne thaangum nalla naathane"/>
@@ -1895,6 +1913,7 @@
       <song file="മൃത്യുവിനെ ജയിച്ച.xml" title="mruthyuvine jayiccha"/>
       <song file="മർത്യരിന്നാവശ്യമെന്തന്നറിഞ്ഞവൻ.xml" title="marthyarinnaavashyamenthannarinjavan"/>
       <song file="മൽപ്രാണനായകനേ.xml" title="malpraananaayakane"/>
+      <song file="മകനേ നീയെൻ പ്രാണൻ വില.xml" title="makane neeyen pranen vila"/>
    </entry>
    <entry letter="ya">
       <song file="യഹോവ എത്ര നല്ലവൻ.xml" title="yahova ethra nallavan"/>
@@ -1998,6 +2017,8 @@
       <song file="യേശുസന്നിധാനം.xml" title="yeshusannidhaanam"/>
       <song file="യോർദ്ദാൻ നദിതീരം കവിയുമ്പോൾ.xml" title="yorddhaan naditheeram kaviyumpol"/>
       <song file="യൗവനം മോഹനം സുന്ദരം.xml" title="yauvanam mohanam sundaram"/>
+      <song file="യേശുവോട്‌ ചേർന്നിരിക്കും വാസമോർക്കുമ്പോൾ.xml" title="yeshuvod chernnirikkum vasamorkkumppol"/>
+      <song file="യേശുവിൽ എന്നും എന്നെ മറയ്ക്കണെ.xml" title="yeshuvil ennum enne maraikkaname"/>
    </entry>
    <entry letter="ra">
       <song file="രക്തം നിറഞ്ഞോരുറവ.xml" title="raktham niranjorurava"/>
@@ -2099,6 +2120,7 @@
       <song file="വേഗം വരണം പ്രഭോ ഭവാൻ.xml" title="vegam varanam prabho bhavaan"/>
       <song file="വേദത്തിൽ ദൈവം താൻ.xml" title="vedatthil dyvam thaan"/>
       <song file="വേലയ്ക്കു വേലയ്ക്കു ദൈവദാസന്മാർ നാം.xml" title="velaykku velaykku dyvadaasanmaar naam"/>
+      <song file="വരുന്നു പരമേശന്‍.xml" title="varunnu parameshan"/>
    </entry>
    <entry letter="sha">
       <song file="ശാന്തതുറമുഖം അടുത്തു.xml" title="shaanthathuramukham atutthu"/>
