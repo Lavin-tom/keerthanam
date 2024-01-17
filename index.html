@@ -10,19 +10,16 @@
     <link rel="stylesheet" href="styles.css">
 
     <script src="ml2en.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.1.0/trianglify.min.js"></script>
 </head>
 <body>
 
-    <!-- SVG Pattern Background for Header -->
+    <!-- Generate Trianglify Background for Header -->
     <header style="position: relative;">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
-            <defs>
-                <pattern id="headerTrianglify" width="20" height="20" patternUnits="userSpaceOnUse">
-                    <polygon points="0,0 10,0 0,10" fill="#ddd" />
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#headerTrianglify)" />
-        </svg>
+        <script>
+            const headerPattern = Trianglify({ width: window.innerWidth, height: 200, cell_size: 40 });
+            document.write(headerPattern.svg());
+        </script>
 
         <div class="header-content">
             <h1 class="logo">keerthānām</h1>
@@ -59,16 +56,12 @@
         </div>      
     </main>
 
-    <!-- SVG Pattern Background for Footer -->
+    <!-- Generate Trianglify Background for Footer -->
     <footer style="position: relative;">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
-            <defs>
-                <pattern id="footerTrianglify" width="20" height="20" patternUnits="userSpaceOnUse">
-                    <polygon points="0,0 10,0 0,10" fill="#ddd" />
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#footerTrianglify)" />
-        </svg>
+        <script>
+            const footerPattern = Trianglify({ width: window.innerWidth, height: 200, cell_size: 40 });
+            document.write(footerPattern.svg());
+        </script>
 
         <p>&copy; keerthānām - lāvin</p>
     </footer>
