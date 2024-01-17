@@ -139,3 +139,30 @@ window.addEventListener('DOMContentLoaded', loadIndex);
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
 }
+
+// Initial font size
+let currentFontSize = 16;
+
+// Function to increase font size
+function zoomIn() {
+    currentFontSize += 2;
+    updateFontSize();
+}
+
+// Function to decrease font size
+function zoomOut() {
+    currentFontSize = Math.max(10, currentFontSize - 2);
+    updateFontSize();
+}
+
+// Function to reset font size
+function resetZoom() {
+    currentFontSize = 16;
+    updateFontSize();
+}
+
+// Function to update font size in the lyrics container
+function updateFontSize() {
+    const songContentDiv = document.getElementById('songContent');
+    songContentDiv.style.fontSize = `${currentFontSize}px`;
+}
