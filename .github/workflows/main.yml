@@ -1,0 +1,25 @@
+name: Convert Template to XML
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert-to-xml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install js-yaml xmlbuilder
+
+      - name: Convert YAML to XML
+        run: node .github/scripts/convert.js
