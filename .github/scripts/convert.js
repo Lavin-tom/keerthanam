@@ -4,7 +4,7 @@ const yaml = require('js-yaml');
 const xmlbuilder = require('xmlbuilder');
 
 // Read YAML file
-const yamlPath = '.workflows/main.yaml'; 
+const yamlPath = '.res/template.yaml'; 
 const yamlData = fs.readFileSync(yamlPath, 'utf8');
 const data = yaml.safeLoad(yamlData);
 
