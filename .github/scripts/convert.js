@@ -6,7 +6,7 @@ const xmlbuilder = require('xmlbuilder');
 // Read YAML file
 const yamlPath = 'res/template.yaml'; 
 const yamlData = fs.readFileSync(yamlPath, 'utf8');
-const data = yaml.safeLoad(yamlData);
+const data = yaml.load(yamlData);
 
 // Create XML structure
 const xml = xmlbuilder.create('song', { encoding: 'UTF-8' })
