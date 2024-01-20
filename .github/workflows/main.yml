@@ -1,25 +1,33 @@
-name: Convert Template to XML
+name: Convert YAML to XML
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - '**/template.yaml'
 
 jobs:
-  convert-to-xml:
+  convert:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: '14'
 
-      - name: Install Dependencies
-        run: npm install js-yaml xmlbuilder
+      - name: Install dependencies
+        run: npm install
 
-      - name: Convert YAML to XML
+      - name: Run conversion script
         run: node .github/scripts/convert.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto-convert YAML to XML"
+          git push
