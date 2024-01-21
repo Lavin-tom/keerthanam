@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install js-yaml
+        run: npm install js-yaml
+
       - name: Run conversion script
         run: node .github/scripts/convert.js
 
