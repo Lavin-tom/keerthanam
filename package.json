@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "convert": "node .github/scripts/convert.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.0.0",
+    "xmlbuilder": "^16.0.0"
+  }
+}
