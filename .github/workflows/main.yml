@@ -5,7 +5,6 @@ on:
     paths:
       - '**/template.yaml'
 
-
 jobs:
   convert:
     runs-on: ubuntu-latest
@@ -20,8 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm ci
-
+        run: npm install
 
       - name: Run conversion script
         run: npm run convert
