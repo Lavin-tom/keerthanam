@@ -1,9 +1,9 @@
-name: Convert YAML to XML
+name: Convert txt to XML
 
 on:
   push:
     paths:
-      - '**/template.yaml'
+      - '**/template.txt'
 
 jobs:
   convert:
