@@ -18,7 +18,7 @@ const xml = xmlbuilder.create('song', { encoding: 'UTF-8' })
 
 xml.ele('properties')
   .ele('titles')
-  .ele('title', data.title);
+    .ele('title', data.title);
 
 xml.ele('verseOrder', {}, data.verseOrder);
 
@@ -29,12 +29,8 @@ const lyrics = xml.ele('lyrics');
 
 data.verseOrder.split(' ').forEach((verseName, index) => {
   const verseData = data[`v${index + 1}`];
-
-  // Check if verseData is defined before processing
-  if (verseData !== undefined) {
-    lyrics.ele('verse', { name: verseName })
-      .ele('lines', {}, verseData.replace(/\n/g, '<br/>'));
-  }
+  lyrics.ele('verse', { name: verseName })
+    .ele('lines', {}, verseData.replace(/\n/g, '<br/>'));
 });
 
 // Convert to string
@@ -43,8 +39,6 @@ const xmlString = xml.end({ pretty: true });
 // Generate XML file name based on the song title
 const xmlFileName = `${data.title}.xml`;
 
-// Write to XML file
-const xmlPath = path.join('.res/songs/', xmlFileName);
+// Write to XML file in the res folder
+const xmlPath = path.join('res', xmlFileName); // Update with your desired path
 fs.writeFileSync(xmlPath, xmlString, 'utf8');
-
-console.log('Conversion successful.');
