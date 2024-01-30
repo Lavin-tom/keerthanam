@@ -1,25 +1,21 @@
-name: Convert txt to XML
+name: Process XML
 
 on:
-  push:
+  pull_request:
     paths:
-      - '**/template.txt'
+      - 'template.xml'
 
 jobs:
-  convert:
+  process-xml:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'
+      - name: Extract Title from XML
+        id: extract-title
+        run: echo "::set-output name=title::$(xmllint --xpath 'string(/song/properties/titles/title)' template.xml)"
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run conversion script
-        run: npm run convert
+      - name: Create XML File in res Folder
+        run: echo "${{ steps.extract-title.outputs.title }}" > "res/${{ steps.extract-title.outputs.title }}.xml"
