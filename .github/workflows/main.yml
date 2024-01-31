@@ -18,4 +18,4 @@ jobs:
         run: echo "::set-output name=title::$(xmllint --xpath 'string(/song/properties/titles/title)' template.xml)"
 
       - name: Create XML File in res Folder
-        run: echo "${{ steps.extract-title.outputs.title }}" > "res/${{ steps.extract-title.outputs.title }}.xml"
+        run: echo "${{ steps.extract-title.outputs.title }}" > "res/songs${{ steps.extract-title.outputs.title }}.xml"
