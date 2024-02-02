@@ -1,3 +1,12 @@
+name: Add XML to Res Folder
+
+on:
+  push:
+    paths:
+      - '**/template.xml'
+  pull_request:
+    paths:
+      - '**/template.xml'
 jobs:
   copy-xml:
     runs-on: ubuntu-latest
