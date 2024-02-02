@@ -1,21 +1,28 @@
-name: Process XML
-
-on:
-  pull_request:
-    paths:
-      - 'template.xml'
-
 jobs:
-  process-xml:
+  copy-xml:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v2
+      - name: Extract title from XML
+        run: |
+          import xml.etree.ElementTree as ET
 
-      - name: Extract Title from XML
-        id: extract-title
-        run: echo "::set-output name=title::$(xmllint --xpath 'string(/song/properties/titles/title)' template.xml)"
+          # Parse the XML file
+          tree = ET.parse('template.xml')
 
-      - name: Create XML File in res Folder
-        run: echo "${{ steps.extract-title.outputs.title }}" > "res/songs${{ steps.extract-title.outputs.title }}.xml"
+          # Find the title element
+          title = tree.find('.//title').text
+
+          # Use the title to create a new file name
+          new_file_name = title + '.xml'
+      - name: Copy XML to Res Folder
+        run: |
+          cp template.xml res/
+          cp $new_file_name res/
+      - name: Commit changes
+        run: |
+          git config --global user.email "lavintom007@gmail.com"
+          git config --global user.name "Lavin-tom"
+          git commit -am "Add template.xml to res folder"
+          git push
