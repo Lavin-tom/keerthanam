@@ -1,4 +1,4 @@
-name: Add XML to Res Folder
+name: Process XML File
 
 on:
   push:
@@ -7,12 +7,19 @@ on:
   pull_request:
     paths:
       - '**/template.xml'
+
 jobs:
   copy-xml:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.8  
+
       - name: Extract title from XML
         run: |
           import xml.etree.ElementTree as ET
@@ -21,17 +28,23 @@ jobs:
           tree = ET.parse('template.xml')
 
           # Find the title element
-          title = tree.find('.//title').text
+          title_element = tree.find('.//title')
 
-          # Use the title to create a new file name
-          new_file_name = title + '.xml'
-      - name: Copy XML to Res Folder
-        run: |
-          cp template.xml res/
-          cp $new_file_name res/
+          if title_element is not None:
+              title = title_element.text
+
+              # Use the title to create a new file name
+              new_file_name = title + '.xml'
+
+              # Copy the XML file to the res folder with the new file name
+              cp template.xml res/$new_file_name
+          else:
+              echo "Title element not found in XML file."
+
       - name: Commit changes
         run: |
           git config --global user.email "lavintom007@gmail.com"
           git config --global user.name "Lavin-tom"
-          git commit -am "Add template.xml to res folder"
+          git add res/
+          git commit -m "Add template.xml to res folder"
           git push
