@@ -1,59 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>keerthānām</title>
-	<link rel="shortcut icon" type="image/png" href="res/favicon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="styles.css">  
-    <script src="ml2en.js"></script>
-</head>
-<body>
-   <header>
-        <div class="header-content">
-            <h1 class="logo">keerthānām</h1>
-            <div class="icon-container" onclick="toggleDarkMode()">
-                <i class="material-icons">brightness_6</i>
-            </div>
-            <div class="icon-container" onclick="toggleTransliteration()">
-                <i class="material-icons" id="transliterationIcon">translate</i>
-            </div>
-            <div class="icon-container" onclick="zoomIn()">
-                <i class="material-icons">zoom_in</i>
-            </div>
-            <div class="icon-container" onclick="zoomOut()">
-                <i class="material-icons">zoom_out</i>
-            </div>
-            <div class="icon-container" onclick="resetZoom()">
-                <i class="material-icons">zoom_out_map</i>
-            </div>
-        </div>
-    </header>
+<meta charset="utf-8" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://github.com/Lavin-tom/SongBook">
+<meta property="og:url" content="https://github.com/Lavin-tom/SongBook">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Pudhina Fresh">
+<title>keerthānām</title>
+<meta property="og:title" content="keerthānām">
+<meta name="description" content="A minimal yet feature-rich Jekyll theme made for personal websites and blogs.">
+<meta property="og:description" content="A minimal yet feature-rich Jekyll theme made for personal websites and blogs.">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/default.min.css">
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="icon" type="image/jpeg" href="res/favicon.png"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 
-
-    <main class="container">
-        <div class="form-group">
-            <label for="searchBox"></label>
-            <input type="text" class="form-control" id="searchBox" oninput="filterSongs()" placeholder="Search for a song lyrics..">
-        </div>
-
+<div class="wrapper">
+<header class="header">
+<div class="navigation">
+<a href="https://github.com/Lavin-tom/SongBook" class="logo">keerthānām</a>
+  <a class="navbar-brand"></a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search any song by typing here..." aria-label="Search" oninput="filterSongs()"id="searchBox">
+  </form>
+</div>
+<ul class="social-links">
+<a href="#" class="social-links__entry" target="_blank">
+<i class="fa fa-search-minus" onclick="zoomOut()"aria-hidden="true"></i>
+</a>
+<a href="#" class="social-links__entry" target="_blank">
+<i class="fa fa-search" onclick="zoomOut()"aria-hidden="true"></i>
+</a>
+<a href="#" class="social-links__entry" target="_blank">
+<i class="fa fa-search-plus" onclick="zoomIn()"aria-hidden="true"></i>
+</a>
+<a href="#" class="social-links__entry" target="_blank">
+<i class="material-icons" id="transliterationIcon">translate</i>
+</a>
+<a href="https://github.com/Lavin-tom/SongBook" class="social-links__entry" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+    <a class="social-links__entry" href='#' onclick="switch_dark_mode_icon(darkmode, 'dark_mode_toggle')">
+        <i style="color: rgba( 254, 164, 1, 100%);" id="dark_mode_toggle" class="fas fa-sun"></i>
+    </a>	
+</ul>
+</header>
+<h1 class="page-title">
+   <div class="page-title__text"></div>
+   <div class="page-title__subtitle"></div>
+</h1>
+<p class="describe-text">A minimal yet feature-rich christian song book</p>
+<p><br />
+ Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+ Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. 
+ Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<p>keerthānām is free and open-source. Checkout <a href="https://github.com/Lavin-tom/SongBook">keerthānām</a>.</p>
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+<span class="toggle"></span>
+<span class="wave"></span>
+<br>
+<br>
+<div class="about">
+<div class="about__devider">*****</div>
+<div class="about__text">
+<br>
+&#169 2024, Lavin-Tom | Made from <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme for Jekyll.
+</div>
+</div>
+</div>
         <div id="suggestionList" class="list-group">
         </div>
 
         <ul class="song-list" id="songList">
         </ul>
         <div id="songContent">
-        </div>      
-    </main>
-    <footer>
-        <p>&copy; keerthānām - lāvin</p>
-    </footer>
-	
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+        </div> 
+<script src="assets/js/script.js"></script>
+<script>
+const options = {
+    bottom: '32px', // default: '32px'
+    right: '32px', // default: '32px'
+    left: 'unset', // default: 'unset'
+    time: '0.3s', // default: '0.3s'
+    mixColor: 'rgba( 230, 230, 230, 100%)', // default: '#fff'
+    backgroundColor: '#fff',  // default: '#fff'
+    buttonColorDark: '#100f2c',  // default: '#100f2c'
+    buttonColorLight: '#fff', // default: '#fff'
+    saveInCookies: true, // default: true,
+    label: '🌓', // default: ''
+    autoMatchOsTheme: true // default: true
+    }
+const darkmode = new Darkmode(options);
+render_dark_mode_icon(darkmode, 'dark_mode_toggle');
+</script>
