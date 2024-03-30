@@ -170,7 +170,7 @@ function zoomOut() {
 
 // Function to reset font size
 function resetZoom() {
-    font-size: 130;
+    font-size = 130%;
     updateFontSize();
 }
 
