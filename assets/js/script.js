@@ -39,19 +39,29 @@ function getCurrentSongFile() {
     return null;
 }
 
+let fuse;
 async function loadIndex() {
-    const indexFile = 'assets/index.xml'; 
-    await buildIndex(indexFile);
+  const indexFile = 'assets/index.xml';
+  await buildIndex(indexFile);
+  const flatIndex = Object.values(titleIndex).flat();
+  const options = {
+    keys: ['title'],
+    includeScore: true,
+    threshold: 0.6 
+  };
+  fuse = new Fuse(flatIndex, options);
 }
 
 function getFilteredSuggestions(searchInput) {
-    const suggestions = Object.values(titleIndex)
-        .flat()
-        .filter(suggestion =>
-            suggestion.title.toLowerCase().includes(searchInput)
-        );
-
-    return suggestions;
+  if (!fuse) {
+    console.error('Index not loaded yet. Call loadIndex() first.');
+    return [];
+  }
+  
+  const results = fuse.search(searchInput);
+  const suggestions = results.map(result => result.item);
+  
+  return suggestions;
 }
 
 async function loadSong(file) {
