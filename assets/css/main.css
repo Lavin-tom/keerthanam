@@ -125,7 +125,10 @@ a.logo:hover {
   display: inline-block;
   margin-left: 10px;
 }
-
+#social-links__entry {
+  display: inline-block;
+  margin-left: 10px;
+}
 /* =Titles */ /*************************************************************/
 .page-title {
   margin: 30px auto;
