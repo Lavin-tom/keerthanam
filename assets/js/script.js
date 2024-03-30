@@ -123,9 +123,12 @@ function filterSongs() {
         return;
     }
     
+    // Clear previous suggestions only if suggestionList exists
+    if (suggestionList) {
+        suggestionList.innerHTML = '';
+    }
+    
     suggestionList.style.display = 'none';
-
-    suggestionList.innerHTML = '';
     songList.innerHTML = '';
 
     const suggestions = getFilteredSuggestions(searchInput);
@@ -167,7 +170,7 @@ function zoomOut() {
 
 // Function to reset font size
 function resetZoom() {
-    currentFontSize = 16;
+    font-size: 130;
     updateFontSize();
 }
 
