@@ -113,12 +113,14 @@ function toggleTransliteration() {
         loadSong(currentSongFile);
     }
 }
+// Function to filter songs based on search input
 function filterSongs() {
-    const searchInput = document.getElementById('searchBox').value.toLowerCase();
+    const searchInput = document.getElementById('searchBox').value;
+    const suggestions = getFilteredSuggestions(searchInput);
     const suggestionList = document.getElementById('suggestionList');
     const songList = document.getElementById('songList');
     
-    if (!searchInput) {
+    if (!searchInput.trim()) {
         suggestionList.style.display = 'block';
         return;
     }
@@ -130,8 +132,6 @@ function filterSongs() {
     
     suggestionList.style.display = 'none';
     songList.innerHTML = '';
-
-    const suggestions = getFilteredSuggestions(searchInput);
 
     if (suggestions.length > 0) {
         suggestionList.style.display = 'block';
@@ -147,6 +147,9 @@ function filterSongs() {
         });
     }
 }
+
+// Event listener for the search input
+document.getElementById('searchBox').addEventListener('input', filterSongs);
 
 window.addEventListener('DOMContentLoaded', loadIndex);
 function toggleDarkMode() {
