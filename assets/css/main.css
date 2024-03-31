@@ -328,6 +328,10 @@ a.logo:hover {
   animation: glitch 2s steps(100) infinite;
 }
 
+.transliteration-active {
+    color: blue;
+}
+
 @keyframes glitch {
   0% {
     text-shadow: 1px 0 0 red, -1px 0 0 blue;
