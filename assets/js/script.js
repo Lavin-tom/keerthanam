@@ -98,8 +98,6 @@ async function loadSong(file) {
     songContentDiv.innerHTML = htmlContent;
 }
 
-
-
 function transliterateLyrics(lyrics) {
     return ml2en(lyrics);
 }
