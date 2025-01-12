@@ -116,34 +116,34 @@ function filterSongs() {
     const searchInput = document.getElementById('searchBox').value;
     const suggestions = getFilteredSuggestions(searchInput);
     const suggestionList = document.getElementById('suggestionList');
-    const songList = document.getElementById('songList');
-    
-    if (!searchInput.trim()) {
-        suggestionList.style.display = 'block';
-        return;
-    }
-    
-    // Clear previous suggestions only if suggestionList exists
+
+    // Debugging
+    console.log('Search Input:', searchInput);
+    console.log('Suggestions Found:', suggestions);
+
+    // Clear previous suggestions
     if (suggestionList) {
         suggestionList.innerHTML = '';
     }
-    
-    suggestionList.style.display = 'none';
-    songList.innerHTML = '';
 
-    if (suggestions.length > 0) {
-        suggestionList.style.display = 'block';
-
-        suggestions.forEach(suggestion => {
-            const listItem = document.createElement('li');
-            listItem.textContent = suggestion.title;
-            listItem.addEventListener('click', () => {
-                loadSong(suggestion.file);
-                suggestionList.style.display = 'none';
-            });
-            suggestionList.appendChild(listItem);
-        });
+    // Handle no input or no suggestions
+    if (!searchInput.trim() || suggestions.length === 0) {
+        suggestionList.style.display = 'none';
+        return;
     }
+
+    // Display suggestions
+    suggestionList.style.display = 'block';
+    suggestions.forEach(suggestion => {
+        const listItem = document.createElement('li');
+        listItem.textContent = suggestion.title;
+        listItem.addEventListener('click', () => {
+            console.log('Loading Song:', suggestion.file);
+            loadSong(suggestion.file); // Load the selected song
+            suggestionList.style.display = 'none';
+        });
+        suggestionList.appendChild(listItem);
+    });
 }
 
 // Event listener for the search input
