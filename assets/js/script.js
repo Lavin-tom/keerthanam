@@ -13,7 +13,7 @@ async function buildIndex(file) {
         const songs = entry.querySelectorAll('song');
 
         songs.forEach(song => {
-            const songTitle = song.getAttribute('title').toLowerCase();
+            const songTitle = song.getAttribute('title')?.toLowerCase();
             const songFile = song.getAttribute('file');
 
             if (!titleIndex[letter]) {
@@ -26,7 +26,9 @@ async function buildIndex(file) {
             });
         });
     });
+    console.log('Title Index:', titleIndex); // Debugging
 }
+
 
 function getCurrentSongFile() {
     const songContentDiv = document.getElementById('songContent');
@@ -41,28 +43,33 @@ function getCurrentSongFile() {
 
 let fuse;
 async function loadIndex() {
-  const indexFile = 'assets/index.xml';
-  await buildIndex(indexFile);
-  const flatIndex = Object.values(titleIndex).flat();
-  const options = {
-    keys: ['title'],
-    includeScore: true,
-    threshold: 0.6 
-  };
-  fuse = new Fuse(flatIndex, options);
+    const indexFile = 'assets/index.xml';
+    await buildIndex(indexFile);
+    const flatIndex = Object.values(titleIndex).flat();
+    const options = {
+        keys: ['title'],
+        includeScore: true,
+        threshold: 0.6 
+    };
+    fuse = new Fuse(flatIndex, options);
+    console.log('Fuse Initialized:', fuse); // Debugging
 }
 
+
 function getFilteredSuggestions(searchInput) {
-  if (!fuse) {
-    console.error('Index not loaded yet. Call loadIndex() first.');
-    return [];
-  }
-  
-  const results = fuse.search(searchInput);
-  const suggestions = results.map(result => result.item);
-  
-  return suggestions;
+    if (!fuse) {
+        console.error('Index not loaded yet. Call loadIndex() first.');
+        return [];
+    }
+
+    const trimmedInput = searchInput.trim().toLowerCase();
+    if (!trimmedInput) return [];
+
+    const results = fuse.search(trimmedInput);
+    console.log('Fuse Results:', results); // Debugging
+    return results.map(result => result.item);
 }
+
 
 async function loadSong(file) {
     const response = await fetch(`assets/songs/${file}`);
@@ -114,37 +121,34 @@ function toggleTransliteration() {
 // Function to filter songs based on search input
 function filterSongs() {
     const searchInput = document.getElementById('searchBox').value;
+    console.log('Search Input:', searchInput); // Debugging
+    
     const suggestions = getFilteredSuggestions(searchInput);
+    console.log('Suggestions:', suggestions); // Debugging
+
     const suggestionList = document.getElementById('suggestionList');
-
-    // Debugging
-    console.log('Search Input:', searchInput);
-    console.log('Suggestions Found:', suggestions);
-
-    // Clear previous suggestions
     if (suggestionList) {
-        suggestionList.innerHTML = '';
+        suggestionList.innerHTML = ''; // Clear previous suggestions
     }
 
-    // Handle no input or no suggestions
     if (!searchInput.trim() || suggestions.length === 0) {
         suggestionList.style.display = 'none';
         return;
     }
 
-    // Display suggestions
     suggestionList.style.display = 'block';
     suggestions.forEach(suggestion => {
         const listItem = document.createElement('li');
         listItem.textContent = suggestion.title;
         listItem.addEventListener('click', () => {
-            console.log('Loading Song:', suggestion.file);
-            loadSong(suggestion.file); // Load the selected song
+            console.log('Loading Song:', suggestion.file); // Debugging
+            loadSong(suggestion.file);
             suggestionList.style.display = 'none';
         });
         suggestionList.appendChild(listItem);
     });
 }
+
 
 // Event listener for the search input
 document.getElementById('searchBox').addEventListener('input', filterSongs);
