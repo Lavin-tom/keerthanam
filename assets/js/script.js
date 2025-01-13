@@ -66,13 +66,17 @@ function getFilteredSuggestions(searchInput) {
     const searchPrefix = searchInput.trim().toLowerCase(); // Normalize the search input
     const suggestions = [];
 
-    // Go through all the songs in the titleIndex, not just by letter grouping
+    // Go through all the songs in the titleIndex, checking against all titles
     for (const letter in titleIndex) {
         const songs = titleIndex[letter];
         
-        // Add all songs that match the searchPrefix, no matter which letter they are under
-        const filteredSongs = songs.filter(song => song.title.startsWith(searchPrefix));
-        suggestions.push(...filteredSongs);
+        // For each song in the letter group, check if it starts with the search prefix
+        songs.forEach(song => {
+            // Compare the start of the song title with the search input (ignoring case)
+            if (song.title.toLowerCase().startsWith(searchPrefix)) {
+                suggestions.push(song); // Add to the list of suggestions
+            }
+        });
     }
 
     console.log('Filtered Suggestions:', suggestions); // Debugging
