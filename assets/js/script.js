@@ -61,17 +61,23 @@ async function loadIndex() {
 };
 
 function getFilteredSuggestions(searchInput) {
-    if (!fuse) {
-        console.error('Index not loaded yet. Call loadIndex() first.');
-        return [];
+    if (!searchInput.trim()) return []; // Return empty if no input
+
+    const searchPrefix = searchInput.trim().toLowerCase(); // Normalize the search input
+    const suggestions = [];
+
+    // Go through each entry in the index
+    for (const [letter, songs] of Object.entries(titleIndex)) {
+        if (letter.startsWith(searchPrefix)) {
+            suggestions.push(...songs); // Add all songs under this letter if it starts with the search input
+        }
     }
 
-    const trimmedInput = searchInput.trim().toLowerCase();
-    if (!trimmedInput) return [];
+    // Filter songs by checking if their titles start with the search input
+    const filteredSuggestions = suggestions.filter(song => song.title.startsWith(searchPrefix));
 
-    const results = fuse.search(trimmedInput);
-    console.log('Raw Fuse.js Results:', results); // Debugging
-    return results.map(result => result.item);
+    console.log('Filtered Suggestions:', filteredSuggestions); // Debugging
+    return filteredSuggestions;
 }
 
 async function loadSong(file) {
@@ -87,14 +93,11 @@ async function loadSong(file) {
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
 
-    // Check if transliterationIcon exists
     const transliterationIcon = document.getElementById('transliterationIcon');
     const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
 
-    // Transliterate the title if transliteration is enabled
     const transliteratedTitle = transliterationEnabled ? transliterateLyrics(title) : title;
 
-    // If transliteration is enabled, transliterate the lyrics
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
     const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
 
@@ -104,7 +107,6 @@ async function loadSong(file) {
     let htmlContent = `<h2>${transliteratedTitle}</h2>`;
     htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
 
-    // Display the HTML content on the page
     songContentDiv.innerHTML = htmlContent;
 }
 
@@ -124,11 +126,6 @@ function toggleTransliteration() {
 }
 
 function filterSongs() {
-    if (!isIndexLoaded) {
-        console.log('Waiting for the index to load...');
-        return; // Don't proceed until index is loaded
-    }
-
     const searchInput = document.getElementById('searchBox').value.trim().toLowerCase();
     console.log('Search Input:', searchInput); // Debugging
 
