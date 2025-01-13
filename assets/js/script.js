@@ -7,20 +7,23 @@ async function buildIndex(file) {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
 
+    // Parse all 'entry' elements and categorize songs by their starting letter or prefix
     const entries = xmlDoc.querySelectorAll('entry');
     entries.forEach(entry => {
-        const letter = entry.getAttribute('letter');
+        const prefix = entry.getAttribute('letter');
         const songs = entry.querySelectorAll('song');
 
+        // Initialize the array for the prefix if not already done
+        if (!titleIndex[prefix]) {
+            titleIndex[prefix] = [];
+        }
+
+        // Add each song under the prefix
         songs.forEach(song => {
             const songTitle = song.getAttribute('title')?.toLowerCase() || '';
             const songFile = song.getAttribute('file');
 
-            if (!titleIndex[letter]) {
-                titleIndex[letter] = [];
-            }
-
-            titleIndex[letter].push({
+            titleIndex[prefix].push({
                 title: songTitle,
                 file: songFile
             });
@@ -43,44 +46,23 @@ function getCurrentSongFile() {
 let fuse;
 let isIndexLoaded = false;
 async function loadIndex() {
-    const indexFile = 'assets/index.xml';
+    const indexFile = 'assets/index.xml'; 
     await buildIndex(indexFile);
-    const flatIndex = Object.values(titleIndex).flat();
-    console.log('Flat Index:', flatIndex); // Debugging
-
-    const options = {
-        keys: ['title'],
-        includeScore: true,
-        threshold: 0.4, // Stricter threshold for more accurate matches
-        ignoreLocation: true // Allows partial matches
-    };
-    fuse = new Fuse(flatIndex, options);
-    console.log('Fuse Initialized:', fuse); // Debugging
-
-    isIndexLoaded = true; // Set the flag to true after the index is loaded
-};
+}
 
 function getFilteredSuggestions(searchInput) {
-    if (!searchInput.trim()) return []; // Return empty if no input
+    if (!searchInput) return [];
 
-    const searchPrefix = searchInput.trim().toLowerCase(); // Normalize the search input
-    const suggestions = [];
+    const trimmedInput = searchInput.trim().toLowerCase();
 
-    // Go through all the songs in the titleIndex, checking against all titles
-    for (const letter in titleIndex) {
-        const songs = titleIndex[letter];
-        
-        // For each song in the letter group, check if it starts with the search prefix
-        songs.forEach(song => {
-            // Compare the start of the song title with the search input (ignoring case)
-            if (song.title.toLowerCase().startsWith(searchPrefix)) {
-                suggestions.push(song); // Add to the list of suggestions
-            }
-        });
+    // Look for exact matches to the prefix in the titleIndex
+    const results = titleIndex[trimmedInput];
+
+    if (results) {
+        return results;
+    } else {
+        return [];
     }
-
-    console.log('Filtered Suggestions:', suggestions); // Debugging
-    return suggestions;
 }
 
 async function loadSong(file) {
@@ -88,26 +70,16 @@ async function loadSong(file) {
     const xmlData = await response.text();
     const songContentDiv = document.getElementById('songContent');
 
-    // Parse XML content
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
 
-    // Extract title and lyrics
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
-
-    const transliterationIcon = document.getElementById('transliterationIcon');
-    const transliterationEnabled = transliterationIcon ? transliterationIcon.classList.contains('transliteration-active') : false;
-
-    const transliteratedTitle = transliterationEnabled ? transliterateLyrics(title) : title;
-
+    
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
-    const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
+    const versesWithLineBreaks = rawLyrics.split('\n').map(verse => `${verse}<br>`).join('');
 
-    const versesWithLineBreaks = lyrics.split('\n').map(verse => `${verse}<br>`).join('');
-
-    // Create HTML content
-    let htmlContent = `<h2>${transliteratedTitle}</h2>`;
+    let htmlContent = `<h2>${title}</h2>`;
     htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
 
     songContentDiv.innerHTML = htmlContent;
