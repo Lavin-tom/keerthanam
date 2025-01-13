@@ -41,6 +41,7 @@ function getCurrentSongFile() {
 }
 
 let fuse;
+let isIndexLoaded = false;
 async function loadIndex() {
     const indexFile = 'assets/index.xml';
     await buildIndex(indexFile);
@@ -55,7 +56,9 @@ async function loadIndex() {
     };
     fuse = new Fuse(flatIndex, options);
     console.log('Fuse Initialized:', fuse); // Debugging
-}
+
+    isIndexLoaded = true; // Set the flag to true after the index is loaded
+};
 
 function getFilteredSuggestions(searchInput) {
     if (!fuse) {
@@ -121,6 +124,11 @@ function toggleTransliteration() {
 }
 
 function filterSongs() {
+    if (!isIndexLoaded) {
+        console.log('Waiting for the index to load...');
+        return; // Don't proceed until index is loaded
+    }
+
     const searchInput = document.getElementById('searchBox').value.trim().toLowerCase();
     console.log('Search Input:', searchInput); // Debugging
 
