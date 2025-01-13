@@ -13,7 +13,7 @@ async function buildIndex(file) {
         const songs = entry.querySelectorAll('song');
 
         songs.forEach(song => {
-            const songTitle = song.getAttribute('title')?.toLowerCase();
+            const songTitle = song.getAttribute('title')?.toLowerCase() || '';
             const songFile = song.getAttribute('file');
 
             if (!titleIndex[letter]) {
@@ -26,9 +26,8 @@ async function buildIndex(file) {
             });
         });
     });
-    console.log('Title Index:', titleIndex); // Debugging
+    console.log('Built Title Index:', titleIndex); // Debugging
 }
-
 
 function getCurrentSongFile() {
     const songContentDiv = document.getElementById('songContent');
@@ -46,15 +45,17 @@ async function loadIndex() {
     const indexFile = 'assets/index.xml';
     await buildIndex(indexFile);
     const flatIndex = Object.values(titleIndex).flat();
+    console.log('Flat Index:', flatIndex); // Debugging
+
     const options = {
         keys: ['title'],
         includeScore: true,
-        threshold: 0.6 
+        threshold: 0.4, // Stricter threshold for more accurate matches
+        ignoreLocation: true // Allows partial matches
     };
     fuse = new Fuse(flatIndex, options);
     console.log('Fuse Initialized:', fuse); // Debugging
 }
-
 
 function getFilteredSuggestions(searchInput) {
     if (!fuse) {
@@ -66,10 +67,9 @@ function getFilteredSuggestions(searchInput) {
     if (!trimmedInput) return [];
 
     const results = fuse.search(trimmedInput);
-    console.log('Fuse Results:', results); // Debugging
+    console.log('Raw Fuse.js Results:', results); // Debugging
     return results.map(result => result.item);
 }
-
 
 async function loadSong(file) {
     const response = await fetch(`assets/songs/${file}`);
@@ -94,12 +94,12 @@ async function loadSong(file) {
     // If transliteration is enabled, transliterate the lyrics
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
     const lyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
-	
-	const versesWithLineBreaks = lyrics.split('\n').map(verse => `${verse}<br>`).join('');
-    
-	// Create HTML content
-	let htmlContent = `<h2>${transliteratedTitle}</h2>`;
-	htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
+
+    const versesWithLineBreaks = lyrics.split('\n').map(verse => `${verse}<br>`).join('');
+
+    // Create HTML content
+    let htmlContent = `<h2>${transliteratedTitle}</h2>`;
+    htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
 
     // Display the HTML content on the page
     songContentDiv.innerHTML = htmlContent;
@@ -108,9 +108,10 @@ async function loadSong(file) {
 function transliterateLyrics(lyrics) {
     return ml2en(lyrics);
 }
+
 function toggleTransliteration() {
     const transliterationIcon = document.getElementById('transliterationIcon');
-    
+
     transliterationIcon.classList.toggle('transliteration-active');
 
     const currentSongFile = getCurrentSongFile();
@@ -118,68 +119,59 @@ function toggleTransliteration() {
         loadSong(currentSongFile);
     }
 }
-// Function to filter songs based on search input
+
 function filterSongs() {
-    const searchInput = document.getElementById('searchBox').value;
+    const searchInput = document.getElementById('searchBox').value.trim().toLowerCase();
     console.log('Search Input:', searchInput); // Debugging
-    
+
     const suggestions = getFilteredSuggestions(searchInput);
     console.log('Suggestions:', suggestions); // Debugging
 
     const suggestionList = document.getElementById('suggestionList');
-    if (suggestionList) {
-        suggestionList.innerHTML = ''; // Clear previous suggestions
-    }
+    suggestionList.innerHTML = ''; // Clear previous suggestions
 
-    if (!searchInput.trim() || suggestions.length === 0) {
+    if (searchInput === '' || suggestions.length === 0) {
         suggestionList.style.display = 'none';
         return;
     }
 
     suggestionList.style.display = 'block';
-    suggestions.forEach(suggestion => {
+    suggestions.forEach(({ title, file }) => {
         const listItem = document.createElement('li');
-        listItem.textContent = suggestion.title;
+        listItem.textContent = title; // Display the title
         listItem.addEventListener('click', () => {
-            console.log('Loading Song:', suggestion.file); // Debugging
-            loadSong(suggestion.file);
-            suggestionList.style.display = 'none';
+            console.log('Loading Song:', file); // Debugging
+            loadSong(file); // Load the song on click
+            suggestionList.style.display = 'none'; // Hide suggestions
         });
         suggestionList.appendChild(listItem);
     });
 }
 
-
-// Event listener for the search input
 document.getElementById('searchBox').addEventListener('input', filterSongs);
-
 window.addEventListener('DOMContentLoaded', loadIndex);
+
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
 }
 
-// Initial font size
 let currentFontSize = 16;
 
-// Function to increase font size
 function zoomIn() {
     currentFontSize += 2;
     updateFontSize();
 }
 
-// Function to decrease font size
 function zoomOut() {
     currentFontSize = Math.max(10, currentFontSize - 2);
     updateFontSize();
 }
 
-// Function to reset font size
 function resetZoom() {
     currentFontSize = 16;
     updateFontSize();
 }
 
-// Function to update font size in the lyrics container
 function updateFontSize() {
     const songContentDiv = document.getElementById('songContent');
     songContentDiv.style.fontSize = `${currentFontSize}px`;
