@@ -174,3 +174,72 @@ function updateFontSize() {
     const songContentDiv = document.getElementById('songContent');
     songContentDiv.style.fontSize = `${currentFontSize}px`;
 }
+
+const url = 'assets/55179722.pdf'; 		
+let pdfDoc = null;
+let currentPage = 1;
+
+// Load the PDF document
+pdfjsLib.getDocument(url).promise.then(doc => {
+  pdfDoc = doc;
+  renderPage(currentPage);
+});
+
+// Render a specific page
+function renderPage(pageNum) {
+    pdfDoc.getPage(pageNum).then(page => {
+        const viewport = page.getViewport({ scale: 1.5 });
+        pdfCanvas.width = viewport.width;
+        pdfCanvas.height = viewport.height;
+
+        const renderContext = {
+            canvasContext: context,
+            viewport: viewport,
+        };
+
+        page.render(renderContext);
+    });
+}
+/*// Handle index clicks
+document.getElementById('index').addEventListener('click', e => {
+  if (e.target.tagName === 'BUTTON') {
+    const pageNum = parseInt(e.target.getAttribute('data-page'), 10);
+    if (pageNum && pdfDoc) {
+      currentPage = pageNum;
+      renderPage(pageNum);
+    }
+  }
+});*/
+const options = {
+    bottom: '32px', 
+    right: '32px', 
+    left: 'unset', 
+    time: '0.3s', 
+    mixColor: 'rgba(230, 230, 230, 100%)', 
+    backgroundColor: '#fff',  
+    buttonColorDark: '#100f2c',  
+    buttonColorLight: '#fff', 
+    saveInCookies: true, 
+    label: '🌓', 
+    autoMatchOsTheme: true 
+}
+const darkmode = new Darkmode(options);
+render_dark_mode_icon(darkmode, 'dark_mode_toggle');
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pdfCanvas = document.getElementById('pdfCanvas');
+    if (pdfCanvas) {
+		const context = pdfCanvas.getContext('2d');
+        } else {
+            console.error("Canvas element not found.");
+        }
+    });
+// Display PDF viewer in songContent
+const prayersButton = document.getElementById('prayersButton');
+if (prayersButton) {
+    prayersButton.addEventListener('click', () => {
+        songContent.innerHTML = `
+            <iframe src="assets/55179722.pdf" width="100%" height="500px" style="border: none;"></iframe>
+        `;
+    });
+}
