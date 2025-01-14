@@ -21,9 +21,9 @@
     <script>hljs.initHighlightingOnLoad();</script>
     <link rel="icon" type="image/jpeg" href="assets/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="assets/js/main.js"></script>
+    <script src="assets/scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.13.216/pdf.min.js"></script>
@@ -69,7 +69,12 @@
             Your feedback is valuable as <a href="https://github.com/Lavin-tom/SongBook">keerthānām</a> is in its early stages, feel free to raise any issues or suggestions on our GitHub repository.
         </p>
 		</br>
-		<button id="prayersButton" class="btn btn-secondary btn-sm">Prayers</button>
+		<button id="prayersButton" class="btn btn-secondary btn-sm">പരസ്യാരാധന ക്രമം</button>
+		<iframe 
+			id="pdfViewer"  
+			style="border: none; overflow: auto;" 
+			scrolling="yes">
+		</iframe>
         <br/><br/><br/><br/><br/><br/><br/>
         
         <div class="about">
@@ -78,11 +83,8 @@
                 <br>&#169 2025, <a href="https://github.com/lavin-tom">lāvin</a> | Made from <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme for Jekyll.
             </div>
         </div>
-        <!-- Canvas element for PDF rendering -->
-        <canvas id="pdfCanvas"></canvas>
-        
-        <script src="assets/js/script.js"></script>
-        <script src="assets/js/ml2en.js"></script>
+        <script src="scripts/script.js"></script>
+        <script src="scripts//ml2en.js"></script>
     </div>
 </body>
 </html>

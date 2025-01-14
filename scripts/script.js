@@ -177,7 +177,7 @@ function updateFontSize() {
 
 const url = 'assets/55179722.pdf'; 		
 let pdfDoc = null;
-let currentPage = 1;
+let currentPage = 2;
 
 // Load the PDF document
 pdfjsLib.getDocument(url).promise.then(doc => {
@@ -194,8 +194,8 @@ function renderPage(pageNum) {
 
     pdfDoc.getPage(pageNum).then(page => {
         const viewport = page.getViewport({ scale: 1.5 });
-        pdfCanvas.width = viewport.width;
-        pdfCanvas.height = viewport.height;
+        //pdfCanvas.width = viewport.width;
+        //pdfCanvas.height = viewport.height;
 
         const renderContext = {
             canvasContext: context,
@@ -232,12 +232,13 @@ const darkmode = new Darkmode(options);
 render_dark_mode_icon(darkmode, 'dark_mode_toggle');
 
 document.addEventListener('DOMContentLoaded', () => {
-    pdfCanvas = document.getElementById('pdfCanvas');
-    if (pdfCanvas) {
-        context = pdfCanvas.getContext('2d');
-        console.log('Canvas context initialized.');
+    const pdfIframe = document.getElementById('pdfViewer');
+    if (pdfIframe) {
+        console.log('PDF Viewer iframe initialized.');
+        // Optional: Set the default source or styles dynamically
+        pdfIframe.src = 'assets/55179722.pdf';
     } else {
-        console.error("Canvas element not found.");
+        console.error("PDF Viewer iframe not found.");
     }
 });
 
