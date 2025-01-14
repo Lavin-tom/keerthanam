@@ -187,6 +187,11 @@ pdfjsLib.getDocument(url).promise.then(doc => {
 
 // Render a specific page
 function renderPage(pageNum) {
+    if (!context) {
+        console.error("Canvas context is not initialized.");
+        return;
+    }
+
     pdfDoc.getPage(pageNum).then(page => {
         const viewport = page.getViewport({ scale: 1.5 });
         pdfCanvas.width = viewport.width;
@@ -227,13 +232,21 @@ const darkmode = new Darkmode(options);
 render_dark_mode_icon(darkmode, 'dark_mode_toggle');
 
 document.addEventListener('DOMContentLoaded', () => {
-    const pdfCanvas = document.getElementById('pdfCanvas');
+    pdfCanvas = document.getElementById('pdfCanvas');
     if (pdfCanvas) {
-		const context = pdfCanvas.getContext('2d');
-        } else {
-            console.error("Canvas element not found.");
-        }
-    });
+        context = pdfCanvas.getContext('2d');
+        console.log('Canvas context initialized.');
+    } else {
+        console.error("Canvas element not found.");
+    }
+});
+
+// Load the PDF document
+pdfjsLib.getDocument(url).promise.then(doc => {
+    pdfDoc = doc;
+    renderPage(currentPage);
+});
+
 // Display PDF viewer in songContent
 const prayersButton = document.getElementById('prayersButton');
 if (prayersButton) {
