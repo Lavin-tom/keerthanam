@@ -75,28 +75,46 @@ async function loadSong(file) {
 
     const title = xmlDoc.querySelector('title').textContent;
     const verses = xmlDoc.querySelectorAll('verse');
-    
-    const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
-    const versesWithLineBreaks = rawLyrics.split('\n').map(verse => `${verse}<br>`).join('');
 
-    let htmlContent = `<h2>${title}</h2>`;
+    const transliterationIcon = document.getElementById('transliterationIcon');
+    const transliterationEnabled = transliterationIcon?.classList.contains('transliteration-active');
+
+    // Transliterate title and lyrics if enabled
+    const transliteratedTitle = transliterationEnabled ? transliterateLyrics(title) : title;
+    const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
+    const transliteratedLyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
+
+    const versesWithLineBreaks = transliteratedLyrics.split('\n').map(verse => `${verse}<br>`).join('');
+
+    let htmlContent = `<h2>${transliteratedTitle}</h2>`;
     htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
 
     songContentDiv.innerHTML = htmlContent;
 }
 
 function transliterateLyrics(lyrics) {
+    if (typeof ml2en !== 'function') {
+        console.error('ml2en function not found. Ensure it is defined.');
+        return lyrics;
+    }
     return ml2en(lyrics);
 }
 
-function toggleTransliteration() {
+ function toggleTransliteration() {
     const transliterationIcon = document.getElementById('transliterationIcon');
+
+    if (!transliterationIcon) {
+        console.error('Transliteration icon not found.');
+        return;
+    }
 
     transliterationIcon.classList.toggle('transliteration-active');
 
     const currentSongFile = getCurrentSongFile();
     if (currentSongFile) {
-        loadSong(currentSongFile);
+        loadSong(currentSongFile); // Reload song with updated transliteration
+    } else {
+        console.warn('No current song file found.');
     }
 }
 
