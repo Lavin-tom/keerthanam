@@ -179,6 +179,18 @@ const url = 'assets/55179722.pdf';
 let pdfDoc = null;
 let currentPage = 2;
 
+const prayersButton = document.getElementById('prayersButton');
+if (prayersButton) {
+    prayersButton.addEventListener('click', () => {
+        const pdfIframe = document.getElementById('pdfViewer');
+        if (pdfIframe) {
+            pdfIframe.src = 'assets/55179722.pdf'; // Set the PDF source
+            pdfIframe.style.display = 'block'; // Ensure the iframe is visible
+        } else {
+            console.error("PDF Viewer iframe not found.");
+        }
+    });
+}
 // Load the PDF document
 pdfjsLib.getDocument(url).promise.then(doc => {
   pdfDoc = doc;
