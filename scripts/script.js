@@ -259,13 +259,3 @@ pdfjsLib.getDocument(url).promise.then(doc => {
     pdfDoc = doc;
     renderPage(currentPage);
 });
-
-// Display PDF viewer in songContent
-const prayersButton = document.getElementById('prayersButton');
-if (prayersButton) {
-    prayersButton.addEventListener('click', () => {
-        songContent.innerHTML = `
-            <iframe src="assets/55179722.pdf" width="100%" height="500px" style="border: none;"></iframe>
-        `;
-    });
-}
