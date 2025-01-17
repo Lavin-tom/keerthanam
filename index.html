@@ -26,7 +26,7 @@
     <script src="scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.13.216/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.13.216/pdf.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -68,15 +68,20 @@
             Keerthanam is an open-source and ad-free platform dedicated to providing a seamless experience for accessing Christian song lyrics. 
             Your feedback is valuable as <a href="https://github.com/Lavin-tom/SongBook">keerthānām</a> is in its early stages, feel free to raise any issues or suggestions on our GitHub repository.
         </p>
-		</br>
-		<button id="prayersButton" class="btn btn-secondary btn-sm">പരസ്യാരാധന ക്രമം</button>
-		<iframe 
-			id="pdfViewer" 
-			style="border: none; overflow: auto; display: none;" 
-			scrolling="yes" 
-			width="100%" 
-			height="500px">
-		</iframe>
+        <br />
+        
+        <!-- Button to toggle the visibility of the PDF -->
+        <button id="prayersButton" class="btn btn-secondary btn-sm" onclick="togglePdf()">പരസ്യാരാധന ക്രമം</button>
+        
+        <!-- Hidden iframe for displaying PDF -->
+        <div id="pdfContainer" class="pdf-container" style="display:none;">
+            <iframe 
+                id="pdfViewer" 
+                style="border: none; overflow: auto; width: 100%; height: 500px;"
+                scrolling="yes">
+            </iframe>
+        </div>
+
         <br/><br/><br/><br/><br/><br/><br/>
         
         <div class="about">
@@ -85,8 +90,27 @@
                 <br>&#169 2025, <a href="https://github.com/lavin-tom">lāvin</a> | Made from <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme for Jekyll.
             </div>
         </div>
+
         <script src="scripts/script.js"></script>
         <script src="scripts/ml2en.js"></script>
+
+        <script>
+            // JavaScript to toggle the visibility of the PDF iframe
+            function togglePdf() {
+                const pdfContainer = document.getElementById("pdfContainer");
+                const pdfViewer = document.getElementById("pdfViewer");
+                
+                // If PDF iframe is hidden, show it
+                if (pdfContainer.style.display === "none") {
+                    pdfContainer.style.display = "block";
+                    pdfViewer.src = "path/to/your.pdf"; // Set the path to your PDF
+                    document.getElementById("prayersButton").innerText = "Hide"; // Change button text
+                } else {
+                    pdfContainer.style.display = "none";
+                    document.getElementById("prayersButton").innerText = "Show"; // Change button text back
+                }
+            }
+        </script>
     </div>
 </body>
 </html>
