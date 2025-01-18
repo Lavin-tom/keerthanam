@@ -249,7 +249,22 @@ a.logo:hover {
   font-weight: 700;
   font-size: 130%;
 }
+.pdf-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
+}
+
+.pdf-wrapper iframe {
+    position: absolute;
+    top: -50px; /* Adjust this value to hide the top part of the PDF */
+    left: 0;
+    width: 100%;
+    height: calc(100% + 50px); /* Ensure the iframe remains fully visible minus the hidden portion */
+
+}
 /* =Small screen */ /*************************************************************/
 @media (max-width: 600px) {
   p,

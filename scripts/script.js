@@ -7,18 +7,15 @@ async function buildIndex(file) {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
 
-    // Parse all 'entry' elements and categorize songs by their starting letter or prefix
     const entries = xmlDoc.querySelectorAll('entry');
     entries.forEach(entry => {
         const prefix = entry.getAttribute('letter');
         const songs = entry.querySelectorAll('song');
 
-        // Initialize the array for the prefix if not already done
         if (!titleIndex[prefix]) {
             titleIndex[prefix] = [];
         }
 
-        // Add each song under the prefix
         songs.forEach(song => {
             const songTitle = song.getAttribute('title')?.toLowerCase() || '';
             const songFile = song.getAttribute('file');
@@ -29,7 +26,7 @@ async function buildIndex(file) {
             });
         });
     });
-    console.log('Built Title Index:', titleIndex); // Debugging
+    console.log('Built Title Index:', titleIndex); 
 }
 
 function getCurrentSongFile() {
@@ -55,7 +52,6 @@ function getFilteredSuggestions(searchInput) {
 
     const trimmedInput = searchInput.trim().toLowerCase();
 
-    // Look for exact matches to the prefix in the titleIndex
     const results = titleIndex[trimmedInput];
 
     if (results) {
@@ -79,7 +75,6 @@ async function loadSong(file) {
     const transliterationIcon = document.getElementById('transliterationIcon');
     const transliterationEnabled = transliterationIcon?.classList.contains('transliteration-active');
 
-    // Transliterate title and lyrics if enabled
     const transliteratedTitle = transliterationEnabled ? transliterateLyrics(title) : title;
     const rawLyrics = Array.from(verses).map(verse => verse.querySelector('lines').innerHTML).join('\n');
     const transliteratedLyrics = transliterationEnabled ? transliterateLyrics(rawLyrics) : rawLyrics;
@@ -112,7 +107,7 @@ function transliterateLyrics(lyrics) {
 
     const currentSongFile = getCurrentSongFile();
     if (currentSongFile) {
-        loadSong(currentSongFile); // Reload song with updated transliteration
+        loadSong(currentSongFile); 
     } else {
         console.warn('No current song file found.');
     }
@@ -120,13 +115,13 @@ function transliterateLyrics(lyrics) {
 
 function filterSongs() {
     const searchInput = document.getElementById('searchBox').value.trim().toLowerCase();
-    console.log('Search Input:', searchInput); // Debugging
+    console.log('Search Input:', searchInput); 
 
     const suggestions = getFilteredSuggestions(searchInput);
-    console.log('Suggestions:', suggestions); // Debugging
+    console.log('Suggestions:', suggestions); 
 
     const suggestionList = document.getElementById('suggestionList');
-    suggestionList.innerHTML = ''; // Clear previous suggestions
+    suggestionList.innerHTML = ''; 
 
     if (searchInput === '' || suggestions.length === 0) {
         suggestionList.style.display = 'none';
@@ -136,11 +131,11 @@ function filterSongs() {
     suggestionList.style.display = 'block';
     suggestions.forEach(({ title, file }) => {
         const listItem = document.createElement('li');
-        listItem.textContent = title; // Display the title
+        listItem.textContent = title; 
         listItem.addEventListener('click', () => {
-            console.log('Loading Song:', file); // Debugging
-            loadSong(file); // Load the song on click
-            suggestionList.style.display = 'none'; // Hide suggestions
+            console.log('Loading Song:', file); 
+            loadSong(file); 
+            suggestionList.style.display = 'none'; 
         });
         suggestionList.appendChild(listItem);
     });
@@ -184,8 +179,8 @@ if (prayersButton) {
     prayersButton.addEventListener('click', () => {
         const pdfIframe = document.getElementById('pdfViewer');
         if (pdfIframe) {
-            pdfIframe.src = 'assets/55179722.pdf'; // Set the PDF source
-            pdfIframe.style.display = 'block'; // Ensure the iframe is visible
+            pdfIframe.src = 'assets/55179722.pdf'; 
+            pdfIframe.style.display = 'block'; 
         } else {
             console.error("PDF Viewer iframe not found.");
         }
@@ -259,3 +254,18 @@ pdfjsLib.getDocument(url).promise.then(doc => {
     pdfDoc = doc;
     renderPage(currentPage);
 });
+// JavaScript to toggle the visibility of the PDF iframe
+function togglePdf() {
+    const pdfContainer = document.getElementById("pdfContainer");
+    const pdfViewer = document.getElementById("pdfViewer");
+
+    if (pdfContainer.style.display === "none") {
+	pdfContainer.style.display = "block";
+	pdfViewer.src = "assets/55179722.pdf"; 
+	document.getElementById("prayersButton").innerText = "Hide"; 
+    } else {
+	pdfContainer.style.display = "none";
+	document.getElementById("prayersButton").innerText = "Show"; 
+    }
+
+}
