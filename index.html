@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;700&display=swap" rel="stylesheet">
     <script src="scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
@@ -96,23 +97,6 @@
         <script src="scripts/script.js"></script>
         <script src="scripts/ml2en.js"></script>
 
-        <script>
-            // JavaScript to toggle the visibility of the PDF iframe
-            function togglePdf() {
-                const pdfContainer = document.getElementById("pdfContainer");
-                const pdfViewer = document.getElementById("pdfViewer");
-                
-                // If PDF iframe is hidden, show it
-                if (pdfContainer.style.display === "none") {
-                    pdfContainer.style.display = "block";
-                    pdfViewer.src = "path/to/your.pdf"; // Set the path to your PDF
-                    document.getElementById("prayersButton").innerText = "Hide"; // Change button text
-                } else {
-                    pdfContainer.style.display = "none";
-                    document.getElementById("prayersButton").innerText = "Show"; // Change button text back
-                }
-            }
-        </script>
     </div>
 </body>
 </html>

@@ -37,7 +37,11 @@ code {
   background: #f0f0f0;
   color: #444;
 }
-
+.malayalam-lyrics {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-size: 18px; 
+    line-height: 1.5; 
+}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;

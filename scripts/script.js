@@ -82,7 +82,7 @@ async function loadSong(file) {
     const versesWithLineBreaks = transliteratedLyrics.split('\n').map(verse => `${verse}<br>`).join('');
 
     let htmlContent = `<h2>${transliteratedTitle}</h2>`;
-    htmlContent += `<p>${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
+    htmlContent += `<p class="malayalam-lyrics">${versesWithLineBreaks.replace(/<br>/g, '<br/><br/>')}</p>`;
 
     songContentDiv.innerHTML = htmlContent;
 }
@@ -175,14 +175,19 @@ let pdfDoc = null;
 let currentPage = 2;
 
 const prayersButton = document.getElementById('prayersButton');
+const pdfViewer = document.getElementById('pdfViewer');
+const pdfContainer = document.getElementById("pdfContainer");
+
 if (prayersButton) {
     prayersButton.addEventListener('click', () => {
-        const pdfIframe = document.getElementById('pdfViewer');
-        if (pdfIframe) {
-            pdfIframe.src = 'assets/55179722.pdf'; 
-            pdfIframe.style.display = 'block'; 
+        // Toggle the PDF iframe visibility
+        if (pdfContainer.style.display === "none") {
+            pdfContainer.style.display = "block";
+            pdfViewer.src = 'assets/55179722.pdf'; // Set the src of the iframe to the PDF file
+            document.getElementById("prayersButton").innerText = "Hide"; // Change button text to "Hide"
         } else {
-            console.error("PDF Viewer iframe not found.");
+            pdfContainer.style.display = "none";
+            document.getElementById("prayersButton").innerText = "Show"; // Change button text to "Show"
         }
     });
 }
