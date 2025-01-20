@@ -199,11 +199,6 @@ pdfjsLib.getDocument(url).promise.then(doc => {
 
 // Render a specific page
 function renderPage(pageNum) {
-    if (!context) {
-        console.error("Canvas context is not initialized.");
-        return;
-    }
-
     pdfDoc.getPage(pageNum).then(page => {
         const viewport = page.getViewport({ scale: 1.5 });
         //pdfCanvas.width = viewport.width;

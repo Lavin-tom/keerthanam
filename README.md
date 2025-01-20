@@ -49,4 +49,3 @@ We welcome contributions! Feel free to fork the repository, make changes, and su
 ## Contact
 
 If you have any questions or suggestions, feel free to open an issue on GitHub or reach out to us!
----
