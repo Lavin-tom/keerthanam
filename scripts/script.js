@@ -191,6 +191,18 @@ if (prayersButton) {
         }
     });
 }
+// Toggle the PDF iframe visibility
+prayersButton.addEventListener('click', () => {
+    if (pdfContainer.style.display === 'none') {
+        pdfContainer.style.display = 'block';
+        pdfViewer.src = url; // Set the PDF source dynamically
+        prayersButton.innerText = 'Hide';
+    } else {
+        pdfContainer.style.display = 'none';
+        prayersButton.innerText = 'Show';
+    }
+});
+
 // Load the PDF document
 pdfjsLib.getDocument(url).promise.then(doc => {
   pdfDoc = doc;
