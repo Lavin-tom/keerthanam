@@ -95,7 +95,7 @@ function transliterateLyrics(lyrics) {
     return ml2en(lyrics);
 }
 
- function toggleTransliteration() {
+function toggleTransliteration() {
     const transliterationIcon = document.getElementById('transliterationIcon');
 
     if (!transliterationIcon) {
@@ -191,49 +191,23 @@ if (prayersButton) {
         }
     });
 }
-// Toggle the PDF iframe visibility
-prayersButton.addEventListener('click', () => {
-    if (pdfContainer.style.display === 'none') {
-        pdfContainer.style.display = 'block';
-        pdfViewer.src = url; // Set the PDF source dynamically
-        prayersButton.innerText = 'Hide';
+
+// JavaScript to toggle the visibility of the PDF iframe
+function togglePdf() {
+    const pdfContainer = document.getElementById("pdfContainer");
+    const pdfViewer = document.getElementById("pdfViewer");
+
+    if (pdfContainer.style.display === "none") {
+        pdfContainer.style.display = "block";
+        pdfViewer.src = "assets/55179722.pdf"; 
+        document.getElementById("prayersButton").innerText = "Hide"; 
     } else {
-        pdfContainer.style.display = 'none';
-        prayersButton.innerText = 'Show';
+        pdfContainer.style.display = "none";
+        document.getElementById("prayersButton").innerText = "Show"; 
     }
-});
-
-// Load the PDF document
-pdfjsLib.getDocument(url).promise.then(doc => {
-  pdfDoc = doc;
-  renderPage(currentPage);
-});
-
-// Render a specific page
-function renderPage(pageNum) {
-    pdfDoc.getPage(pageNum).then(page => {
-        const viewport = page.getViewport({ scale: 1.5 });
-        //pdfCanvas.width = viewport.width;
-        //pdfCanvas.height = viewport.height;
-
-        const renderContext = {
-            canvasContext: context,
-            viewport: viewport,
-        };
-
-        page.render(renderContext);
-    });
 }
-/*// Handle index clicks
-document.getElementById('index').addEventListener('click', e => {
-  if (e.target.tagName === 'BUTTON') {
-    const pageNum = parseInt(e.target.getAttribute('data-page'), 10);
-    if (pageNum && pdfDoc) {
-      currentPage = pageNum;
-      renderPage(pageNum);
-    }
-  }
-});*/
+
+// Dark Mode Toggle Script
 const options = {
     bottom: '32px', 
     right: '32px', 
@@ -250,6 +224,7 @@ const options = {
 const darkmode = new Darkmode(options);
 render_dark_mode_icon(darkmode, 'dark_mode_toggle');
 
+// Load PDF
 document.addEventListener('DOMContentLoaded', () => {
     const pdfIframe = document.getElementById('pdfViewer');
     if (pdfIframe) {
@@ -266,18 +241,3 @@ pdfjsLib.getDocument(url).promise.then(doc => {
     pdfDoc = doc;
     renderPage(currentPage);
 });
-// JavaScript to toggle the visibility of the PDF iframe
-function togglePdf() {
-    const pdfContainer = document.getElementById("pdfContainer");
-    const pdfViewer = document.getElementById("pdfViewer");
-
-    if (pdfContainer.style.display === "none") {
-	pdfContainer.style.display = "block";
-	pdfViewer.src = "assets/55179722.pdf"; 
-	document.getElementById("prayersButton").innerText = "Hide"; 
-    } else {
-	pdfContainer.style.display = "none";
-	document.getElementById("prayersButton").innerText = "Show"; 
-    }
-
-}
