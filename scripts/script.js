@@ -178,21 +178,34 @@ const prayersButton = document.getElementById('prayersButton');
 const pdfViewer = document.getElementById('pdfViewer');
 const pdfContainer = document.getElementById("pdfContainer");
 
+// Render a specific page
+function renderPage(pageNum) {
+    pdfDoc.getPage(pageNum).then(page => {
+        const viewport = page.getViewport({ scale: 1.5 });
+        //pdfCanvas.width = viewport.width;
+        //pdfCanvas.height = viewport.height;
+
+        const renderContext = {
+            canvasContext: context,
+            viewport: viewport,
+        };
+
+        page.render(renderContext);
+    });
+}
 if (prayersButton) {
     prayersButton.addEventListener('click', () => {
-        // Toggle the PDF iframe visibility
         if (pdfContainer.style.display === "none") {
             pdfContainer.style.display = "block";
-            pdfViewer.src = 'assets/55179722.pdf'; // Set the src of the iframe to the PDF file
-            document.getElementById("prayersButton").innerText = "Hide"; // Change button text to "Hide"
+            pdfViewer.src = 'assets/55179722.pdf'; 
+            document.getElementById("prayersButton").innerText = "Hide"; 
         } else {
             pdfContainer.style.display = "none";
-            document.getElementById("prayersButton").innerText = "Show"; // Change button text to "Show"
+            document.getElementById("prayersButton").innerText = "Show"; 
         }
     });
 }
 
-// JavaScript to toggle the visibility of the PDF iframe
 function togglePdf() {
     const pdfContainer = document.getElementById("pdfContainer");
     const pdfViewer = document.getElementById("pdfViewer");
@@ -207,7 +220,6 @@ function togglePdf() {
     }
 }
 
-// Dark Mode Toggle Script
 const options = {
     bottom: '32px', 
     right: '32px', 
@@ -218,7 +230,7 @@ const options = {
     buttonColorDark: '#100f2c',  
     buttonColorLight: '#fff', 
     saveInCookies: true, 
-    label: '🌓', 
+    label: 'ðŸŒ“', 
     autoMatchOsTheme: true 
 }
 const darkmode = new Darkmode(options);
@@ -229,7 +241,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const pdfIframe = document.getElementById('pdfViewer');
     if (pdfIframe) {
         console.log('PDF Viewer iframe initialized.');
-        // Optional: Set the default source or styles dynamically
         pdfIframe.src = 'assets/55179722.pdf';
     } else {
         console.error("PDF Viewer iframe not found.");
