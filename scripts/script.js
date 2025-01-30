@@ -178,12 +178,16 @@ const prayersButton = document.getElementById('prayersButton');
 const pdfViewer = document.getElementById('pdfViewer');
 const pdfContainer = document.getElementById("pdfContainer");
 
+const canvas = document.getElementById('pdfCanvas');
+const context = canvas.getContext('2d');
 // Render a specific page
 function renderPage(pageNum) {
     pdfDoc.getPage(pageNum).then(page => {
         const viewport = page.getViewport({ scale: 1.5 });
-        //pdfCanvas.width = viewport.width;
-        //pdfCanvas.height = viewport.height;
+
+        // Set canvas dimensions to match the PDF page's viewport size
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
 
         const renderContext = {
             canvasContext: context,
