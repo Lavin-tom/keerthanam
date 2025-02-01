@@ -170,38 +170,54 @@ function updateFontSize() {
     songContentDiv.style.fontSize = `${currentFontSize}px`;
 }
 
+// Darkmode.js Initialization
+const options = {
+    bottom: '32px', 
+    right: '32px', 
+    left: 'unset', 
+    time: '0.3s', 
+    mixColor: '#fff', 
+    backgroundColor: '#fff',  
+    buttonColorDark: '#100f2c',  
+    buttonColorLight: '#fff', 
+    saveInCookies: true, 
+    label: '🌓', 
+    autoMatchOsTheme: true 
+};
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+
+// PDF Viewer Logic
 const url = 'assets/55179722.pdf'; 		
 let pdfDoc = null;
 let currentPage = 2;
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Your code here
-    const prayersButton = document.getElementById('prayersButton');
-    const pdfViewer = document.getElementById('pdfViewer');
-    const pdfContainer = document.getElementById('pdfContainer');
+const prayersButton = document.getElementById('prayersButton');
+const pdfViewer = document.getElementById('pdfViewer');
+const pdfContainer = document.getElementById('pdfContainer');
 
-    if (prayersButton && pdfViewer && pdfContainer) {
-        prayersButton.addEventListener('click', togglePdf);
+if (prayersButton && pdfViewer && pdfContainer) {
+    prayersButton.addEventListener('click', togglePdf);
+} else {
+    console.error("Required elements for PDF viewer not found.");
+}
+
+function togglePdf() {
+    if (!pdfContainer || !pdfViewer) {
+        console.error("PDF container or viewer not found.");
+        return;
+    }
+
+    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+        pdfContainer.style.display = "block";
+        pdfViewer.src = url; 
+        prayersButton.innerText = "Hide"; 
     } else {
-        console.error("Required elements for PDF viewer not found.");
+        pdfContainer.style.display = "none";
+        prayersButton.innerText = "Show"; 
     }
-
-    function togglePdf() {
-        if (!pdfContainer || !pdfViewer) {
-            console.error("PDF container or viewer not found.");
-            return;
-        }
-
-        if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
-            pdfContainer.style.display = "block";
-            pdfViewer.src = 'assets/55179722.pdf'; 
-            prayersButton.innerText = "Hide"; 
-        } else {
-            pdfContainer.style.display = "none";
-            prayersButton.innerText = "Show"; 
-        }
-    }
-});
+}
 
 // Load PDF.js Document
 pdfjsLib.getDocument(url).promise.then(doc => {
@@ -212,10 +228,15 @@ pdfjsLib.getDocument(url).promise.then(doc => {
 });
 
 function renderPage(pageNum) {
+    const canvas = document.getElementById('pdfCanvas');
+    if (!canvas) {
+        console.error("Canvas element not found.");
+        return;
+    }
+
+    const context = canvas.getContext('2d');
     pdfDoc.getPage(pageNum).then(page => {
         const viewport = page.getViewport({ scale: 1.5 });
-        const canvas = document.getElementById('pdfCanvas');
-        const context = canvas.getContext('2d');
 
         canvas.width = viewport.width;
         canvas.height = viewport.height;
@@ -230,40 +251,3 @@ function renderPage(pageNum) {
         console.error("Error rendering PDF page:", error);
     });
 }
-
-// JavaScript to toggle the visibility of the PDF iframe
-function togglePdf() {
-    const pdfContainer = document.getElementById("pdfContainer");
-    const pdfViewer = document.getElementById("pdfViewer");
-
-    if (!pdfContainer || !pdfViewer) {
-        console.error("PDF container or viewer not found.");
-        return;
-    }
-
-    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
-        pdfContainer.style.display = "block";
-        pdfViewer.src = "assets/55179722.pdf"; 
-        document.getElementById("prayersButton").innerText = "Hide"; 
-    } else {
-        pdfContainer.style.display = "none";
-        document.getElementById("prayersButton").innerText = "Show"; 
-    }
-}
-
-// Dark Mode Toggle Script
-const options = {
-    bottom: '32px', 
-    right: '32px', 
-    left: 'unset', 
-    time: '0.3s', 
-    mixColor: 'rgba(230, 230, 230, 100%)', 
-    backgroundColor: '#fff',  
-    buttonColorDark: '#100f2c',  
-    buttonColorLight: '#fff', 
-    saveInCookies: true, 
-    label: '🌓', 
-    autoMatchOsTheme: true 
-}
-const darkmode = new Darkmode(options);
-render_dark_mode_icon(darkmode, 'dark_mode_toggle');
