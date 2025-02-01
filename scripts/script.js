@@ -206,16 +206,19 @@ if (prayersButton && pdfViewer && pdfContainer) {
 }
 
 function togglePdf() {
+    console.log("Toggle PDF function called.");
     if (!pdfContainer || !pdfViewer) {
         console.error("PDF container or viewer not found.");
         return;
     }
 
     if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+        console.log("Loading PDF:", url);
         pdfContainer.style.display = "block";
         pdfViewer.src = url; 
         prayersButton.innerText = "Hide"; 
     } else {
+        console.log("Hiding PDF viewer.");
         pdfContainer.style.display = "none";
         prayersButton.innerText = "Show"; 
     }
