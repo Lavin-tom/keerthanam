@@ -178,14 +178,42 @@ const prayersButton = document.getElementById('prayersButton');
 const pdfViewer = document.getElementById('pdfViewer');
 const pdfContainer = document.getElementById("pdfContainer");
 
-const canvas = document.getElementById('pdfCanvas');
-const context = canvas.getContext('2d');
-// Render a specific page
+if (prayersButton && pdfViewer && pdfContainer) {
+    prayersButton.addEventListener('click', togglePdf);
+} else {
+    console.error("Required elements for PDF viewer not found.");
+}
+
+function togglePdf() {
+    if (!pdfContainer || !pdfViewer) {
+        console.error("PDF container or viewer not found.");
+        return;
+    }
+
+    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+        pdfContainer.style.display = "block";
+        pdfViewer.src = url; 
+        document.getElementById("prayersButton").innerText = "Hide"; 
+    } else {
+        pdfContainer.style.display = "none";
+        document.getElementById("prayersButton").innerText = "Show"; 
+    }
+}
+
+// Load PDF.js Document
+pdfjsLib.getDocument(url).promise.then(doc => {
+    pdfDoc = doc;
+    renderPage(currentPage);
+}).catch(error => {
+    console.error("Error loading PDF document:", error);
+});
+
 function renderPage(pageNum) {
     pdfDoc.getPage(pageNum).then(page => {
         const viewport = page.getViewport({ scale: 1.5 });
+        const canvas = document.getElementById('pdfCanvas');
+        const context = canvas.getContext('2d');
 
-        // Set canvas dimensions to match the PDF page's viewport size
         canvas.width = viewport.width;
         canvas.height = viewport.height;
 
@@ -195,26 +223,22 @@ function renderPage(pageNum) {
         };
 
         page.render(renderContext);
-    });
-}
-if (prayersButton) {
-    prayersButton.addEventListener('click', () => {
-        if (pdfContainer.style.display === "none") {
-            pdfContainer.style.display = "block";
-            pdfViewer.src = 'assets/55179722.pdf';
-            document.getElementById("prayersButton").innerText = "Hide"; 
-        } else {
-            pdfContainer.style.display = "none";
-            document.getElementById("prayersButton").innerText = "Show";
-        }
+    }).catch(error => {
+        console.error("Error rendering PDF page:", error);
     });
 }
 
+// JavaScript to toggle the visibility of the PDF iframe
 function togglePdf() {
     const pdfContainer = document.getElementById("pdfContainer");
     const pdfViewer = document.getElementById("pdfViewer");
 
-    if (pdfContainer.style.display === "none") {
+    if (!pdfContainer || !pdfViewer) {
+        console.error("PDF container or viewer not found.");
+        return;
+    }
+
+    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
         pdfContainer.style.display = "block";
         pdfViewer.src = "assets/55179722.pdf"; 
         document.getElementById("prayersButton").innerText = "Hide"; 
@@ -235,25 +259,8 @@ const options = {
     buttonColorDark: '#100f2c',  
     buttonColorLight: '#fff', 
     saveInCookies: true, 
-    label: 'ðŸŒ“', 
+    label: '🌓', 
     autoMatchOsTheme: true 
 }
 const darkmode = new Darkmode(options);
 render_dark_mode_icon(darkmode, 'dark_mode_toggle');
-
-// Load PDF
-document.addEventListener('DOMContentLoaded', () => {
-    const pdfIframe = document.getElementById('pdfViewer');
-    if (pdfIframe) {
-        console.log('PDF Viewer iframe initialized.');
-        pdfIframe.src = 'assets/55179722.pdf';
-    } else {
-        console.error("PDF Viewer iframe not found.");
-    }
-});
-
-// Load the PDF document
-pdfjsLib.getDocument(url).promise.then(doc => {
-    pdfDoc = doc;
-    renderPage(currentPage);
-});
