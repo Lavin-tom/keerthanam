@@ -174,31 +174,34 @@ const url = 'assets/55179722.pdf';
 let pdfDoc = null;
 let currentPage = 2;
 
-const prayersButton = document.getElementById('prayersButton');
-const pdfViewer = document.getElementById('pdfViewer');
-const pdfContainer = document.getElementById("pdfContainer");
+document.addEventListener('DOMContentLoaded', () => {
+    // Your code here
+    const prayersButton = document.getElementById('prayersButton');
+    const pdfViewer = document.getElementById('pdfViewer');
+    const pdfContainer = document.getElementById('pdfContainer');
 
-if (prayersButton && pdfViewer && pdfContainer) {
-    prayersButton.addEventListener('click', togglePdf);
-} else {
-    console.error("Required elements for PDF viewer not found.");
-}
-
-function togglePdf() {
-    if (!pdfContainer || !pdfViewer) {
-        console.error("PDF container or viewer not found.");
-        return;
-    }
-
-    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
-        pdfContainer.style.display = "block";
-        pdfViewer.src = url; 
-        document.getElementById("prayersButton").innerText = "Hide"; 
+    if (prayersButton && pdfViewer && pdfContainer) {
+        prayersButton.addEventListener('click', togglePdf);
     } else {
-        pdfContainer.style.display = "none";
-        document.getElementById("prayersButton").innerText = "Show"; 
+        console.error("Required elements for PDF viewer not found.");
     }
-}
+
+    function togglePdf() {
+        if (!pdfContainer || !pdfViewer) {
+            console.error("PDF container or viewer not found.");
+            return;
+        }
+
+        if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+            pdfContainer.style.display = "block";
+            pdfViewer.src = 'assets/55179722.pdf'; 
+            prayersButton.innerText = "Hide"; 
+        } else {
+            pdfContainer.style.display = "none";
+            prayersButton.innerText = "Show"; 
+        }
+    }
+});
 
 // Load PDF.js Document
 pdfjsLib.getDocument(url).promise.then(doc => {
