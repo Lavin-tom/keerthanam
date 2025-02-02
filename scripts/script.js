@@ -181,17 +181,32 @@ const darkmodeOptions = {
     buttonColorDark: '#2c3e50', // Dark mode button color
     buttonColorLight: '#ffffff', // Light mode button color
     saveInCookies: true, 
-    label: '🌓', 
+    label: '', // Disable the default widget
     autoMatchOsTheme: false // Disable auto-match OS theme
 };
 
 const darkmode = new Darkmode(darkmodeOptions);
-darkmode.showWidget();
 
-// Add event listener for dark mode toggle
+// Add event listener to your button
 document.getElementById('dark_mode_toggle').addEventListener('click', () => {
-    darkmode.toggle();
+    darkmode.toggle(); // Toggle dark mode
+    updateDarkModeIcon(); // Update the icon
 });
+
+// Function to update the dark mode icon
+function updateDarkModeIcon() {
+    const darkModeToggle = document.getElementById('dark_mode_toggle');
+    if (darkmode.isActivated()) {
+        darkModeToggle.classList.remove('fa-sun');
+        darkModeToggle.classList.add('fa-moon');
+    } else {
+        darkModeToggle.classList.remove('fa-moon');
+        darkModeToggle.classList.add('fa-sun');
+    }
+}
+
+// Initialize the icon based on the current mode
+updateDarkModeIcon();
 
 // PDF Viewer Logic
 const url = 'assets/55179722.pdf'; 		
