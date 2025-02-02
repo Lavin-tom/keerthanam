@@ -208,22 +208,15 @@ function updateDarkModeIcon() {
 // Initialize the icon based on the current mode
 updateDarkModeIcon();
 
-// PDF Viewer Logic
-const url = 'assets/55179722.pdf'; 		
+// PDF Viewer Logic 		
 //const url = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'; //for testing
+const url = '/assets/55179722.pdf'; 		
 const prayersButton = document.getElementById('prayersButton');
 const pdfViewer = document.getElementById('pdfViewer');
 const pdfContainer = document.getElementById('pdfContainer');
 
 if (prayersButton && pdfViewer && pdfContainer) {
-    prayersButton.addEventListener('click', () => {
-        if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
-            pdfContainer.style.display = "block";
-            pdfViewer.src = url; 
-        } else {
-            pdfContainer.style.display = "none";
-        }
-    });
+    prayersButton.addEventListener('click', togglePdf);
 } else {
     console.error("Required elements for PDF viewer not found.");
 }
