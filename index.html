@@ -34,7 +34,7 @@
             </div>
             <ul class="social-links">
                 <i class="fa fa-search-minus social-links__entry" onclick="zoomOut()" aria-hidden="true"></i>
-                <i class="fa fa-search social-links__entry" onclick="zoomOut()" aria-hidden="true"></i>
+                <i class="fa fa-search social-links__entry" onclick="resetZoom()" aria-hidden="true"></i>
                 <i class="fa fa-search-plus social-links__entry" onclick="zoomIn()" aria-hidden="true"></i>
                 <i class="material-icons" id="transliterationIcon" onclick="toggleTransliteration()">translate</i>
                 <a href="https://github.com/Lavin-tom/SongBook" class="social-links__entry" target="_blank">
@@ -64,19 +64,19 @@
         </p>
         <br />
         
-        <!-- Button to toggle the visibility of the PDF -->
-        <button id="prayersButton" class="btn btn-secondary btn-sm">പരസ്യാരാധന ക്രമം</button>
-        
-        <!-- Hidden iframe for displaying PDF -->
-        <div id="pdfContainer" class="pdf-container" style="display:none;">
-            <div class="pdf-wrapper">
-                <iframe 
-                    id="pdfViewer" 
-                    style="border: none; overflow: hidden; width: 100%; height: 500px;"
-                    scrolling="yes">
-                </iframe>
-            </div>
-        </div>
+		<!-- Button to toggle the visibility of the PDF -->
+		<button id="prayersButton" class="btn btn-secondary btn-sm">പരസ്യാരാധന ക്രമം</button>
+		
+		<!-- Hidden iframe for displaying PDF -->
+		<div id="pdfContainer" class="pdf-container" style="display:none;">
+			<div class="pdf-wrapper">
+				<iframe 
+					id="pdfViewer" 
+					style="border: none; overflow: hidden; width: 100%; height: 500px;"
+					scrolling="yes">
+				</iframe>
+			</div>
+		</div>
 
         <br/><br/><br/><br/><br/><br/><br/>
         
