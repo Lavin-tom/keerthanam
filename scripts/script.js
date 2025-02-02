@@ -210,7 +210,9 @@ updateDarkModeIcon();
 
 // PDF Viewer Logic 		
 //const url = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'; //for testing
-const url = '/assets/55179722.pdf'; 		
+//const url = 'assets/55179722.pdf'; 		
+const url = 'https://lavin-tom.github.io/SongBook/assets/55179722.pdf';	
+//const url = 'https://username.github.io/repo/assets/55179722.pdf'; 		
 const prayersButton = document.getElementById('prayersButton');
 const pdfViewer = document.getElementById('pdfViewer');
 const pdfContainer = document.getElementById('pdfContainer');
