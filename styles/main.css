@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-a {
+a{
   color: #57a;
   text-decoration: none;
 }
@@ -74,12 +74,7 @@ th {
   text-align: left;
   padding: 8px;
 }
-/*  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-*/
-/* =Header */ /*************************************************************/
+/* =Header */ 
 .header {
   overflow: hidden;
 }
@@ -133,7 +128,7 @@ a.logo:hover {
   display: inline-block;
   margin-left: 10px;
 }
-/* =Titles */ /*************************************************************/
+/* =Titles */ 
 .page-title {
   margin: 30px auto;
   text-align: center;
@@ -150,7 +145,7 @@ a.logo:hover {
   color: #828282;
 }
 
-/* =Post teasers */ /*************************************************************/
+/* =Post teasers */ 
 .list-posts {
   list-style-type: none;
   padding: 0px;
@@ -185,7 +180,7 @@ a.logo:hover {
   text-align: center;
 }
 
-/* =Post page */ /*************************************************************/
+/* =Post page */ 
 .post-title {
   text-align: left;
 }
@@ -221,7 +216,7 @@ a.logo:hover {
   text-align: center;
 }
 
-/* =Page navigation */ /*************************************************************/
+/* =Page navigation */ 
 .PageNavigation {
   display: block;
   width: auto;
@@ -239,7 +234,7 @@ a.logo:hover {
   text-align: right;
 }
 
-/* =Main Page */ /*************************************************************/
+/* =Main Page */ 
 .about-img {
   border-radius: 0.25rem;
   max-width: 125px;
@@ -253,23 +248,25 @@ a.logo:hover {
   font-weight: 700;
   font-size: 130%;
 }
+.pdf-container {
+    display: none; 
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
 .pdf-wrapper {
-    position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .pdf-wrapper iframe {
-    position: absolute;
-    top: -50px; /* Adjust this value to hide the top part of the PDF */
-    left: 0;
     width: 100%;
-    height: calc(100% + 50px); /* Ensure the iframe remains fully visible minus the hidden portion */
-
+    height: 100%;
+    border: none;
 }
-/* =Small screen */ /*************************************************************/
+/* =Small screen */ 
 @media (max-width: 600px) {
   p,
   ul,
@@ -341,7 +338,7 @@ a.logo:hover {
   z-index: 2000;
 }
 
-/* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay */ /*************************************************************/
+/* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay */ 
 .glitch {
   position: relative;
   animation: glitch 2s steps(100) infinite;
@@ -350,14 +347,6 @@ a.logo:hover {
 .transliteration-active {
     color: blue;
 }
-
-<iframe 
-    src="assets/55179722.pdf" 
-    width="100%" 
-    height="500px" 
-    style="border: none; overflow: auto;" 
-    scrolling="yes">
-</iframe>
 
 @keyframes glitch {
   0% {
