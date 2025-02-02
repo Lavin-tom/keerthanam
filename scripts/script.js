@@ -211,33 +211,32 @@ updateDarkModeIcon();
 // PDF Viewer Logic 		
 //const url = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'; //for testing
 //const url = 'assets/55179722.pdf'; 		
-const url = 'https://lavin-tom.github.io/SongBook/assets/55179722.pdf';	
+//const url = 'https://lavin-tom.github.io/SongBook/assets/55179722.pdf';	
 //const url = 'https://username.github.io/repo/assets/55179722.pdf'; 		
 const prayersButton = document.getElementById('prayersButton');
-const pdfViewer = document.getElementById('pdfViewer');
-const pdfContainer = document.getElementById('pdfContainer');
+const prayerContainer = document.getElementById('prayerContainer');
+const prayerSelector = document.getElementById('prayerSelector');
 
-if (prayersButton && pdfViewer && pdfContainer) {
-    prayersButton.addEventListener('click', togglePdf);
+if (prayersButton && prayerContainer) {
+    prayersButton.addEventListener('click', togglePrayer);
 } else {
-    console.error("Required elements for PDF viewer not found.");
+    console.error("Required elements not found.");
 }
 
-function togglePdf() {
-    console.log("Toggle PDF function called.");
-    if (!pdfContainer || !pdfViewer) {
-        console.error("PDF container or viewer not found.");
-        return;
-    }
-
-    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
-        console.log("Loading PDF:", url);
-        pdfContainer.style.display = "block";
-        pdfViewer.src = url; 
-        prayersButton.innerText = "Hide"; 
+function togglePrayer() {
+    if (prayerContainer.style.display === "none" || prayerContainer.style.display === "") {
+        // Load the prayer HTML file
+        fetch('prayers/page3.html') 
+            .then(response => response.text())
+            .then(data => {
+                prayerContainer.innerHTML = data; 
+                prayerContainer.style.display = "block"; 
+                prayersButton.innerText = "Hide Prayer"; 
+            })
+            .catch(error => console.error('Error loading prayer:', error));
     } else {
-        console.log("Hiding PDF viewer.");
-        pdfContainer.style.display = "none";
-        prayersButton.innerText = "Show"; 
+        // Hide the container
+        prayerContainer.style.display = "none";
+        prayersButton.innerText = "Show Prayer"; 
     }
 }
