@@ -176,21 +176,21 @@ const darkmodeOptions = {
     right: '32px', 
     left: 'unset', 
     time: '0.3s', 
-    mixColor: '#f0f0f0', // Light mode background
-    backgroundColor: '#f0f0f0', // Light mode background
-    buttonColorDark: '#2c3e50', // Dark mode button color
-    buttonColorLight: '#ffffff', // Light mode button color
+    mixColor: '#f0f0f0', 
+    backgroundColor: '#f0f0f0', 
+    buttonColorDark: '#2c3e50', 
+    buttonColorLight: '#ffffff', 
     saveInCookies: true, 
-    label: '', // Disable the default widget
-    autoMatchOsTheme: false // Disable auto-match OS theme
+    label: '', 
+    autoMatchOsTheme: true 
 };
 
 const darkmode = new Darkmode(darkmodeOptions);
 
 // Add event listener to your button
 document.getElementById('dark_mode_toggle').addEventListener('click', () => {
-    darkmode.toggle(); // Toggle dark mode
-    updateDarkModeIcon(); // Update the icon
+    darkmode.toggle(); 
+    updateDarkModeIcon(); 
 });
 
 // Function to update the dark mode icon
@@ -209,13 +209,21 @@ function updateDarkModeIcon() {
 updateDarkModeIcon();
 
 // PDF Viewer Logic
-const url = 'assets/55179722.pdf'; 		
+//const url = 'assets/55179722.pdf'; 		
+const url = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'; //for testing
 const prayersButton = document.getElementById('prayersButton');
 const pdfViewer = document.getElementById('pdfViewer');
 const pdfContainer = document.getElementById('pdfContainer');
 
 if (prayersButton && pdfViewer && pdfContainer) {
-    prayersButton.addEventListener('click', togglePdf);
+    prayersButton.addEventListener('click', () => {
+        if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+            pdfContainer.style.display = "block";
+            pdfViewer.src = url; 
+        } else {
+            pdfContainer.style.display = "none";
+        }
+    });
 } else {
     console.error("Required elements for PDF viewer not found.");
 }
