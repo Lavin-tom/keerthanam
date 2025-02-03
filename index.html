@@ -66,7 +66,13 @@
         
 		<!-- Button to toggle the visibility of the PDF -->
 		<button id="prayersButton" class="btn btn-secondary btn-sm">പരസ്യാരാധന ക്രമം</button>
-		
+		<!-- Navigation Panel -->
+		<div id="navigationPanel" style="display:none;">
+			<button id="prevButton">Previous</button>
+			<button id="nextButton">Next</button>
+			<input type="number" id="pageInput" placeholder="Go to page" min="1">
+			<button id="goToPageButton">Go</button>
+		</div>		
 		<!-- Hidden iframe for displaying PDF -->
 		<div id="prayerContainer" style="display:none;">
 
