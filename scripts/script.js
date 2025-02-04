@@ -397,3 +397,23 @@ goToPageButton.addEventListener('click', () => {
         alert("Invalid page number!"); 
     }
 });
+
+const fullScreenButton = document.getElementById('fullScreenButton');
+
+// Function to toggle full-screen mode
+function toggleFullScreen() {
+    if (!document.fullscreenElement) {
+        // Enter full-screen mode
+        prayerContainer.requestFullscreen().catch(err => {
+            alert(`Error attempting to enable full-screen mode: ${err.message}`);
+        });
+        fullScreenButton.innerText = "Exit Full Screen";
+    } else {
+        // Exit full-screen mode
+        document.exitFullscreen();
+        fullScreenButton.innerText = "Full Screen";
+    }
+}
+
+// Event listener for the "Full Screen" button
+fullScreenButton.addEventListener('click', toggleFullScreen);

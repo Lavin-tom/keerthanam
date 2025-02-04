@@ -254,7 +254,9 @@ a.logo:hover {
     height: 500px;
     margin-top: 20px;
 }
-
+#pdfContainer {
+    display: block !important; /* Force visibility for testing */
+}
 .pdf-wrapper {
     width: 100%;
     height: 100%;
@@ -347,24 +349,7 @@ a.logo:hover {
 .transliteration-active {
     color: blue;
 }
-#navigationPanel {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
-#navigationPanel button {
-  margin-right: 10px;
-}
-
-#prayerContainer {
-  width: 100%;
-  height: 500px;
-  overflow-y: auto;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #f9f9f9;
-}
 @keyframes glitch {
   0% {
     text-shadow: 1px 0 0 red, -1px 0 0 blue;
