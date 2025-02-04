@@ -255,7 +255,7 @@ a.logo:hover {
     margin-top: 20px;
 }
 #pdfContainer {
-    display: block !important; /* Force visibility for testing */
+    display: block !important; 
 }
 .pdf-wrapper {
     width: 100%;
@@ -349,7 +349,41 @@ a.logo:hover {
 .transliteration-active {
     color: blue;
 }
+#navigationPanel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+#navigationPanel button {
+  margin-right: 10px;
+}
+
+#prayerContainer {
+  width: 100%;
+  height: 500px; 
+  overflow-y: auto; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; 
+}
+
+/* Full-screen styles */
+#prayerContainer:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px; 
+  margin: 0;
+  border: none;
+}
+
+.prayer-content {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;
+  line-height: 1.6;
+}
 @keyframes glitch {
   0% {
     text-shadow: 1px 0 0 red, -1px 0 0 blue;
