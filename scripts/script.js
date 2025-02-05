@@ -346,9 +346,20 @@ function loadPrayerPage(pageIndex) {
         fetch(prayerFiles[pageIndex])
             .then(response => response.text())
             .then(data => {
-                prayerContainer.innerHTML = data; 
-                currentPage = pageIndex; 
-                updateNavigationButtons(); 
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(data, 'text/html');
+                const imgElement = htmlDoc.querySelector('img');
+
+                if (imgElement) {
+                    const imgSrc = imgElement.getAttribute('src');
+                    prayerContainer.innerHTML = `<img src="${imgSrc}" alt="Prayer Image" class="prayer-image">`;
+                } else {
+                    console.warn('No image found in the prayer file:', prayerFiles[pageIndex]);
+                    prayerContainer.innerHTML = '<p>No image found in this prayer file.</p>';
+                }
+
+                currentPage = pageIndex;
+                updateNavigationButtons();
             })
             .catch(error => console.error('Error loading prayer:', error));
     }
