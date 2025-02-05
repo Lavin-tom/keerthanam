@@ -410,21 +410,73 @@ goToPageButton.addEventListener('click', () => {
 });
 
 const fullScreenButton = document.getElementById('fullScreenButton');
-
-// Function to toggle full-screen mode
 function toggleFullScreen() {
-    if (!document.fullscreenElement) {
-        // Enter full-screen mode
+    const imgElement = prayerContainer.querySelector('img');
+    const fullScreenControls = document.getElementById('fullScreenControls');
+
+    if (imgElement && !document.fullscreenElement) {
         prayerContainer.requestFullscreen().catch(err => {
             alert(`Error attempting to enable full-screen mode: ${err.message}`);
         });
         fullScreenButton.innerText = "Exit Full Screen";
+        fullScreenControls.style.display = "block"; 
+
+        prayerContainer.addEventListener('click', handleFullScreenClick);
     } else {
-        // Exit full-screen mode
         document.exitFullscreen();
         fullScreenButton.innerText = "Full Screen";
+        fullScreenControls.style.display = "none"; 
+
+        prayerContainer.removeEventListener('click', handleFullScreenClick);
     }
 }
+function handleFullScreenClick(event) {
+    const screenWidth = window.innerWidth;
+    const clickX = event.clientX;
 
+    if (clickX < screenWidth * 0.33) {
+        if (currentPage > 0) {
+            loadPrayerPage(currentPage - 1);
+        }
+    } else if (clickX > screenWidth * 0.66) {
+        if (currentPage < prayerFiles.length - 1) {
+            loadPrayerPage(currentPage + 1);
+        }
+    } else {
+        const pageNumber = prompt(`Enter page number (1-${prayerFiles.length}):`);
+        if (pageNumber) {
+            const pageIndex = parseInt(pageNumber, 10) - 1;
+            if (pageIndex >= 0 && pageIndex < prayerFiles.length) {
+                loadPrayerPage(pageIndex);
+            } else {
+                alert('Invalid page number!');
+            }
+        }
+    }
+}
 // Event listener for the "Full Screen" button
 fullScreenButton.addEventListener('click', toggleFullScreen);
+
+let currentScale = 1; 
+
+function zoomIn() {
+    currentScale += 0.1; 
+    updateImageScale();
+}
+
+function zoomOut() {
+    currentScale = Math.max(0.5, currentScale - 0.1); 
+    updateImageScale();
+}
+
+function resetZoom() {
+    currentScale = 1; 
+    updateImageScale();
+}
+
+function updateImageScale() {
+    const imgElement = prayerContainer.querySelector('img');
+    if (imgElement) {
+        imgElement.style.transform = `scale(${currentScale})`;
+    }
+}

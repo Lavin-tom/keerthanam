@@ -392,6 +392,31 @@ a.logo:hover {
   padding: 20px;
   line-height: 1.6;
 }
+#fullScreenControls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#fullScreenControls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #333;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#fullScreenControls button:hover {
+  background: #555;
+}
 @keyframes glitch {
   0% {
     text-shadow: 1px 0 0 red, -1px 0 0 blue;
