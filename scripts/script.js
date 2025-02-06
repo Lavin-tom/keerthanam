@@ -146,6 +146,8 @@ window.addEventListener('DOMContentLoaded', loadIndex);
 
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
+    prayerContainer.classList.toggle('dark-mode'); 
+    updateDarkModeIcon();
 }
 
 let currentFontSize = 16;
@@ -193,10 +195,10 @@ document.getElementById('dark_mode_toggle').addEventListener('click', () => {
     updateDarkModeIcon(); 
 });
 
-// Function to update the dark mode icon
+// Update the dark mode icon
 function updateDarkModeIcon() {
     const darkModeToggle = document.getElementById('dark_mode_toggle');
-    if (darkmode.isActivated()) {
+    if (document.body.classList.contains('dark-mode')) {
         darkModeToggle.classList.remove('fa-sun');
         darkModeToggle.classList.add('fa-moon');
     } else {
@@ -412,6 +414,7 @@ goToPageButton.addEventListener('click', () => {
 const fullScreenButton = document.getElementById('fullScreenButton');
 function toggleFullScreen() {
     const imgElement = prayerContainer.querySelector('img');
+    const fullScreenToggle = document.getElementById('fullScreenToggle');
     const fullScreenControls = document.getElementById('fullScreenControls');
 
     if (imgElement && !document.fullscreenElement) {
@@ -419,14 +422,19 @@ function toggleFullScreen() {
             alert(`Error attempting to enable full-screen mode: ${err.message}`);
         });
         fullScreenButton.innerText = "Exit Full Screen";
-        fullScreenControls.style.display = "block"; 
-
+        fullScreenToggle.style.display = "block"; 
+        fullScreenControls.style.display = "none"; 
         prayerContainer.addEventListener('click', handleFullScreenClick);
+        if (document.body.classList.contains('dark-mode')) {
+            prayerContainer.classList.add('dark-mode');
+        } else {
+            prayerContainer.classList.remove('dark-mode');
+        }
     } else {
         document.exitFullscreen();
         fullScreenButton.innerText = "Full Screen";
+        fullScreenToggle.style.display = "none"; 
         fullScreenControls.style.display = "none"; 
-
         prayerContainer.removeEventListener('click', handleFullScreenClick);
     }
 }
@@ -478,5 +486,13 @@ function updateImageScale() {
     const imgElement = prayerContainer.querySelector('img');
     if (imgElement) {
         imgElement.style.transform = `scale(${currentScale})`;
+    }
+}
+function toggleZoomControls() {
+    const fullScreenControls = document.getElementById('fullScreenControls');
+    if (fullScreenControls.style.display === "none" || fullScreenControls.style.display === "") {
+        fullScreenControls.style.display = "block"; 
+    } else {
+        fullScreenControls.style.display = "none"; 
     }
 }
