@@ -439,7 +439,48 @@ a.logo:hover {
   background-color: #121212; /* Dark background */
   color: #ffffff; /* Light text */
 }
+/* Full-screen context menu */
+#fullScreenContextMenu {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  gap: 10px;
+}
 
+#fullScreenContextMenu button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #333;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#fullScreenContextMenu button:hover {
+  background: #555;
+}
+
+/* Dark theme for context menu */
+.dark-mode #fullScreenContextMenu {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode #fullScreenContextMenu button {
+  background: #444;
+  color: #fff;
+}
+
+.dark-mode #fullScreenContextMenu button:hover {
+  background: #666;
+}
 .dark-mode #fullScreenToggle i {
   color: #ffffff; /* Light icon */
 }

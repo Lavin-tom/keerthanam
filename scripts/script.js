@@ -195,6 +195,11 @@ document.getElementById('dark_mode_toggle').addEventListener('click', () => {
     updateDarkModeIcon(); 
 });
 
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    prayerContainer.classList.toggle('dark-mode'); // Sync with full-screen mode
+    updateDarkModeIcon();
+}
 // Update the dark mode icon
 function updateDarkModeIcon() {
     const darkModeToggle = document.getElementById('dark_mode_toggle');
@@ -206,7 +211,6 @@ function updateDarkModeIcon() {
         darkModeToggle.classList.add('fa-sun');
     }
 }
-
 // Initialize the icon based on the current mode
 updateDarkModeIcon();
 
@@ -414,56 +418,55 @@ goToPageButton.addEventListener('click', () => {
 const fullScreenButton = document.getElementById('fullScreenButton');
 function toggleFullScreen() {
     const imgElement = prayerContainer.querySelector('img');
-    const fullScreenToggle = document.getElementById('fullScreenToggle');
-    const fullScreenControls = document.getElementById('fullScreenControls');
+    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
 
     if (imgElement && !document.fullscreenElement) {
+        // Enter full-screen mode
         prayerContainer.requestFullscreen().catch(err => {
             alert(`Error attempting to enable full-screen mode: ${err.message}`);
         });
         fullScreenButton.innerText = "Exit Full Screen";
-        fullScreenToggle.style.display = "block"; 
-        fullScreenControls.style.display = "none"; 
-        prayerContainer.addEventListener('click', handleFullScreenClick);
+
+        // Sync dark theme
         if (document.body.classList.contains('dark-mode')) {
             prayerContainer.classList.add('dark-mode');
         } else {
             prayerContainer.classList.remove('dark-mode');
         }
+
+        // Add event listeners for full-screen mode
+        prayerContainer.addEventListener('click', handleFullScreenClick);
+        prayerContainer.addEventListener('dblclick', toggleFullScreen); // Double-tap to exit full-screen
     } else {
+        // Exit full-screen mode
         document.exitFullscreen();
         fullScreenButton.innerText = "Full Screen";
-        fullScreenToggle.style.display = "none"; 
-        fullScreenControls.style.display = "none"; 
+        fullScreenContextMenu.style.display = "none"; // Hide context menu
+
+        // Remove event listeners for full-screen mode
         prayerContainer.removeEventListener('click', handleFullScreenClick);
+        prayerContainer.removeEventListener('dblclick', toggleFullScreen);
     }
 }
-function handleFullScreenClick(event) {
-    const screenWidth = window.innerWidth;
-    const clickX = event.clientX;
 
-    if (clickX < screenWidth * 0.33) {
-        if (currentPage > 0) {
-            loadPrayerPage(currentPage - 1);
-        }
-    } else if (clickX > screenWidth * 0.66) {
-        if (currentPage < prayerFiles.length - 1) {
-            loadPrayerPage(currentPage + 1);
-        }
+function handleFullScreenClick(event) {
+    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
+    if (fullScreenContextMenu.style.display === "none" || fullScreenContextMenu.style.display === "") {
+        fullScreenContextMenu.style.display = "flex"; // Show context menu
     } else {
-        const pageNumber = prompt(`Enter page number (1-${prayerFiles.length}):`);
-        if (pageNumber) {
-            const pageIndex = parseInt(pageNumber, 10) - 1;
-            if (pageIndex >= 0 && pageIndex < prayerFiles.length) {
-                loadPrayerPage(pageIndex);
-            } else {
-                alert('Invalid page number!');
-            }
-        }
+        fullScreenContextMenu.style.display = "none"; // Hide context menu
     }
+}
+
+function exitFullScreen() {
+    document.exitFullscreen();
+    fullScreenButton.innerText = "Full Screen";
+    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
+    fullScreenContextMenu.style.display = "none"; // Hide context menu
 }
 // Event listener for the "Full Screen" button
 fullScreenButton.addEventListener('click', toggleFullScreen);
+prayerContainer.addEventListener('dblclick', toggleFullScreen);
 
 let currentScale = 1; 
 

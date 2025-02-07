@@ -73,10 +73,12 @@
 			<input type="number" id="pageInput" placeholder="Go to page" min="1">
 			<button id="goToPageButton">Go</button>
 			<button id="fullScreenButton">Full Screen</button>            
-            <div id="fullScreenControls" style="display: none;">
+            <div id="fullScreenContextMenu" style="display: none;">
+                <button onclick="exitFullScreen()">Exit Full Screen</button>
                 <button onclick="zoomIn()">Zoom In</button>
-                <button onclick="zoomOut()">Zoom Out</button>
                 <button onclick="resetZoom()">Reset Zoom</button>
+                <button onclick="zoomOut()">Zoom Out</button>
+                <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
             </div>
             <div id="fullScreenToggle" style="display: none;">
                 <i class="fas fa-cog" onclick="toggleZoomControls()"></i>
