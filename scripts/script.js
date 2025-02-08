@@ -197,7 +197,7 @@ document.getElementById('dark_mode_toggle').addEventListener('click', () => {
 
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
-    prayerContainer.classList.toggle('dark-mode'); // Sync with full-screen mode
+    prayerContainer.classList.toggle('dark-mode'); 
     updateDarkModeIcon();
 }
 // Update the dark mode icon
@@ -416,6 +416,14 @@ goToPageButton.addEventListener('click', () => {
 });
 
 const fullScreenButton = document.getElementById('fullScreenButton');
+
+function exitFullScreen() {
+    document.exitFullscreen();
+    fullScreenButton.innerText = "Full Screen";
+    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
+    fullScreenContextMenu.style.display = "none"; /
+}
+
 function toggleFullScreen() {
     const imgElement = prayerContainer.querySelector('img');
     const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
@@ -435,35 +443,33 @@ function toggleFullScreen() {
         }
 
         // Add event listeners for full-screen mode
-        prayerContainer.addEventListener('click', handleFullScreenClick);
-        prayerContainer.addEventListener('dblclick', toggleFullScreen); // Double-tap to exit full-screen
+        prayerContainer.addEventListener('click', handleFullScreenClick); 
+        prayerContainer.addEventListener('click', handleFullScreenNavigation); 
+        prayerContainer.addEventListener('dblclick', toggleFullScreen); 
     } else {
         // Exit full-screen mode
         document.exitFullscreen();
         fullScreenButton.innerText = "Full Screen";
-        fullScreenContextMenu.style.display = "none"; // Hide context menu
+        fullScreenContextMenu.style.display = "none"; 
 
         // Remove event listeners for full-screen mode
         prayerContainer.removeEventListener('click', handleFullScreenClick);
+        prayerContainer.removeEventListener('click', handleFullScreenNavigation);
         prayerContainer.removeEventListener('dblclick', toggleFullScreen);
     }
 }
-
 function handleFullScreenClick(event) {
     const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
+
     if (fullScreenContextMenu.style.display === "none" || fullScreenContextMenu.style.display === "") {
-        fullScreenContextMenu.style.display = "flex"; // Show context menu
+        fullScreenContextMenu.style.display = "flex"; 
     } else {
-        fullScreenContextMenu.style.display = "none"; // Hide context menu
+        fullScreenContextMenu.style.display = "none"; 
     }
+    event.stopPropagation();
 }
 
-function exitFullScreen() {
-    document.exitFullscreen();
-    fullScreenButton.innerText = "Full Screen";
-    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
-    fullScreenContextMenu.style.display = "none"; // Hide context menu
-}
+
 // Event listener for the "Full Screen" button
 fullScreenButton.addEventListener('click', toggleFullScreen);
 prayerContainer.addEventListener('dblclick', toggleFullScreen);
@@ -497,5 +503,29 @@ function toggleZoomControls() {
         fullScreenControls.style.display = "block"; 
     } else {
         fullScreenControls.style.display = "none"; 
+    }
+}
+function handleFullScreenNavigation(event) {
+    const screenWidth = window.innerWidth;
+    const clickX = event.clientX;
+
+    if (clickX < screenWidth * 0.33) {
+        if (currentPage > 0) {
+            loadPrayerPage(currentPage - 1);
+        }
+    } else if (clickX > screenWidth * 0.66) {
+        if (currentPage < prayerFiles.length - 1) {
+            loadPrayerPage(currentPage + 1);
+        }
+    } else {
+        const pageNumber = prompt(`Enter page number (1-${prayerFiles.length}):`);
+        if (pageNumber) {
+            const pageIndex = parseInt(pageNumber, 10) - 1;
+            if (pageIndex >= 0 && pageIndex < prayerFiles.length) {
+                loadPrayerPage(pageIndex);
+            } else {
+                alert('Invalid page number!');
+            }
+        }
     }
 }
