@@ -421,7 +421,7 @@ function exitFullScreen() {
     document.exitFullscreen();
     fullScreenButton.innerText = "Full Screen";
     const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
-    fullScreenContextMenu.style.display = "none"; /
+    fullScreenContextMenu.style.display = "none";
 }
 
 function toggleFullScreen() {
