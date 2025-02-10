@@ -143,13 +143,6 @@ function filterSongs() {
 
 document.getElementById('searchBox').addEventListener('input', filterSongs);
 window.addEventListener('DOMContentLoaded', loadIndex);
-
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    prayerContainer.classList.toggle('dark-mode'); 
-    updateDarkModeIcon();
-}
-
 let currentFontSize = 16;
 
 function zoomIn() {
@@ -197,9 +190,10 @@ document.getElementById('dark_mode_toggle').addEventListener('click', () => {
 
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
-    prayerContainer.classList.toggle('dark-mode'); 
+    prayerContainer.classList.toggle('dark-mode'); // Sync with full-screen mode
     updateDarkModeIcon();
 }
+
 // Update the dark mode icon
 function updateDarkModeIcon() {
     const darkModeToggle = document.getElementById('dark_mode_toggle');
@@ -211,7 +205,7 @@ function updateDarkModeIcon() {
         darkModeToggle.classList.add('fa-sun');
     }
 }
-// Initialize the icon based on the current mode
+
 updateDarkModeIcon();
 
 // PDF Viewer Logic 		
@@ -417,15 +411,9 @@ goToPageButton.addEventListener('click', () => {
 
 const fullScreenButton = document.getElementById('fullScreenButton');
 
-function exitFullScreen() {
-    document.exitFullscreen();
-    fullScreenButton.innerText = "Full Screen";
-    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
-    fullScreenContextMenu.style.display = "none";
-}
-
 function toggleFullScreen() {
     const imgElement = prayerContainer.querySelector('img');
+    const fullScreenToggle = document.getElementById('fullScreenToggle');
     const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
 
     if (imgElement && !document.fullscreenElement) {
@@ -434,6 +422,8 @@ function toggleFullScreen() {
             alert(`Error attempting to enable full-screen mode: ${err.message}`);
         });
         fullScreenButton.innerText = "Exit Full Screen";
+        fullScreenToggle.style.display = "block"; 
+        fullScreenContextMenu.style.display = "none"; 
 
         // Sync dark theme
         if (document.body.classList.contains('dark-mode')) {
@@ -443,20 +433,24 @@ function toggleFullScreen() {
         }
 
         // Add event listeners for full-screen mode
-        prayerContainer.addEventListener('click', handleFullScreenClick); 
-        prayerContainer.addEventListener('click', handleFullScreenNavigation); 
         prayerContainer.addEventListener('dblclick', toggleFullScreen); 
     } else {
         // Exit full-screen mode
         document.exitFullscreen();
         fullScreenButton.innerText = "Full Screen";
+        fullScreenToggle.style.display = "none"; 
         fullScreenContextMenu.style.display = "none"; 
 
         // Remove event listeners for full-screen mode
-        prayerContainer.removeEventListener('click', handleFullScreenClick);
-        prayerContainer.removeEventListener('click', handleFullScreenNavigation);
         prayerContainer.removeEventListener('dblclick', toggleFullScreen);
     }
+}
+
+function exitFullScreen() {
+    document.exitFullscreen();
+    fullScreenButton.innerText = "Full Screen";
+    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
+    fullScreenContextMenu.style.display = "none"; 
 }
 function handleFullScreenClick(event) {
     const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
@@ -527,5 +521,13 @@ function handleFullScreenNavigation(event) {
                 alert('Invalid page number!');
             }
         }
+    }
+}
+function toggleContextMenu() {
+    const fullScreenContextMenu = document.getElementById('fullScreenContextMenu');
+    if (fullScreenContextMenu.style.display === "none" || fullScreenContextMenu.style.display === "") {
+        fullScreenContextMenu.style.display = "flex"; 
+    } else {
+        fullScreenContextMenu.style.display = "none"; 
     }
 }

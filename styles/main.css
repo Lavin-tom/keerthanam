@@ -401,50 +401,18 @@ a.logo:hover {
   cursor: pointer;
   color: #fff;
   font-size: 24px;
+  display: none; /* Hidden by default */
 }
 
 #fullScreenToggle i:hover {
   color: #ccc;
 }
 
-/* Full-screen zoom controls */
-#fullScreenControls {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-  border-radius: 5px;
-  display: none; /* Hidden by default */
-}
-
-#fullScreenControls button {
-  margin: 0 5px;
-  padding: 5px 10px;
-  font-size: 16px;
-  color: #fff;
-  background: #333;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-#fullScreenControls button:hover {
-  background: #555;
-}
-
-/* Dark theme for full-screen mode */
-.dark-mode #prayerContainer {
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* Light text */
-}
 /* Full-screen context menu */
 #fullScreenContextMenu {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 60px; /* Below the toggle button */
+  right: 20px;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.9);
   padding: 10px;
