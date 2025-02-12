@@ -6,7 +6,6 @@ async function buildIndex(file) {
     const xmlData = await response.text();
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
-
     const entries = xmlDoc.querySelectorAll('entry');
     entries.forEach(entry => {
         const prefix = entry.getAttribute('letter');
@@ -28,7 +27,6 @@ async function buildIndex(file) {
     });
     console.log('Built Title Index:', titleIndex); 
 }
-
 function getCurrentSongFile() {
     const songContentDiv = document.getElementById('songContent');
     const currentSong = songContentDiv.querySelector('h2');
@@ -39,14 +37,12 @@ function getCurrentSongFile() {
 
     return null;
 }
-
 let fuse;
 let isIndexLoaded = false;
 async function loadIndex() {
     const indexFile = 'assets/index.xml'; 
     await buildIndex(indexFile);
 }
-
 function getFilteredSuggestions(searchInput) {
     if (!searchInput) return [];
 
@@ -60,7 +56,6 @@ function getFilteredSuggestions(searchInput) {
         return [];
     }
 }
-
 async function loadSong(file) {
     const response = await fetch(`assets/songs/${file}`);
     const xmlData = await response.text();
@@ -86,7 +81,6 @@ async function loadSong(file) {
 
     songContentDiv.innerHTML = htmlContent;
 }
-
 function transliterateLyrics(lyrics) {
     if (typeof ml2en !== 'function') {
         console.error('ml2en function not found. Ensure it is defined.');
@@ -94,7 +88,6 @@ function transliterateLyrics(lyrics) {
     }
     return ml2en(lyrics);
 }
-
 function toggleTransliteration() {
     const transliterationIcon = document.getElementById('transliterationIcon');
 
@@ -112,7 +105,6 @@ function toggleTransliteration() {
         console.warn('No current song file found.');
     }
 }
-
 function filterSongs() {
     const searchInput = document.getElementById('searchBox').value.trim().toLowerCase();
     console.log('Search Input:', searchInput); 
@@ -140,7 +132,6 @@ function filterSongs() {
         suggestionList.appendChild(listItem);
     });
 }
-
 document.getElementById('searchBox').addEventListener('input', filterSongs);
 window.addEventListener('DOMContentLoaded', loadIndex);
 let currentFontSize = 16;
@@ -164,7 +155,6 @@ function updateFontSize() {
     const songContentDiv = document.getElementById('songContent');
     songContentDiv.style.fontSize = `${currentFontSize}px`;
 }
-
 // Darkmode.js Initialization
 const darkmodeOptions = {
     bottom: '32px', 
@@ -181,7 +171,6 @@ const darkmodeOptions = {
 };
 
 const darkmode = new Darkmode(darkmodeOptions);
-
 // Add event listener to your button
 document.getElementById('dark_mode_toggle').addEventListener('click', () => {
     darkmode.toggle(); 
@@ -193,7 +182,6 @@ function toggleDarkMode() {
     prayerContainer.classList.toggle('dark-mode'); // Sync with full-screen mode
     updateDarkModeIcon();
 }
-
 // Update the dark mode icon
 function updateDarkModeIcon() {
     const darkModeToggle = document.getElementById('dark_mode_toggle');
@@ -207,7 +195,6 @@ function updateDarkModeIcon() {
 }
 
 updateDarkModeIcon();
-
 // PDF Viewer Logic 		
 //const url = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'; //for testing
 //const url = 'assets/55179722.pdf'; 		
@@ -339,7 +326,6 @@ const prayerFiles = [
 		];
 
 let currentPage = 0; 
-
 // Function to load a specific prayer page
 function loadPrayerPage(pageIndex) {
     if (pageIndex >= 0 && pageIndex < prayerFiles.length) {
@@ -364,13 +350,11 @@ function loadPrayerPage(pageIndex) {
             .catch(error => console.error('Error loading prayer:', error));
     }
 }
-
 // Function to update navigation buttons
 function updateNavigationButtons() {
     prevButton.disabled = currentPage === 0; 
     nextButton.disabled = currentPage === prayerFiles.length - 1; 
 }
-
 // Event listener for the "Show Prayer" button
 prayersButton.addEventListener('click', () => {
     if (prayerContainer.style.display === "none" || prayerContainer.style.display === "") {
@@ -384,21 +368,18 @@ prayersButton.addEventListener('click', () => {
         prayersButton.innerText = "Show Prayer"; 
     }
 });
-
 // Event listener for the "Previous" button
 prevButton.addEventListener('click', () => {
     if (currentPage > 0) {
         loadPrayerPage(currentPage - 1); 
     }
 });
-
 // Event listener for the "Next" button
 nextButton.addEventListener('click', () => {
     if (currentPage < prayerFiles.length - 1) {
         loadPrayerPage(currentPage + 1); 
     }
 });
-
 // Event listener for the "Go to Page" button
 goToPageButton.addEventListener('click', () => {
     const pageNumber = parseInt(pageInput.value, 10) - 1; 
@@ -408,9 +389,7 @@ goToPageButton.addEventListener('click', () => {
         alert("Invalid page number!"); 
     }
 });
-
 const fullScreenButton = document.getElementById('fullScreenButton');
-
 function toggleFullScreen() {
     const imgElement = prayerContainer.querySelector('img');
     const fullScreenToggle = document.getElementById('fullScreenToggle');
@@ -445,7 +424,6 @@ function toggleFullScreen() {
         prayerContainer.removeEventListener('dblclick', toggleFullScreen);
     }
 }
-
 function exitFullScreen() {
     document.exitFullscreen();
     fullScreenButton.innerText = "Full Screen";
@@ -462,8 +440,6 @@ function handleFullScreenClick(event) {
     }
     event.stopPropagation();
 }
-
-
 // Event listener for the "Full Screen" button
 fullScreenButton.addEventListener('click', toggleFullScreen);
 prayerContainer.addEventListener('dblclick', toggleFullScreen);
