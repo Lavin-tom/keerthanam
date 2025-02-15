@@ -169,7 +169,6 @@ const darkmodeOptions = {
     label: '', 
     autoMatchOsTheme: true 
 };
-
 const darkmode = new Darkmode(darkmodeOptions);
 // Add event listener to your button
 document.getElementById('dark_mode_toggle').addEventListener('click', () => {
@@ -195,8 +194,6 @@ function updateDarkModeIcon() {
 }
 
 updateDarkModeIcon();
-// PDF Viewer Logic 		
-//const url = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'; //for testing
 //const url = 'assets/55179722.pdf'; 		
 const prayersButton = document.getElementById('prayersButton');
 const navigationPanel = document.getElementById('navigationPanel');
