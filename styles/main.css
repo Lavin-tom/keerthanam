@@ -74,7 +74,6 @@ th {
   text-align: left;
   padding: 8px;
 }
-/* =Header */ 
 .header {
   overflow: hidden;
 }
@@ -128,7 +127,6 @@ a.logo:hover {
   display: inline-block;
   margin-left: 10px;
 }
-/* =Titles */ 
 .page-title {
   margin: 30px auto;
   text-align: center;
@@ -143,9 +141,7 @@ a.logo:hover {
   font-weight: 400;
   font-size: 60%;
   color: #828282;
-}
-
-/* =Post teasers */ 
+} 
 .list-posts {
   list-style-type: none;
   padding: 0px;
@@ -180,7 +176,6 @@ a.logo:hover {
   text-align: center;
 }
 
-/* =Post page */ 
 .post-title {
   text-align: left;
 }
@@ -216,7 +211,6 @@ a.logo:hover {
   text-align: center;
 }
 
-/* =Page navigation */ 
 .PageNavigation {
   display: block;
   width: auto;
@@ -234,7 +228,6 @@ a.logo:hover {
   text-align: right;
 }
 
-/* =Main Page */ 
 .about-img {
   border-radius: 0.25rem;
   max-width: 125px;
@@ -267,8 +260,7 @@ a.logo:hover {
     width: 100%;
     height: 100%;
     border: none;
-}
-/* =Small screen */ 
+} 
 @media (max-width: 600px) {
   p,
   ul,
@@ -311,7 +303,6 @@ a.logo:hover {
   z-index: 2;
 }
 
-/* Card hover effect */
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
