@@ -361,14 +361,12 @@ a.logo:hover {
   align-items: center;
 }
 
-/* Style the image inside the prayer container */
 .prayer-image {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Full-screen styles */
 #prayerContainer:fullscreen {
   width: 100vw;
   height: 100vh;
@@ -392,7 +390,7 @@ a.logo:hover {
   cursor: pointer;
   color: #fff;
   font-size: 24px;
-  display: none; /* Hidden by default */
+  display: none;
 }
 
 #fullScreenToggle i:hover {
@@ -402,13 +400,13 @@ a.logo:hover {
 /* Full-screen context menu */
 #fullScreenContextMenu {
   position: fixed;
-  top: 60px; /* Below the toggle button */
+  top: 60px; 
   right: 20px;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.9);
   padding: 10px;
   border-radius: 5px;
-  display: none; /* Hidden by default */
+  display: none;
   flex-direction: column;
   gap: 10px;
 }
