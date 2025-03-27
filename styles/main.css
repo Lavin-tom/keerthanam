@@ -1,10 +1,8 @@
 @charset "UTF-8";
-
 a{
   color: #57a;
   text-decoration: none;
 }
-
 p,
 ul,
 ol,
@@ -12,7 +10,6 @@ dl {
   font-size: 100%;
   line-height: 32px;
 }
-
 h1,
 h2,
 h3,
@@ -23,13 +20,11 @@ h6 {
   padding-top: 20px;
   font-weight: 500;
 }
-
 img {
   border-radius: 0.25rem;
   display: block;
   width: 100%;
 }
-
 code {
   font-size: 90%;
   border-radius: 3px;
@@ -49,25 +44,21 @@ blockquote {
   padding: 1em 10px 0.1em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-
 .wrapper {
   max-width: 80%;
   margin: 60px auto;
 }
-
 .post_wrapper {
   max-width: 80%;
   max-width: 800px;
   margin: 60px auto;
 }
-
 table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
   border: 1px solid #dee2e6;
 }
-
 td,
 th {
   border: 1px solid #dddddd;
@@ -77,7 +68,6 @@ th {
 .header {
   overflow: hidden;
 }
-
 .navigation {
   float: left;
 }
