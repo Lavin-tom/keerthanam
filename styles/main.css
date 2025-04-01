@@ -414,8 +414,6 @@ a.logo:hover {
 #fullScreenContextMenu button:hover {
   background: #555;
 }
-
-/* Dark theme for context menu */
 .dark-mode #fullScreenContextMenu {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -429,20 +427,20 @@ a.logo:hover {
   background: #666;
 }
 .dark-mode #fullScreenToggle i {
-  color: #ffffff; /* Light icon */
+  color: #ffffff; 
 }
 
 .dark-mode #fullScreenControls {
-  background: rgba(255, 255, 255, 0.1); /* Semi-transparent light background */
+  background: rgba(255, 255, 255, 0.1); 
 }
 
 .dark-mode #fullScreenControls button {
-  background: #444; /* Dark button background */
-  color: #fff; /* Light text */
+  background: #444; 
+  color: #fff; 
 }
 
 .dark-mode #fullScreenControls button:hover {
-  background: #666; /* Dark button hover background */
+  background: #666;
 }
 @keyframes glitch {
   0% {
